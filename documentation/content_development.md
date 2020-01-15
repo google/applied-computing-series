@@ -2,7 +2,7 @@
 
 -   [What is this document?](#what-is-this-document)
 -   [What is "restructured text" and Runestone?](#what-is-restructured-text-and-runestone)
--   [How do I convert material from Google Doc to restructured text?](#how-do-i-convert-material-from-google-doc-to-restructured text)
+-   [How do I convert material from Google Doc to restructured text?](#how-do-i-convert-material-from-google-doc-to-restructured-text)
 -   [How do I make suggestions and edits?](#how-do-i-make-suggestions-and-edits)
 -   [What files should I review?](#what-files-should-i-review)
 
