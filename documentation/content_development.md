@@ -1,4 +1,4 @@
-# Content Development In GitHub: Guide For Harvey Mudd Students
+# Content Development In GitHub
 
 -   [What is this document?](#what-is-this-document)
 -   [What is "restructured text" and Runestone?](#what-is-restructured-text-and-runestone)
@@ -8,12 +8,11 @@
 
 ## What is this document?
 
-This document serves as a guide for Harvey Mudd students to review, develop, and
-contribute to AC1 and AC2 content through
-[our GitHub repository](https://github.com/google/applied-machine-learning-intensive).
+This document serves as a guide for contributors to review, develop, and
+contribute to AC1 content through
+[our GitHub repository](https://github.com/google/applied-computing-series).
 With any questions, do not hesitate to contact Kiran Raskutti
-([kraskutti@google.com](mailto:kraskutti@google.com)) and Adrienne Posner
-([adrienneposner@google.com](mailto:adrienneposner@google.com)).
+([kraskutti@google.com](mailto:kraskutti@google.com)).
 
 ## What is "restructured text" and Runestone?
 
