@@ -19,7 +19,7 @@ upper case, while column names and table names use lower case.
 
 .. activecode:: bikeshare_select_top_10
    :language: sql
-   :dburl: /_static/bikeshare.db
+   :dburl: /runestone/books/published/ac1/_static/bikeshare.db
 
    SELECT
      *
@@ -66,7 +66,7 @@ as below.
 
 .. activecode:: bikeshare_select_columns
    :language: sql
-   :dburl: /_static/bikeshare.db
+   :dburl: /runestone/books/published/ac1/_static/bikeshare.db
 
    SELECT
      member_type,
@@ -87,7 +87,7 @@ it as something informative.
 
 .. activecode:: bikeshare_count_star
    :language: sql
-   :dburl: /_static/bikeshare.db
+   :dburl: /runestone/books/published/ac1/_static/bikeshare.db
 
    SELECT
      COUNT(*) AS n_rows
@@ -95,6 +95,18 @@ it as something informative.
      trip_data
 
 
-.. shortanswer:: bikeshare_select_start_and_end_stations
+.. activecode:: bikeshare_select_start_and_end_stations
+   :language: sql
+   :dburl: /runestone/books/published/ac1/_static/bikeshare.db
 
    Write a query to select the start and end stations for all trips.
+   ~~~~
+
+   ====
+   assert 0,0 == 31619
+   assert 0,1 == 31613
+   assert 1,0 == 31212
+   assert 1,1 == 31217
+   assert 99,0 == 31105
+   assert 99,1 == 31205
+
