@@ -6,4 +6,5 @@
 .. image:: figures/summary.png
    :align: center
    :alt: A line graph comparing number of likes over time of two posts.
+   
 .. _ Location of summary document: shorturl.at/nswJ5
