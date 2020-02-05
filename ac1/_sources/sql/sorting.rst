@@ -18,7 +18,7 @@ duration.
 
 .. activecode:: bikeshare_order_by_duration
    :language: sql
-   :dburl: /_static/bikeshare.db
+   :dburl: /runestone/books/published/ac1/_static/bikeshare.db
 
    SELECT
      *
@@ -45,7 +45,7 @@ from station 31111.
 
 .. activecode:: bikeshare_order_by_duration_with_where_clause
    :language: sql
-   :dburl: /_static/bikeshare.db
+   :dburl: /runestone/books/published/ac1/_static/bikeshare.db
 
    SELECT
      member_type,
@@ -71,7 +71,7 @@ be ordered by ``end_station``, then within each pair of ``start_station`` and
 
 .. activecode:: bikeshare_order_by_multiple_columns
    :language: sql
-   :dburl: /_static/bikeshare.db
+   :dburl: /runestone/books/published/ac1/_static/bikeshare.db
 
    SELECT
      start_station,
@@ -87,16 +87,30 @@ be ordered by ``end_station``, then within each pair of ``start_station`` and
      10
 
 
-.. fillintheblank:: bikeshare_most_recent_start_date
+.. select bike_number, start_date
+   from trip_data
+   order by start_date desc
+   limit 10
 
-   On what bike number was the most recent (by start date) trip? |blank|
+.. activecode:: bikeshare_most_recent_start_date
+   :language: sql
+   :dburl: /runestone/books/published/ac1/_static/bikeshare.db
 
-   - :W01319: Correct
-     :W00247: Incorrect: Do you need to use ASC or DESC?
-     :x: Incorrect
+   On what bike number was the most recent (by start date) trip?
+   ~~~~
+
+   ====
+   assert 0,0 == W00042
 
 
-.. shortanswer:: bikeshare_longest_ride_with_same_start_end
+.. activecode:: bikeshare_longest_ride_with_same_start_end
+   :language: sql
+   :dburl: /runestone/books/published/ac1/_static/bikeshare.db
 
    Write a query using ``ORDER BY`` to find the starting station and duration of
    the longest ride that started and ended at the same station?
+   ~~~~
+
+   ====
+   assert 0,0 == 31617
+   assert 0,1 == 85666

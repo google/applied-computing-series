@@ -19,7 +19,7 @@ duration is over one hour (3600 seconds).
 
 .. activecode:: bikeshare_count_trips_above_below_one_hour
    :language: sql
-   :dburl: /_static/bikeshare.db
+   :dburl: /runestone/books/published/ac1/_static/bikeshare.db
 
    SELECT
      IF(duration > 3600, TRUE, FALSE) AS is_over_one_hour,
@@ -91,7 +91,7 @@ using the ``CASE`` structure.
 
 .. activecode:: bikeshare_count_trips_by_duration
    :language: sql
-   :dburl: /_static/bikeshare.db
+   :dburl: /runestone/books/published/ac1/_static/bikeshare.db
 
    SELECT
      CASE

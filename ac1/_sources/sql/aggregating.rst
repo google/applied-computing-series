@@ -20,7 +20,7 @@ type (``GROUP BY member_type``).
 
 .. activecode:: bikeshare_count_trips_per_member_type
    :language: sql
-   :dburl: /_static/bikeshare.db
+   :dburl: /runestone/books/published/ac1/_static/bikeshare.db
 
    SELECT
      member_type,
@@ -52,7 +52,7 @@ for each start station.
 
 .. activecode:: bikeshare_min_and_max_trip_duration_by_start_station
    :language: sql
-   :dburl: /_static/bikeshare.db
+   :dburl: /runestone/books/published/ac1/_static/bikeshare.db
 
    SELECT
      start_station,
@@ -64,9 +64,15 @@ for each start station.
      start_station
 
 
-.. shortanswer:: bikeshare_station_with_earliest_start_date
+.. activecode:: bikeshare_station_with_earliest_start_date
+   :language: sql
+   :dburl: /runestone/books/published/ac1/_static/bikeshare.db
 
    Write a query to find start station with the earliest start date.
+   ~~~~
+
+   ====
+   assert 0,0 == 31620
 
 
 You must include the ``GROUP BY`` column(s) in your ``SELECT`` clause. All
@@ -80,7 +86,7 @@ query below calculates the mean duration of all trips.
 
 .. activecode:: bikeshare_average_duration
    :language: sql
-   :dburl: /_static/bikeshare.db
+   :dburl: /runestone/books/published/ac1/_static/bikeshare.db
 
    SELECT
      AVG(duration) AS mean_duration
@@ -95,7 +101,7 @@ member type.
 
 .. activecode:: bikeshare_mean_duration_for_casual_member_type
    :language: sql
-   :dburl: /_static/bikeshare.db
+   :dburl: /runestone/books/published/ac1/_static/bikeshare.db
 
    SELECT
      AVG(duration)
@@ -105,12 +111,16 @@ member type.
      member_type = 'Casual'
 
 
-.. fillintheblank:: bikeshare_first_trip_from_station_31111
+.. activecode:: bikeshare_first_trip_from_station_31111
+   :language: sql
+   :dburl: /runestone/books/published/ac1/_static/bikeshare.db
 
    What is the total duration of all trips taken on bike W01274?
+   ~~~~
 
-   - :9318: Correct
-     :x: Incorrect
+   ====
+   assert 0,0 == 5009
+
 
 
 You can then combine this with the ``GROUP BY`` clause as you like. Filtering
@@ -124,7 +134,7 @@ trip durations, by start station, for a specific end station.
 
 .. activecode:: bikeshare_filter_and_group_by_different_columns
    :language: sql
-   :dburl: /_static/bikeshare.db
+   :dburl: /runestone/books/published/ac1/_static/bikeshare.db
 
    SELECT
      start_station,
@@ -145,7 +155,7 @@ station, just for trips that end at station 31111.
 
 .. activecode:: bikeshare_filter_and_group_by_same_column
    :language: sql
-   :dburl: /_static/bikeshare.db
+   :dburl: /runestone/books/published/ac1/_static/bikeshare.db
 
    SELECT
      start_station,
@@ -160,19 +170,22 @@ station, just for trips that end at station 31111.
      end_station
 
 
-.. shortanswer:: bikeshare_debug_group_by_query
+.. activecode:: bikeshare_debug_group_by_query
+   :language: sql
+   :dburl: /runestone/books/published/ac1/_static/bikeshare.db
 
    Find and fix the error(s) in the following code, which is trying to calculate
-   the mean trip duration for trips by member type casual.
+   the mean trip duration for trips by member type Member.
+   ~~~
 
-   .. code-block:: sql
-
-      SELECT
-        AVG(duration)
-      FROM
-        trip_data
-      GROUP BY
-        member_type
+   SELECT
+     AVG(duration)
+   FROM
+     trip_data
+   GROUP BY
+     member_type
+   ====
+   assert 0,0 == 772.0053481492348
 
 
 It can also be useful to combine aggregating functions with the ``ORDER BY``
@@ -204,22 +217,30 @@ above query would have been identical (in almost all SQL servers) if it had been
 ``ORDER BY mean_duration DESC``.
 
 
-.. fillintheblank:: bikeshare_bike_with_most_trips
+.. activecode:: bikeshare_bike_with_most_trips
+   :language: sql
+   :dburl: /runestone/books/published/ac1/_static/bikeshare.db
 
-   How many trips did the bike number with the most trips complete?
+   what is the bike number trip count of the bike number with the most trips?
+   ~~~~
 
-   - :1(,|)226(,|)767: Correct
-     :x: Incorrect
+   ====
+   assert 0,0 == W00893
+   assert 0,1 == 548
 
 
-.. fillintheblank:: bikeshare_mean_duration_trips_with_same_start_and_end
+.. activecode:: bikeshare_mean_duration_trips_with_same_start_and_end
+   :language: sql
+   :dburl: /runestone/books/published/ac1/_static/bikeshare.db
 
    For the station with the most trips that started and ended at the same
    station, find the mean duration (in seconds) of all trips, rounded to the
    nearest whole number.
+   ~~~~
 
-   - :4(,|)160: Correct
-     :x: Incorrect
+   ====
+   assert 0,0 == 31217
+   assert 0,3 == 5164
 
 
 Extension: Counting Unique Values
@@ -235,7 +256,7 @@ numbers used.
 
 .. activecode:: bikeshare_count_distinct_bikes
    :language: sql
-   :dburl: /_static/bikeshare.db
+   :dburl: /runestone/books/published/ac1/_static/bikeshare.db
 
    SELECT
      COUNT(DISTINCT bike_number) AS n_distinct_bikes
@@ -250,7 +271,7 @@ station.
 
 .. activecode:: bikeshare_count_distinct_bikes_by_start_station
    :language: sql
-   :dburl: /_static/bikeshare.db
+   :dburl: /runestone/books/published/ac1/_static/bikeshare.db
 
    SELECT
      start_station,
@@ -261,19 +282,28 @@ station.
      start_station
 
 
-.. fillintheblank:: bikeshare_number_of_start_stations
+.. activecode:: bikeshare_number_of_start_stations
+   :language: sql
+   :dburl: /runestone/books/published/ac1/_static/bikeshare.db
 
    How many unique start stations are in the table?
+   ~~~~
 
-   - :144: Correct
-     :x: Incorrect
+   ====
+   assert 0,0 == 140
 
 
-.. shortanswer:: bikeshare_unique_end_stations_per_start_station
+.. activecode:: bikeshare_unique_end_stations_per_start_station
+   :language: sql
+   :dburl: /runestone/books/published/ac1/_static/bikeshare.db
 
    Write a query to display the number of unique end stations per each start
    station.
+   ~~~~
 
+   ====
+   assert 0,0 == 31000
+   assert 0,1 == 36
 
 It is sometimes also useful to select the distinct rows of a table. You can do
 that by using ``DISTINCT`` without an aggregating function.
@@ -281,7 +311,7 @@ that by using ``DISTINCT`` without an aggregating function.
 
 .. activecode:: bikeshare_select_distinct_bikes
    :language: sql
-   :dburl: /_static/bikeshare.db
+   :dburl: /runestone/books/published/ac1/_static/bikeshare.db
 
    SELECT
      DISTINCT bike_number
@@ -295,7 +325,7 @@ values.
 
 .. activecode:: bikeshare_distinct_bike_using_group_by
    :language: sql
-   :dburl: /_static/bikeshare.db
+   :dburl: /runestone/books/published/ac1/_static/bikeshare.db
 
    SELECT
      bike_number
@@ -317,7 +347,7 @@ function.
 
 .. activecode:: bikeshare_where_with_aggregation
    :language: sql
-   :dburl: /_static/bikeshare.db
+   :dburl: /runestone/books/published/ac1/_static/bikeshare.db
 
    SELECT
      start_station,
@@ -336,7 +366,7 @@ successfully.
 
 .. activecode:: bikeshare_having_over_100_trips
    :language: sql
-   :dburl: /_static/bikeshare.db
+   :dburl: /runestone/books/published/ac1/_static/bikeshare.db
 
    SELECT
      start_station,
@@ -355,10 +385,18 @@ based on the value of an aggregating function. The ``HAVING`` clause can only be
 used immediately following the ``GROUP BY`` clause.
 
 
-.. shortanswer:: bikeshare_bikes_having_over_1_hour
+.. activecode:: bikeshare_bikes_having_over_1_hour
+   :language: sql
+   :dburl: /runestone/books/published/ac1/_static/bikeshare.db
 
-   Write a query to show the bikes have been used for over 1 hour (3600
-   seconds), and the total duration they have been ridden.
+   Write a query to show the bikes that have been used for over 1 hour (3600
+   seconds), and the total duration they have been ridden.  Order the result
+   from shortest total duration to longest
+   ~~~~
+
+   ====
+   assert 0,0 == W01204
+   assert 0,1 == 3765
 
 
 Extension: Numbered Column Aliases

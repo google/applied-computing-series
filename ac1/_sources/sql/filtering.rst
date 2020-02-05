@@ -21,7 +21,7 @@ want to look only at bike trips which are at least one hour (3600 seconds).
 
 .. activecode:: bikeshare_rides_over_60_minutes
    :language: sql
-   :dburl: /_static/bikeshare.db
+   :dburl: /runestone/books/published/ac1/_static/bikeshare.db
 
    SELECT
      member_type,
@@ -42,7 +42,7 @@ query would be as below.
 
 .. activecode:: bikeshare_rides_over_60_minutes_by_members
    :language: sql
-   :dburl: /_static/bikeshare.db
+   :dburl: /runestone/books/published/ac1/_static/bikeshare.db
 
    SELECT
      member_type,
@@ -57,15 +57,27 @@ query would be as below.
      10
 
 
-.. shortanswer:: bikeshare_rides_over_8_hours_by_W01274
+.. activecode:: bikeshare_rides_over_8_hours_by_W01274
+   :language: sql
+   :dburl: /runestone/books/published/ac1/_static/bikeshare.db
 
    Write a query to find the ending station and duration of all of trips by bike
-   number W01274 that lasted over 8 hours.
+   number W00153 that lasted over 8 hours.
+   ~~~~
 
+   ====
+   assert 0,0 == 31606
+   assert 0,1 == 40791
+   assert 2,0 == 31703
+   assert 2,1 == 40820
 
-.. fillintheblank:: bikeshare_trips_starting_and_ending_at_31111
+.. activecode:: bikeshare_trips_starting_and_ending_at_31111
+   :language: sql
+   :dburl: /runestone/books/published/ac1/_static/bikeshare.db
 
-   How many trips started and ended at station 31111? |blank|
+   How many trips started and ended at station 31111?
+   ~~~~
 
-   - :323: Correct
-     :x: Incorrect
+   ====
+   assert 0,0 == 92
+

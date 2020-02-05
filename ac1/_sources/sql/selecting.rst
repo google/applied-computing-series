@@ -103,10 +103,10 @@ it as something informative.
    ~~~~
 
    ====
-   assert 0,0 == 31619
-   assert 0,1 == 31613
-   assert 1,0 == 31212
-   assert 1,1 == 31217
-   assert 99,0 == 31105
-   assert 99,1 == 31205
+   assert 0,0 == 31104
+   assert 0,1 == 31200
+   assert 1,0 == 31230
+   assert 1,1 == 31620
+   assert 99,0 == 31224
+   assert 99,1 == 31221
 
