@@ -17,4 +17,3 @@ Introduction To Visualizations
    creating_visualizations_checklist.rst
    histograms_and_bar_charts.rst
    summary.rst
- 
