@@ -25,7 +25,7 @@ if not master_url:
 # The root directory for ``runestone serve``.
 serving_dir = './build/' + project_name
 # The destination directory for ``runestone deploy``.
-dest = '../../static'
+dest = './published'
 
 options(
     sphinx=Bunch(docroot='.',),
@@ -36,7 +36,7 @@ options(
         confdir='.',
         template_args={
             'login_required': 'false',
-            'loglevel': 0,
+            'loglevel': 10,
             'course_title': project_name,
             'python3': 'true',
             'dburl': '',
@@ -47,8 +47,8 @@ options(
             'downloads_enabled': 'false',
             'enable_chatcodes': 'false',
             'allow_pairs': 'false',
-            'dynamic_pages': False,
-            'use_services': False,
+            'dynamic_pages': True,
+            'use_services': 'true',
             'basecourse': project_name,
             # If ``dynamic_pages`` is 'True', then the following values are
             # ignored, since they're provided by the server.

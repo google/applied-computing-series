@@ -30,7 +30,7 @@ longitude   longitude of the station
 
 .. activecode:: bikeshare_rows_from_stations_table
    :language: sql
-   :dburl: /_static/bikeshare.db
+   :dburl: /runestone/books/published/ac1/_static/bikeshare.db
 
    SELECT
      *
@@ -55,7 +55,7 @@ the ``trip_data`` table to the ``station_id`` field in the
 
 .. activecode:: bikeshare_trips_from_van_ness_metro_udc
    :language: sql
-   :dburl: /_static/bikeshare.db
+   :dburl: /runestone/books/published/ac1/_static/bikeshare.db
 
    SELECT
      COUNT(*) AS n_trips
@@ -108,34 +108,57 @@ There is a lot of new material to unpack in this query.
         stations.status = 'closed'
 
 
-.. fillintheblank:: bikeshare_number_of_trips_from_adams_mill_columbia
+.. activecode:: bikeshare_number_of_trips_from_adams_mill_columbia
+   :language: sql
+   :dburl: /runestone/books/published/ac1/_static/bikeshare.db
 
    How many trips were started at *Adams Mill & Columbia Rd NW*?
+   ~~~~
 
-   - :29(,|)964: Correct
-     :x: Incorrect
+   ====
+   0,0 == 9883
 
 
-.. shortanswer:: bikeshare_mean_duration_by_station_name
+
+.. activecode:: bikeshare_mean_duration_by_station_name
+   :language: sql
+   :dburl: /runestone/books/published/ac1/_static/bikeshare.db
 
    Write a query to display the mean duration of trip for each start station
    name. For example, one row could read as ``White House Station | 12345``.
+   sort the result by the average duration in ascending order.
+   ~~~~
+
+   ====
+   assert 0,0 == 15th St & Massachusetts Ave SE
+   assert 0,1 == 446.11764705882354
 
 
-.. fillintheblank:: bikeshare_start_station_name_with_most_trips_by_casual
+.. activecode:: bikeshare_start_station_name_with_most_trips_by_casual
+   :language: sql
+   :dburl: /runestone/books/published/ac1/_static/bikeshare.db
 
-   Which station has the most trips by riders with member type as casual?
-   (Print your answer as it appears in the table.)
+   What is the name of the station has the most trips by riders with member type as casual?
+   ~~~~
 
-   - :Massachusetts Ave & Dupont Circle NW: Correct
-     :x: Incorrect
+   ====
+   assert 0,0 == USDA / 12th & Independence Ave SW
+   assert 0,1 == 3609
 
 
-.. shortanswer:: bikeshare_open_vs_closed_stations
+.. activecode:: bikeshare_open_vs_closed_stations
+   :language: sql
+   :dburl: /runestone/books/published/ac1/_static/bikeshare.db
 
    Write a query to compare, in terms of number of trips and mean duration,
    stations that are listed as open and closed.
+   ~~~~
 
+   ====
+   assert 0,0 == closed
+   assert 1,0 == open
+   assert 0,1 == 13440
+   assert 1,1 == 395482
 
 Extension: Subqueries
 ---------------------
@@ -152,7 +175,7 @@ query calculates the mean duration of trips that start at an open station.
 
 .. activecode:: bikeshare_subquery_mean_duration_open_stations
    :language: sql
-   :dburl: /_static/bikeshare.db
+   :dburl: /runestone/books/published/ac1/_static/bikeshare.db
 
    SELECT
      COUNT(*) AS n_trips
@@ -186,7 +209,7 @@ However, using a subquery can simply and logically accomplish this.
 
 .. activecode:: bikeshare_subquery_proportion_trips_per_start_station
    :language: sql
-   :dburl: /_static/bikeshare.db
+   :dburl: /runestone/books/published/ac1/_static/bikeshare.db
 
    SELECT
      start_station,
