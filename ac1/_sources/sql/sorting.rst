@@ -87,11 +87,6 @@ be ordered by ``end_station``, then within each pair of ``start_station`` and
      10
 
 
-.. select bike_number, start_date
-   from trip_data
-   order by start_date desc
-   limit 10
-
 .. activecode:: bikeshare_most_recent_start_date
    :language: sql
    :dburl: /runestone/books/published/ac1/_static/bikeshare.db
