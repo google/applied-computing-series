@@ -78,7 +78,7 @@ direction.
 
 .. mchoice:: scatter-correlation-ex-3
    :answer_a: 0.7
-   :answer_b: 0.1
+   :answer_b: -0.1
    :answer_c: 0.9
    :answer_d: 0.05
    :correct: c
