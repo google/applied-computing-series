@@ -27,8 +27,7 @@ variables. The last row of examples shows a variety of scatter plots
 where there is clearly an interesting relationship between the two
 variables (note all the unique shapes!), but the correlation is 0
 because the relationship is nonlinear. `Read this for more detail about
-how correlation is
-calculated.
+how correlation is calculated.
 <https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/correlation-coefficient-formula/#Pearson>`__
 
 .. image:: figures/scatter_plots_correlation_question.png
@@ -54,7 +53,7 @@ each of the scatterplots from previous questions.
 You can use Sheets to find correlation using the *CORREL* function.
 
 `Video - how to find correlation in sheets.
-`<https://www.youtube.com/watch?v=omIT5V7naqM>`__
+<https://www.youtube.com/watch?v=omIT5V7naqM>`__
 
 A common, related value is *r2*, called the **coefficient of
 determination**. \**The coefficient of determination is the proportion
