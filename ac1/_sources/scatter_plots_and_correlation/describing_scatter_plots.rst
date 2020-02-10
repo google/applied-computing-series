@@ -12,129 +12,145 @@ variables in a scatterplot. These variables are the **explanatory** and the
 :ref:`scatterplots section<scatter_plots>`. The following activities ask you
 to examine the scatterplots pictured and then match them with their description.
 
+
 .. image:: figures/mult_choice_plots.png
-      :align: center
-      :alt: Scatterplots labeled A through F.
+   :align: center
+   :alt: Scatterplots labeled A through F.
+
 
 .. mchoice:: identify_scatterplot_10
 
-   The explanatory variable (x) is age in years and the explained variable (y) is the annual salary for a sample of working adults between the ages of 18 and 65.
+   The explanatory variable (x) is age in years and the explained variable (y) is
+   the annual salary for a sample of working adults between the ages of 18 and 65.
 
-  - E
+   - E
 
-    + Correct: Most adults make more money as they get older, but there are many other factors, like education and career that also impact salary.
+     + Correct: Most adults make more money as they get older, but many other factors such as education and career also impact salary.
 
-  - A
+   - A
 
-    - Incorrect 
+     - Incorrect 
 
-  - D
+   - D
 
-    - Incorrect 
+     - Incorrect 
   
-  - F
+   - F
 
-    - Incorrect
+     - Incorrect
+
 
 .. mchoice:: identify_scatterplot_20
 
-   The explanatory variable (x) is the mean commute time in minutes and the explained variable (y) is height in inches for a sample of employees at a small company.
+   The explanatory variable (x) is the mean commute time in minutes and the explained
+   variable (y) is height in inches for a sample of employees at a small company.
 
-  - F
+   - F
 
-    + Correct: There’s no real relationship between height and commute time.
+     + Correct: There’s no real relationship between height and commute time.
 
-  - A
+   - A
 
-    - Incorrect 
+     - Incorrect 
 
-  - D
+   - D
 
-    - Incorrect 
+     - Incorrect 
 
-  - B
+   - B
 
-    - Incorrect 
+     - Incorrect 
+
 
 .. mchoice:: identify_scatterplot_30
 
-   The explanatory variable (x) is the month of the year, starting in January, and the explained variable (y) is the mean temperature for that month for St. Louis, Missouri which has cold winters and warm summers.
+   The explanatory variable (x) is the month of the year, starting in January, and the
+   explained variable (y) is the mean temperature for that month for St. Louis, Missouri
+   which has cold winters and warm summers.
 
-  - C
+   - C
 
-    + Correct: Cold winters and warm summers means smaller values close to the end points 1 = January and 12 = December, and higher temperatures in the middle.
+     + Correct: Cold winters and warm summers means smaller values close to the end points 1 = January and 12 = December, and higher temperatures in the middle.
 
-  - A
+   - A
 
-    - Incorrect 
+     - Incorrect 
 
-  - D
+   - D
 
-    - Incorrect 
+     - Incorrect 
 
-  - B
+   - B
 
-    - Incorrect 
+     - Incorrect 
+
 
 .. mchoice:: identify_scatterplot_40
 
-   The explanatory variable (x) is the city miles per gallon and the explained variable (y) is the highway miles per gallon for a sample of cars.
+   The explanatory variable (x) is the city miles per gallon and the explained variable (y)
+   is the highway miles per gallon for a sample of cars.
 
-  - C
+   - C
 
-    - Incorrect
+     - Incorrect
 
-  - A
+   - A
 
-    - Incorrect 
+     - Incorrect 
 
-  - D
+   - D
 
-    - Incorrect 
+     - Incorrect 
 
-  - B
+   - B
 
-    + Correct: Cars with higher city mpg also have higher highway mpg. 
+     + Correct: Cars with higher city mpg also have higher highway mpg. 
+
 
 .. mchoice:: identify_scatterplot_50
 
-   The explanatory variable (x) is the number of hours after e-coli has been introduced to a petri dish and the explained variable (y) is the estimated number of e-coli cells after t hours. The number of cells doubles about every 20 minutes.
+   The explanatory variable (x) is the number of hours after e-coli has been introduced to a
+   petri dish and the explained variable (y) is the estimated number of e-coli cells after t
+   hours. The number of cells doubles about every 20 minutes.
 
-  - C
+   - C
 
-    - Incorrect
+     - Incorrect
 
-  - A
+   - A
 
-    + Correct: Because the number of cells is doubling, the change every 20 minutes at the beginning of the experiment is small compared to the change every 20 minutes at the end of the experiment when there are much more cells dividing. 
+     + Correct: Because the number of cells is doubling, the change every 20 minutes at the beginning of the experiment is small compared to the change every 20 minutes at the end of the experiment when there are much more cells dividing. 
 
-  - D
+   - D
 
-    - Incorrect 
+     - Incorrect 
 
-  - B
+   - B
 
-    - Incorrect 
+     - Incorrect 
+
 
 .. mchoice:: identify_scatterplot_60
 
-  The explanatory variable (x) is the years of driving experience and the explained variable (y) is the insurance premium paid for a sample of drivers.
+   The explanatory variable (x) is the years of driving experience and the explained variable
+   (y) is the insurance premium paid for a sample of drivers.
     
-  - C
+   - C
 
-    - Incorrect
+     - Incorrect
     
-  - A
+   - A
 
-    - Incorrect: 
+     - Incorrect: 
     
-  - D
+   - D
     
-    + Correct: Drivers with more driving experience are considered safer, so they pay smaller premiums. Similarly, drivers with less driving experience are considered riskier and pay greater premiums. 
+     + Correct: Drivers with more driving experience are considered safer, so they pay smaller premiums. Similarly, drivers with less driving experience are considered riskier and pay greater premiums. 
     
-  - B
+   - B
     
-    - Incorrect 
+     - Incorrect 
+
 
 This exercise would be simpler given uniform adjectives that everyone could
 understand. When describing the shape of the scatter plot and the relationship
@@ -156,9 +172,11 @@ features to discuss.
    to a straight line. Scatter plots are described as linear or
    nonlinear.
 
+
 .. image:: figures/january_scatterplot.png
       :align: center
       :alt: A scatterplot depicting the temperature in January across latitudes.
+
 
 For example, the scatterplot of latitude and January temperatures had
 negative direction, as the greater the latitude, the colder the
@@ -169,9 +187,11 @@ Portland, OR) there is a strong, linear trend.
 Given a new set of scatterplots below, repeat the same exercise, but now with 
 the new descriptions of strength, linearity and direction.
 
+
 .. image:: figures/mult_choice_plots_abstract.png
-      :align: center
-      :alt: Six scatterplots labeled A through F. 
+    :align: center
+    :alt: Six scatterplots labeled A through F. 
+
 
 .. dragndrop:: dnd_scatterplot0
    :feedback: Try again!
@@ -183,7 +203,3 @@ the new descriptions of strength, linearity and direction.
    :match_6: F|||No relationship
 
    Match each scatterplot above with its description.
-
-
-
-
