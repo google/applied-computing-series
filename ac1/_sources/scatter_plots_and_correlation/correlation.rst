@@ -3,8 +3,9 @@
     International License. To view a copy of this license, visit
     http://creativecommons.org/licenses/by-sa/4.0/.
 
-Correlation {#correlation}
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Correlation
+===========
 
 The **correlation coefficient** is a measure of the strength and
 direction of the linear relationship between two quantitative variables.
