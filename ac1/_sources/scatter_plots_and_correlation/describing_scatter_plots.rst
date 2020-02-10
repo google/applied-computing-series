@@ -6,62 +6,156 @@
 Describing Scatter Plots
 ========================
 
-Question: Match each scatter plot to each description.
-
-1. The explanatory variable (x) is age in years and the explained
-   variable (y) is the annual salary for a sample of working adults
-   between the ages of 18 and 65.
-
-   ::Answer: Bottom Left. Most adults make more money as they get older, but
-     there are many other factors, like education and career that also impact
-     salary.
+In this section you will learn how to identify the relationship between
+variables in a scatterplot. These variables are the **explanatory** and the
+**explained** variable that were by defined earlier in the 
+:ref:`scatterplots section<scatter_plots>`. The following activities ask you
+to examine the scatterplots pictured and then match them with their description.
 
 
-2. The explanatory variable (x) is the mean commute time in minutes and
-   the explained variable (y) is height in inches for a sample of
-   employees at a small company.
+.. image:: figures/mult_choice_plots.png
+   :align: center
+   :alt: Scatterplots labeled A through F.
 
-   ::Answer: Bottom Right. There’s no real relationship between height and
-     commute time.
 
-3. The explanatory variable (x) is the month of the year, starting in
-   January, and the explained variable (y) is the mean temperature for
-   that month for St. Louis, Missouri which has cold winters and warm
-   summers.
+.. mchoice:: identify_scatterplot_10
 
-   ::Answer: Middle left. Cold winters and warm summers means smaller values
-     close to the end points 1 = January and 12 = December, and higher
-     temperatures in the middle.
+   The explanatory variable (x) is age in years and the explained variable (y) is
+   the annual salary for a sample of working adults between the ages of 18 and 65.
 
-4. The explanatory variable (x) is the city miles per gallon and the
-   explained variable (y) is the highway miles per gallon for a sample
-   of cars.
+   - E
 
-   ::Answer: Top Right. Cars with higher city mpg also have higher highway
-     mpg.
+     + Correct: Most adults make more money as they get older, but many other factors such as education and career also impact salary.
 
-5. The explanatory variable (x) is the number of hours after e-coli has
-   been introduced to a petri dish and the explained variable (y) is the
-   estimated number of e-coli cells after t hours. The number of cells
-   doubles about every 20 minutes.
+   - A
 
-   ::Answer: Top left. Because the number of cells is doubling, the change
-     every 20 minutes at the beginning of the experiment is small compared to
-     the change every 20 minutes at the end of the experiment when there are
-     much more cells dividing.
+     - Incorrect 
 
-6. The explanatory variable (x) is the years of driving experience and the
-   explained variable (y) is the insurance premium paid for a sample of drivers.
+   - D
 
-   ::Answer: Middle Right. Drivers with more driving experience are considered
-     safer, so they pay smaller premiums. Similarly, drivers with less driving
-     experience are considered riskier and pay greater premiums.
+     - Incorrect 
+  
+   - F
 
-[TODO] Insert all images
+     - Incorrect
 
-When describing the shape of the scatter plot and the relationship
-between the explanatory and explained variable, there are three
-important features to discuss.
+
+.. mchoice:: identify_scatterplot_20
+
+   The explanatory variable (x) is the mean commute time in minutes and the explained
+   variable (y) is height in inches for a sample of employees at a small company.
+
+   - F
+
+     + Correct: There’s no real relationship between height and commute time.
+
+   - A
+
+     - Incorrect 
+
+   - D
+
+     - Incorrect 
+
+   - B
+
+     - Incorrect 
+
+
+.. mchoice:: identify_scatterplot_30
+
+   The explanatory variable (x) is the month of the year, starting in January, and the
+   explained variable (y) is the mean temperature for that month for St. Louis, Missouri
+   which has cold winters and warm summers.
+
+   - C
+
+     + Correct: Cold winters and warm summers means smaller values close to the end points 1 = January and 12 = December, and higher temperatures in the middle.
+
+   - A
+
+     - Incorrect 
+
+   - D
+
+     - Incorrect 
+
+   - B
+
+     - Incorrect 
+
+
+.. mchoice:: identify_scatterplot_40
+
+   The explanatory variable (x) is the city miles per gallon and the explained variable (y)
+   is the highway miles per gallon for a sample of cars.
+
+   - C
+
+     - Incorrect
+
+   - A
+
+     - Incorrect 
+
+   - D
+
+     - Incorrect 
+
+   - B
+
+     + Correct: Cars with higher city mpg also have higher highway mpg. 
+
+
+.. mchoice:: identify_scatterplot_50
+
+   The explanatory variable (x) is the number of hours after e-coli has been introduced to a
+   petri dish and the explained variable (y) is the estimated number of e-coli cells after t
+   hours. The number of cells doubles about every 20 minutes.
+
+   - C
+
+     - Incorrect
+
+   - A
+
+     + Correct: Because the number of cells is doubling, the change every 20 minutes at the beginning of the experiment is small compared to the change every 20 minutes at the end of the experiment when there are much more cells dividing. 
+
+   - D
+
+     - Incorrect 
+
+   - B
+
+     - Incorrect 
+
+
+.. mchoice:: identify_scatterplot_60
+
+   The explanatory variable (x) is the years of driving experience and the explained variable
+   (y) is the insurance premium paid for a sample of drivers.
+    
+   - C
+
+     - Incorrect
+    
+   - A
+
+     - Incorrect: 
+    
+   - D
+    
+     + Correct: Drivers with more driving experience are considered safer, so they pay smaller premiums. Similarly, drivers with less driving experience are considered riskier and pay greater premiums. 
+    
+   - B
+    
+     - Incorrect 
+
+
+This exercise would be simpler given uniform adjectives that everyone could
+understand. When describing the shape of the scatter plot and the relationship
+between the explanatory and explained variable, there are three important
+features to discuss.
 
 -  The **direction** of a scatter plot can be described as positive or
    negative. The direction is positive when the explained variable
@@ -78,39 +172,34 @@ important features to discuss.
    to a straight line. Scatter plots are described as linear or
    nonlinear.
 
-[TODO] Insert images
+
+.. image:: figures/january_scatterplot.png
+      :align: center
+      :alt: A scatterplot depicting the temperature in January across latitudes.
+
 
 For example, the scatterplot of latitude and January temperatures had
 negative direction, as the greater the latitude, the colder the
-temperature. Though there are a few outliers *(link to module A outliers
-section)* (cities along the northwest coast of the US that have
-temperate winters, such as Portland, OR) there is a strong, linear
-trend.
+temperature. Though there are a few :ref:`outliers<outliers_and_skew>` (cities
+along the northwest coast of the US that have temperate winters, such as 
+Portland, OR) there is a strong, linear trend.
 
-Question: Match each scatterplot below with its description.
+Given a new set of scatterplots below, repeat the same exercise, but now with 
+the new descriptions of strength, linearity and direction.
 
-1. Neither positive nor negative, strong, nonlinear
 
-   ::Middle left
+.. image:: figures/mult_choice_plots_abstract.png
+    :align: center
+    :alt: Six scatterplots labeled A through F. 
 
-2. Positive, moderate, linear
 
-   ::Bottom left
+.. dragndrop:: dnd_scatterplot0
+   :feedback: Try again!
+   :match_1: A|||Positive, strong, nonlinear
+   :match_2: B|||Positive, strong, linear
+   :match_3: C|||Neither positive nor negative, strong, nonlinear
+   :match_4: D|||Negative, moderate, linear
+   :match_5: E|||Positive, moderate, linear
+   :match_6: F|||No relationship
 
-3. No relationship
-
-   ::Bottom right
-
-4. Negative, moderate, linear
-
-   ::Middle right
-
-5. Positive, strong, linear
-
-   ::Top right
-
-6. Positive, strong, nonlinear
-
-   ::Top left
-
-[TODO] Insert images
+   Match each scatterplot above with its description.
