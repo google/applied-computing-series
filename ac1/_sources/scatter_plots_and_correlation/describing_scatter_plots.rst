@@ -16,7 +16,7 @@ to examine the scatterplots pictured and then match them with their description.
       :align: center
       :alt: Scatterplots labeled A through F.
 
-.. mchoice:: identify_scatterplot_1
+.. mchoice:: identify_scatterplot_10
 
    The explanatory variable (x) is age in years and the explained variable (y) is the annual salary for a sample of working adults between the ages of 18 and 65.
 
@@ -36,7 +36,7 @@ to examine the scatterplots pictured and then match them with their description.
 
     - Incorrect
 
-.. mchoice:: identify_scatterplot_2
+.. mchoice:: identify_scatterplot_20
 
    The explanatory variable (x) is the mean commute time in minutes and the explained variable (y) is height in inches for a sample of employees at a small company.
 
@@ -56,7 +56,7 @@ to examine the scatterplots pictured and then match them with their description.
 
     - Incorrect 
 
-.. mchoice:: identify_scatterplot_3
+.. mchoice:: identify_scatterplot_30
 
    The explanatory variable (x) is the month of the year, starting in January, and the explained variable (y) is the mean temperature for that month for St. Louis, Missouri which has cold winters and warm summers.
 
@@ -76,7 +76,7 @@ to examine the scatterplots pictured and then match them with their description.
 
     - Incorrect 
 
-.. mchoice:: identify_scatterplot_4
+.. mchoice:: identify_scatterplot_40
 
    The explanatory variable (x) is the city miles per gallon and the explained variable (y) is the highway miles per gallon for a sample of cars.
 
@@ -96,7 +96,7 @@ to examine the scatterplots pictured and then match them with their description.
 
     + Correct: Cars with higher city mpg also have higher highway mpg. 
 
-.. mchoice:: identify_scatterplot_5
+.. mchoice:: identify_scatterplot_50
 
    The explanatory variable (x) is the number of hours after e-coli has been introduced to a petri dish and the explained variable (y) is the estimated number of e-coli cells after t hours. The number of cells doubles about every 20 minutes.
 
@@ -116,7 +116,7 @@ to examine the scatterplots pictured and then match them with their description.
 
     - Incorrect 
 
-.. mchoice:: identify_scatterplot_6
+.. mchoice:: identify_scatterplot_60
 
   The explanatory variable (x) is the years of driving experience and the explained variable (y) is the insurance premium paid for a sample of drivers.
     
@@ -173,7 +173,7 @@ the new descriptions of strength, linearity and direction.
       :align: center
       :alt: Six scatterplots labeled A through F. 
 
-.. dragndrop:: dnd_scatterplot
+.. dragndrop:: dnd_scatterplot0
    :feedback: Try again!
    :match_1: A|||Positive, strong, nonlinear
    :match_2: B|||Positive, strong, linear
