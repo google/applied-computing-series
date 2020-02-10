@@ -75,6 +75,8 @@ comma.
 
 .. image:: figures/minimum_using_values.png
    :align: center
+   :alt: Google Sheets image of MIN function, values separated by commas.
+
 
 
 Alternately, you can specify all the values in different cells, and input the
@@ -83,6 +85,7 @@ cell range into the ``MIN`` function.
 
 .. image:: figures/minimum_using_cell_range.png
    :align: center
+   :alt: Google Sheets image of MIN function using range of values.
 
 
 In future examples, you will see that specifying a cell range is the more
