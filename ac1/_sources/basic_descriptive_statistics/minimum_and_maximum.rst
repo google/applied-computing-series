@@ -199,7 +199,7 @@ Nik L Nip is the most expensive candy on the dataset.
 Practice using the ``MATCH``, ``MAX``, and ``MIN`` functions to answer the 
 following questions:
 
-.. fillintheblank:: halloween_candy
+.. fillintheblank:: candy_least_expensive
 
    Which is the least expensive Halloween candy?
    |blank|
@@ -209,7 +209,7 @@ following questions:
      :x: Incorrect
 
 
-.. fillintheblank:: halloween_candy
+.. fillintheblank:: candy_highest_sugar
 
    Which Halloween candy has the highest sugar percentage?
    |blank|
@@ -218,7 +218,7 @@ following questions:
      :x: Incorrect
    
    
-.. fillintheblank:: halloween_candy
+.. fillintheblank:: candy_most_popular
 
    What is the most popular Halloween candy?
    |blank|
@@ -227,7 +227,7 @@ following questions:
      :x: Incorrect
 
 
-.. fillintheblank:: halloween_candy
+.. fillintheblank:: candy_least_popular
 
    What is the least popular Halloween candy?
    |blank|
