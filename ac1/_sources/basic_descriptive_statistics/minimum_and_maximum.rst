@@ -159,12 +159,12 @@ The ``MATCH`` function has three inputs and looks like this:
       order and return the smallest value greater than or equal to ``search_key``
 
 To practice using ``MATCH``, suppose a company called CandyData handed you the
-`Halloween Candy`_ dataset with information about various Halloween candies and 
-asks you to find out which of the candies is most expensive. You know that you 
-need to find the row with the highest value in the Price Percent column, so you 
-can use the ``MATCH`` function! 
+`Halloween Candy`_ dataset with information about various Halloween candies. 
+Suppose they ask you to find out which of the candies is most expensive. You 
+know that you need to find the row with the highest value in the Price Percent 
+column, so you can use the ``MATCH`` function! 
 
-Now we must start filling in the inputs for ``MATCH``. The first input is the 
+Now you must start filling in the inputs for ``MATCH``. The first input is the 
 value you’re searching for. You’re looking for the maximum value in the column, 
 and you know that to find the maximum value in a column you can use the ``MAX`` 
 function ``(MAX(C2:C86))``. So now you can fill in the first part of the 
@@ -175,12 +175,12 @@ search. Since you want to find the value in the column called Price Percent,
 you fill in the next part of the MATCH function: ``MATCH(MAX(C2:C86), C1:C86, 
 something)``. 
 
-Notice that if you use C2:C86 instead of C1:C86 instead, the row value returned 
-by the function will be shifted up by one, so the answer will be 53 instead of 
-54. This is because the returned value is equal to how far down the value is in 
-the range, so when you omit the first row in the range (C1), the returned value 
-will be one less than the row number because it’s counting the rows starting at 
-C2.
+Notice that if you use ``C2:C86`` instead of ``C1:C86`` instead, the row value 
+returned by the function will be shifted up by one, so the answer will be 53 
+instead of 54. This is because the returned value is equal to how far down the 
+value is in the range, so when you omit the first row in the range (``C1``), 
+the returned value will be one less than the row number because it’s counting 
+the rows starting at ``C2``.
 
 This is what that bug would look like if you were using a smaller dataset and 
 trying to find the state with the largest population:
@@ -188,7 +188,7 @@ trying to find the state with the largest population:
 .. image:: figures/match.png
    :align: center
    :alt: Google Sheets side-by-side images of how changing the range affects
-         the output
+         the output.
 
 The last input is the manner in which you want to search. Since the values in 
 Price Percent aren’t sorted, you use 0. The final function is 
@@ -202,7 +202,6 @@ following questions:
 .. fillintheblank:: candy_least_expensive
 
    Which is the least expensive Halloween candy?
-   |blank|
 
    - :Tootsie Roll Midgies: Correct
      :Tootsie Roll Juniors: Incorrect: Include the first row in the range.
@@ -212,7 +211,6 @@ following questions:
 .. fillintheblank:: candy_highest_sugar
 
    Which Halloween candy has the highest sugar percentage?
-   |blank|
 
    - :Reeses stuffed with pieces: Correct
      :x: Incorrect
@@ -221,7 +219,6 @@ following questions:
 .. fillintheblank:: candy_most_popular
 
    What is the most popular Halloween candy?
-   |blank|
 
    - :Reeses Peanut Butter Cup: Correct
      :x: Incorrect
@@ -230,7 +227,6 @@ following questions:
 .. fillintheblank:: candy_least_popular
 
    What is the least popular Halloween candy?
-   |blank|
 
    - :Nik L Nip: Correct
      :x: Incorrect
