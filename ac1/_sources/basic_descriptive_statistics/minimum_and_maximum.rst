@@ -139,7 +139,12 @@ Knowing how to find the minimum and maximum values in a spreadsheet is useful
 for many situations, but sometimes it can be even more useful to know which row 
 the minimum or maximum came from. 
 
-To find the row of the minimum or maximum, we can use the ``MATCH`` function. 
+.. admonition:: Match Definition
+
+   ``MATCH`` returns the relative position of an item in a range that matches a 
+   specified value. We can use the ``MATCH`` function to find the row of the 
+   minimum or maximum.
+   
 The ``MATCH`` function has three inputs and looks like this: 
 ``MATCH(search_key, range, [search_type])``.
 
