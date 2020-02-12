@@ -22,11 +22,13 @@ The most common file format that is used with spreadsheets is a
 The most common separators are listed below.
 
 1. Comma: Files using “,” as the separator are called “comma-separated
-   value” (csv) files.
+    value” (csv) files.
 .. image:: figures/csv_example.png
+
 2. Tab: Files using tab as the separator are called “tab-separated
+    value” (tsv) files.
 .. image:: figures/tsv_example.png
-   value” (tsv) files.
+   
 3. Space: These exist but are significantly less common.
 .. image:: figures/ssv_example.png
 
