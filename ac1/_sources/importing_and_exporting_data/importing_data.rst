@@ -9,8 +9,8 @@ Importing Data
 Up to this point, you have been dealing with data entirely within
 Sheets. However, when you start tackling problems on real-world
 datasets, you will likely have to fetch the data yourself. Most of the
-data you will deal with is stored in online repositories such as GitHub
-or Google Drive.
+data you will deal with in this section is stored in online repositories
+such as GitHub or Google Drive.
 
 The most common file format that is used with spreadsheets is a
 **delimited file**, in which:
@@ -23,9 +23,12 @@ The most common separators are listed below.
 
 1. Comma: Files using “,” as the separator are called “comma-separated
    value” (csv) files.
+.. image:: figures/csv_example.png
 2. Tab: Files using tab as the separator are called “tab-separated
+.. image:: figures/tsv_example.png
    value” (tsv) files.
 3. Space: These exist but are significantly less common.
+.. image:: figures/ssv_example.png
 
 In general, any character can be a delimiter, but it is extremely
 uncommon to use a delimiter that is not a comma, tab, or space.
