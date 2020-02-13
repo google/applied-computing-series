@@ -78,7 +78,6 @@ comma.
    :alt: Google Sheets image of MIN function, values separated by commas.
 
 
-
 Alternately, you can specify all the values in different cells, and input the
 cell range into the ``MIN`` function.
 
@@ -132,6 +131,7 @@ one-hundred years! Sheets would be able to find the minimum and maximum just as
 quickly as it did for twelve months. Doing this manually, however, is
 error-prone and would not be fun.
 
+
 Optional: Match
 ---------------
 
@@ -148,13 +148,13 @@ the minimum or maximum came from.
 The ``MATCH`` function has three inputs and looks like this: 
 ``MATCH(search_key, range, [search_type])``.
 
--   ``search_key``: the value to search for
--   ``range``: the values of the column that you want to search (ex. A1:A5)
+-   ``search_key``: The value to search for
+-   ``range``: The values of the column that you want to search (ex. A1:A5)
 -   ``search_type``: The manner in which to search
 
     * 1 causes ``MATCH`` to assume that the range is sorted in ascending order
       and return the largest value less than or equal to search_key
-    * 0 indicates exact match, and is required when the range is not sorted
+    * 0 indicates an exact match, and is required when the range is not sorted
     * -1 causes ``MATCH`` to assume that the range is sorted in descending 
       order and return the smallest value greater than or equal to ``search_key``
 
@@ -194,10 +194,11 @@ The last input is the manner in which you want to search. Since the values in
 Price Percent aren’t sorted, you use 0. The final function is 
 ``=MATCH(MAX(C2:C86), C1:C86, 0)``. The returned value is 46, meaning the most 
 expensive candy is in row 46. You can now go back CandyData and tell them that 
-Nik L Nip is the most expensive candy on the dataset.
+"Nik L Nip" is the most expensive candy on the dataset.
 
 Practice using the ``MATCH``, ``MAX``, and ``MIN`` functions to answer the 
 following questions:
+
 
 .. fillintheblank:: candy_least_expensive
 
@@ -230,5 +231,6 @@ following questions:
 
    - :Nik L Nip: Correct
      :x: Incorrect
+
 
 .. _Halloween Candy: https://github.com/fivethirtyeight/data/tree/master/candy-power-ranking
