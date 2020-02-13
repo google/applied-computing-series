@@ -8,6 +8,10 @@
 Making Predictions with the Regression Line
 ===========================================
 
+Recall that in
+:ref:`(the section on regression lines)<regression_and_line_of_best_fit>`, you
+learned about the equation for the regression line. 
+
 .. image:: figures/average_sat_score_completion_rate.png
 
 Returning to the scatter plot showing average SAT score and completion rate, the
