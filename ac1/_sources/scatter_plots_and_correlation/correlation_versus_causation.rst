@@ -92,8 +92,8 @@ one over the other.
      - Incorrect
 
 It is important to understand the distinction between causation and correlation
-so that you can draw your own conclusions, since the news often confuses
-correlation and causation.
+so that you can draw your own conclusions, since `the news often confuses
+correlation and causation`_.
 
 
 .. _the news often confuses correlation and causation: http://www.rebeccabarter.com/cv/talks/Cal_Day_Presentation.pdf
