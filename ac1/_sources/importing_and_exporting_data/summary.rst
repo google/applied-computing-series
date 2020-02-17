@@ -3,8 +3,7 @@
     International License. To view a copy of this license, visit
     http://creativecommons.org/licenses/by-sa/4.0/.
 
-.. Link to summary document: https://docs.google.com/document/d/        1ojHGNfmmn3tshui6ZiFws1mNgbuNQIG53s_gnzVHCQo/edit?usp=sharing
-
+.. Link to summary document: shorturl.at/nDLOR 
 
 .. image:: figures/importing_exporting_summary.png
    :align: center
