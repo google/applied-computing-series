@@ -10,7 +10,13 @@ Charleston, South Carolina, which has a latitude of 33 degrees, is not included
 in this weather dataset. If you were asked to predict average January
 temperatures there, you might make a good guess and say 52 degrees F,
 because that is the mean temperature for southern cities with a latitude
-below 35. The problem with this prediction is that it is the same for
+below 35. This was found using the bar chart that you saw in the introduction:
+
+.. image:: figures/scatter3.png
+   :align: center
+   :alt: Bar chart of average temperatures and latitude.
+
+The problem with this prediction is that it is the same for
 the entire Southern region - that’s a lot of cities! Could you make a
 better prediction using the exact latitude of Charleston?
 
