@@ -20,8 +20,8 @@ latitudes between 25 and 26 degrees, for 26 to 27 degrees, and so on. By
 using cities with very similar latitudes, you could make a more accurate
 prediction of Charleston’s temperature. However, it would be tedious to
 create so many groups. Rather than converting latitude to buckets of
-variables (aka a categorical variable, as seen here link to module A),
-you could use latitude as a quantitative variable (link to module A).
+variables (aka a `categorical variable`_),
+you could use latitude as a `quantitative variable`_.
 
 Scatter plots show the relationship between two quantitative variables.
 The variable on the x-axis is called the **explanatory variable**. The
@@ -78,3 +78,6 @@ possible to make a reliable guess about the January temperature in
 Juneau. Trying to make a prediction about values not represented by your
 data is called **extrapolation**, and predictions made in this way are
 considered unreliable.
+
+.. _categorical variable: https://github.com/google/applied-computing-series/blob/master/ac1/_sources/basic_descriptive_statistics/variables.rst#id2
+.. _quantitative variable: https://github.com/google/applied-computing-series/blob/master/ac1/_sources/basic_descriptive_statistics/variables.rst#id2
