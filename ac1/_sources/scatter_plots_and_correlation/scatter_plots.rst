@@ -48,7 +48,9 @@ as a point, where the x-coordinate of each point is that city’s
 latitude, and the y-coordinate of each point is that city’s mean January
 temperature.
 
-[TODO] Insert images
+.. image:: figures/latitude_vs_temp.png
+   :align: center
+   :alt: A scatterplot of latitude and average January temperatures.
 
 Using the scatter plot, you might predict that the January temperature
 in Atlanta would be between 45 and 50 degrees F, based on the
