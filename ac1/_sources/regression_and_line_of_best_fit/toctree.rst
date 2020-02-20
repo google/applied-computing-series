@@ -17,3 +17,4 @@ Regression and "Line of Best Fit"
    interpreting_slope.rst
    outliers.rst
    nonlinear_regression.rst
+   summary.rst
