@@ -41,7 +41,7 @@ You can split up cities in the United States into three regions, “Northern,”
 “Southern,” and "Central" to more easily analyze the data. Most cities in the
 continental states are between 25 and 50 degrees, so to group these, you can
 label cities south of 35 degrees latitude “Southern”, cities north of 40 degrees
-latitude “Northern”, and those in the middle “Central.” This choice is somewhat
+latitude “Northern,” and those in the middle “Central.” This choice is somewhat
 arbitrary, but it breaks the cities into three fairly even groups.
 
 Break down these cities into these three separate groups by using the ``IF``
