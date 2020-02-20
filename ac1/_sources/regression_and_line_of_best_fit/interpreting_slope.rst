@@ -201,7 +201,7 @@ not students. There are also many other factors at play. For example, a schoolâ€
 financial resources is certainly a lurking variable. Schools where students
 donâ€™t need federal loans often have large endowments and give loans or
 scholarships directly to their students. These same schools may also have other
-resources that contribute to increased graduation rates. gkjhgkjhg
+resources that contribute to increased graduation rates.
 
 
 .. mchoice:: slope_line_of_best_fit
