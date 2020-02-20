@@ -75,6 +75,7 @@ comma.
 
 .. image:: figures/minimum_using_values.png
    :align: center
+   :alt: Google Sheets image of MIN function, values separated by commas.
 
 
 Alternately, you can specify all the values in different cells, and input the
@@ -83,6 +84,7 @@ cell range into the ``MIN`` function.
 
 .. image:: figures/minimum_using_cell_range.png
    :align: center
+   :alt: Google Sheets image of MIN function using range of values.
 
 
 In future examples, you will see that specifying a cell range is the more
@@ -128,3 +130,107 @@ minimum and maximum values. But imagine if this dataset covered every day for
 one-hundred years! Sheets would be able to find the minimum and maximum just as
 quickly as it did for twelve months. Doing this manually, however, is
 error-prone and would not be fun.
+
+
+Optional: Match
+---------------
+
+Knowing how to find the minimum and maximum values in a spreadsheet is useful 
+for many situations, but sometimes it can be even more useful to know which row 
+the minimum or maximum came from. 
+
+.. admonition:: Match Definition
+
+   ``MATCH`` returns the relative position of an item in a range that matches a 
+   specified value. We can use the ``MATCH`` function to find the row of the 
+   minimum or maximum.
+   
+The ``MATCH`` function has three inputs and looks like this: 
+``MATCH(search_key, range, [search_type])``.
+
+-   ``search_key``: The value to search for
+-   ``range``: The values of the column that you want to search (ex. A1:A5)
+-   ``search_type``: The manner in which to search
+
+    * 1 causes ``MATCH`` to assume that the range is sorted in ascending order
+      and return the largest value less than or equal to search_key
+    * 0 indicates an exact match, and is required when the range is not sorted
+    * -1 causes ``MATCH`` to assume that the range is sorted in descending 
+      order and return the smallest value greater than or equal to ``search_key``
+
+To practice using ``MATCH``, suppose a company called CandyData handed you the
+`Halloween Candy`_ dataset with information about various Halloween candies. 
+Suppose they ask you to find out which of the candies is most expensive. You 
+know that you need to find the row with the highest value in the Price Percent 
+column, so you can use the ``MATCH`` function! 
+
+Now you must start filling in the inputs for ``MATCH``. The first input is the 
+value you’re searching for. You’re looking for the maximum value in the column, 
+and you know that to find the maximum value in a column you can use the ``MAX`` 
+function ``(MAX(C2:C86))``. So now you can fill in the first part of the 
+``MATCH`` function: ``MATCH(MAX(C2:C86), something, something)``. 
+
+The second input is the range of the values of the column that you want to 
+search. Since you want to find the value in the column called Price Percent, 
+you fill in the next part of the MATCH function: ``MATCH(MAX(C2:C86), C1:C86, 
+something)``. 
+
+Notice that if you use ``C2:C86`` instead of ``C1:C86`` instead, the row value 
+returned by the function will be shifted up by one, so the answer will be 53 
+instead of 54. This is because the returned value is equal to how far down the 
+value is in the range, so when you omit the first row in the range (``C1``), 
+the returned value will be one less than the row number because it’s counting 
+the rows starting at ``C2``.
+
+This is what that bug would look like if you were using a smaller dataset and 
+trying to find the state with the largest population:
+
+.. image:: figures/match.png
+   :align: center
+   :alt: Google Sheets side-by-side images of how changing the range affects
+         the output.
+
+The last input is the manner in which you want to search. Since the values in 
+Price Percent aren’t sorted, you use 0. The final function is 
+``=MATCH(MAX(C2:C86), C1:C86, 0)``. The returned value is 46, meaning the most 
+expensive candy is in row 46. You can now go back CandyData and tell them that 
+"Nik L Nip" is the most expensive candy on the dataset.
+
+Practice using the ``MATCH``, ``MAX``, and ``MIN`` functions to answer the 
+following questions:
+
+
+.. fillintheblank:: candy_least_expensive
+
+   Which is the least expensive Halloween candy?
+
+   - :Tootsie Roll Midgies: Correct
+     :Tootsie Roll Juniors: Incorrect: Include the first row in the range.
+     :x: Incorrect
+
+
+.. fillintheblank:: candy_highest_sugar
+
+   Which Halloween candy has the highest sugar percentage?
+
+   - :Reeses stuffed with pieces: Correct
+     :x: Incorrect
+   
+   
+.. fillintheblank:: candy_most_popular
+
+   What is the most popular Halloween candy?
+
+   - :Reeses Peanut Butter Cup: Correct
+     :x: Incorrect
+
+
+.. fillintheblank:: candy_least_popular
+
+   What is the least popular Halloween candy?
+
+   - :Nik L Nip: Correct
+     :x: Incorrect
+
+
+.. _Halloween Candy: https://github.com/fivethirtyeight/data/tree/master/candy-power-ranking

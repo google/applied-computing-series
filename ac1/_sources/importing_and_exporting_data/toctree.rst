@@ -13,3 +13,4 @@ Importing and Exporting Data
 
    importing_data.rst
    exporting_data.rst
+   summary.rst
