@@ -6,18 +6,18 @@
 Introduction
 ============
 
-As of right now, you have learned about histograms and bar charts, which are
-data visualizations that are useful for understanding data. However, sometimes
-these visualizations are not the most intuitive for looking at individual pieces
-of a larger data set. This is where Scatter plots come in. Scatter plots are a
-type of data visualization that show the relationship between two quantitative
+You have already learned about histograms and bar charts, which are data
+visualizations that are useful for understanding data. However, sometimes these
+visualizations are not the most intuitive for looking at individual pieces of a
+larger data set. This is where scatter plots come in. Scatter plots are a type
+of data visualization that show the relationship between two quantitative
 variables. An example of a scatter plot is shown below. As you can see in the
 screenshot, each data point is plotted individually onto a graph. By organizing
 data this way, it becomes easier to understand trends in larger data sets.
 
 .. image:: figures/example_scatterplot.png
    :align: center
-   :alt: An example of a spreadsheet
+   :alt: An example of a scatter plot
 
 In this section, you will learn how to create, read, and analyze scatter plots.
 You will first begin by working through an example to see why scatter plots are

@@ -10,15 +10,16 @@ Weather is something that changes based on location. Cities closer to the north
 and south pole are generally pretty cold, while cities close to the equator are
 generally pretty warm. But what if you wanted to quantify this relationship in
 order to make specific predictions? Instead of saying “cities are generally
-colder closer to the north pole,'' you could say, “as latitude increases by 10
+colder closer to the north pole," you could say, “as latitude increases by 10
 degrees, temperature decreases by 20 degrees.”
 
-Given the following dataset with latitude, longitude, and weather data for
+Given the `following dataset`_ with `latitude, longitude`_, and weather data for
 different cities in the United States, you can use histograms to plot latitudes
 and temperatures independently as shown below.
 
 
 .. image:: figures/lat_temp_histograms.png
+   :align: center
    :alt: Two histograms side by side. One is of of latitudes of major cities in the US, the other is of temperatures in January.
 
 Notice that this shows you the distribution of each variable alone, but tells
@@ -33,32 +34,34 @@ impacts temperature.
 A latitude closer to 0 degrees means a city is closer to the equator, and a
 latitude closer to 45 degrees means a city is closer to the poles. For cities in
 the northern hemisphere, like those in the USA, smaller latitudes indicate
-southern cities, and larger latitudes indicate northern cities. See here for a
-map of the USA with latitude and longitude lines.
+southern cities, and larger latitudes indicate northern cities. `See here for a
+map of the USA with latitude and longitude lines.`_
 
 You can split up cities in the United States into three regions, “Northern,”
-“Southern,” and Central to more easily analyze the data. Most cities in the
+“Southern,” and "Central" to more easily analyze the data. Most cities in the
 continental states are between 25 and 50 degrees, so to group these, you can
 label cities south of 35 degrees latitude “Southern”, cities north of 40 degrees
 latitude “Northern”, and those in the middle “Central.” This choice is somewhat
 arbitrary, but it breaks the cities into three fairly even groups.
 
-Break down these cities into these three separate groups by using the IF
+Break down these cities into these three separate groups by using the ``IF``
 function. Add a new column labelled location. Then create a formula as shown in
 the screenshot below to group the cities.
 
 
 .. image:: figures/city_region_breakdown.png
+   :align: center
    :alt: A screenshot of a Sheet with a formula to sort latitudes into the three regions.
 
 
 Which region do you think will have the highest January temperatures? What about
 the lowest July temperatures? Now, double check your predictions by finding the
 mean temperatures of each of the three regions. You can do this by using the
-AVERAGEIF function :ref:`(from the section on grouping)<grouping_data>`.
+``AVERAGEIF`` function :ref:`(from the section on grouping)<grouping_data>`.
 
 .. image:: figures/avg_if.png
-   :alt: A screenshot of a Sheet calculating the average Janurary temperatures of each region.
+   :align: center
+   :alt: A screenshot of a Sheet calculating the average January temperatures of each region.
 
 Now that you have found the mean temperature answer the following questions:
 
@@ -124,13 +127,14 @@ Now that you have found the mean temperature answer the following questions:
 
      - Incorrect
 
-Functions like AVERAGEIF are a great way to calculate the mean for a specific
-region and/or month. But what if you want to see, in one visualization, the mean
-temperature for January and July across all regions? To do this, you can use a
-bar chart.
+Functions like ``AVERAGEIF`` are a great way to calculate the mean for a
+specific region and/or month. But what if you want to see, in one visualization,
+the mean temperature for January and July across all regions? To do this, you
+can use a bar chart.
 
 
 .. image:: figures/avg_temp_region_jan.png
+   :align: center
    :alt: A bar chart depicting average Janurary and July temperatures for each of the regions.
 
 
@@ -160,4 +164,4 @@ scatterplots will come in handy.
 
 .. _following dataset: https://drive.google.com/open?id=1Qhl09FAMxhHr9WVIKxfVK9UklvDVpiYMdgvKuaWZRa0
 .. _latitude, longitude: https://en.wikipedia.org/wiki/Geographic_coordinate_system
-.. See here for a map of the USA with latitude and longitude lines.: https://pasarelapr.com/images/map-of-usa-with-lines-of-latitude-and-longitude/map-of-usa-with-lines-of-latitude-and-longitude-2.jpg
+.. _See here for a map of the USA with latitude and longitude lines.: https://pasarelapr.com/images/map-of-usa-with-lines-of-latitude-and-longitude/map-of-usa-with-lines-of-latitude-and-longitude-2.jpg
