@@ -47,7 +47,7 @@ options(
             'downloads_enabled': 'false',
             'enable_chatcodes': 'false',
             'allow_pairs': 'false',
-            'dynamic_pages': False,
+            'dynamic_pages': True,
             'use_services': 'true',
             'basecourse': project_name,
             # If ``dynamic_pages`` is 'True', then the following values are
