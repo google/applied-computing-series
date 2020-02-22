@@ -8,9 +8,9 @@
 Interpreting Slope
 ==================
 
-Now that you have reviewed the section on equation of a line, it's important to
-see how this information relates to data analysis. As mentioned in the previous
-section, the slope gives the steepness of a line, but what does this mean?
+Now that you have reviewed linear equations, this section outlines how that
+relates to data analysis. As mentioned in the previous section, the slope gives
+the steepness of a line, but what does this mean?
 
 You can start to answer this question by first understanding what slope is. The
 `slope of a straight line <https://en.wikipedia.org/wiki/Slope>`__ tells you
@@ -25,10 +25,11 @@ written as the ratio
 You've already learned about the correlation coefficient, *r*, which tells you
 how strong the relationship between two variables is. Slope tells you something
 different. The slope tells you the **magnitude** of that relationship. In other
-words, the correlation helps you answer the question “If variable A changes,
-*will* variable B change?”, while the slope helps you answer the question “If
-variable A changes, *by how much* will variable B change?”. Analyzing slope
-becomes useful in scatter plots when looking at the line of best fit.
+words, the correlation helps you answer the question “If variable A changes, how
+confident are you that variable B will change?”, while the slope helps you
+answer the question “If variable A changes, *by how much* will variable B
+change?”. Analyzing slope becomes useful in scatter plots when looking at the
+line of best fit.
 
 You can practice this through an example. Below is a scatter plot with median
 SAT Math score as the explanatory variable, and median earnings after graduation
