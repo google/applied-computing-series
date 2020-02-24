@@ -20,7 +20,7 @@ and the y-intercept is -0.7116. Another way to write this is to use the
 descriptions of the x and y variables.
 
 
-:math:`(\text{Predicted Completion Rate}) = 0.0011 \cdot (\text{Average SAT
+:math:`\text{Predicted Completion Rate} = 0.0011 \times (\text{Average SAT
 Score}) - 0.7116`
 
 If you’re wondering why the equation in the graph above or in Sheets has an *E*
@@ -34,7 +34,7 @@ more precise way of making that estimate is to use the equation of the line.
 Because University X has an average SAT score of 1200, you will replace that
 portion of the regression line equation with the number 1200.
 
-:math:`(\text{Predicted Completion Rate}) = 0.0011 \cdot (1200) - 0.7116 =
+:math:`\text{Predicted Completion Rate} = 0.0011 \times (1200) - 0.7116 =
 0.6386 (\text{or} 63.86%)`
 
 So, University X has a predicted completion rate of 63.86%. The point
@@ -50,7 +50,7 @@ with an average SAT score of 1400.
 You can use the same method to estimate the completion rate for a school with an
 average SAT score of 600.
 
-:math:`(\text{Predicted Completion Rate}) = 0.0011 \cdot (600) - 0.7116 =
+:math:`\text{Predicted Completion Rate} = 0.0011 \times (600) - 0.7116 =
 -0.0365 (\text{or} -3.65%)`
 
 But a negative completion rate doesn’t make sense! A school can’t have a
