@@ -11,6 +11,5 @@ Manipulating Data
    :caption: Contents
    :maxdepth: 2
 
-   filtering.rst
    pivot_tables.rst
    joining_data.rst

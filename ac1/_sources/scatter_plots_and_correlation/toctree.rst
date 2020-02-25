@@ -19,3 +19,4 @@ Scatter Plots and Correlation
    correlation.rst
    correlation_and_college_data.rst
    correlation_versus_causation.rst
+   correlation_and_filtering.rst
