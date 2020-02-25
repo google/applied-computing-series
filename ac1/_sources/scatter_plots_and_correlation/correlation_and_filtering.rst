@@ -24,14 +24,10 @@ strength training regime <https://drive.google.com/open?id=1kzEQ-JCgr0RLCb0ojl1H
 to use with her clients.
 
 
-.. image:: figures/participant_pushup_data.png
-  :width: 32%
-  :alt: Screenshot of Sheet of participant pushup data.
+.. image:: figures/pushup_graph_and_data.png
+  :align: center
+  :alt: Screenshot of Sheet and scatter plot of participant pushup data.
 
-
-.. image:: figures/participant_pushup_graph.png
-  :width: 67%
-  :alt: Scatter plot of participant pushup data.
 
 She wants to see if the new routine increases the number of push-ups her clients
 can perform. It’s a great routine and her clients are working hard, so she
