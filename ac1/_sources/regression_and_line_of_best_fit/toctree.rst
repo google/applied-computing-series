@@ -13,8 +13,8 @@ Regression and "Line of Best Fit"
 
    regression_and_line_of_best_fit.rst
    equation_of_a_line_refresher.rst
-   making_predictions_with_the_regression_line.rst
    interpreting_slope.rst
+   making_predictions_with_the_regression_line.rst
    outliers.rst
    nonlinear_regression.rst
    summary.rst
