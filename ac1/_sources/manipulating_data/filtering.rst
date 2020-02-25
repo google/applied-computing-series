@@ -5,24 +5,42 @@
 
 .. _filtering:
 
-Filtering
-=========
+Correlation and Filtering
+=========================
 
-*(link to filtering section in Module A)* Often you may be interested in just a
-specific subset of a dataset. For example, if you have population data over the
-past ten years for each state, you may want to analyze data only for Florida, or
-only for the year 2017. Recall that a filter is a way of selecting a subset of
-rows based on a set of column conditions. Filtering data helps identify the
-similarities and differences between groups, and describe the relationships
-between variables. Often, you can only see important differences or trends by
-filtering.
+As you have learned in Module A, filtering is a useful technique that helps you
+make sense of a large dataset. Filtering data helps identify the similarities
+and differences between groups and describe the relationships between variables.
+Recall that a filter is a way of selecting a subset of rows based on a set of
+column conditions. For example, if you have population data over the past ten
+years for each state, you could use a filter to analyze data only for Florida,
+or only for the year 2017. Often, you can only see important differences or
+trends by filtering. This is even the case when finding the correlation
+coefficient that best reflects the data. This is best explained through an
+example.
 
-For example, consider a `personal trainer who has implemented a new
-strength training regime <https://drive.google.com/open?id=1kzEQ-JCgr0RLCb0ojl1HldF0irO_UzQO0PtxsjBRFtU>`__
-to use with her clients. She wants to see if the new routine increases the
-number of push-ups her clients can perform. It’s a great routine, and her
-clients are working hard, so she expects a positive \_r \_value showing that her
-clients can do more push-ups as they progress through the regime.
+Imagine that your friend is a `personal trainer who has implemented a new
+strength training regime <https://drive.google.com/open?id=1kzEQ-JCgr0RLCb0ojl1HldF0irO_UzQO0PtxsjBRFtU>`_
+to use with her clients.
+
+
+.. image:: figures/participant_pushup_data.png
+  :width: 32%
+  :alt: Screenshot of Sheet of participant pushup data.
+
+
+.. image:: figures/participant_pushup_graph.png
+  :width: 67%
+  :alt: Scatter plot of participant pushup data.
+
+She wants to see if the new routine increases the number of push-ups her clients
+can perform. It’s a great routine and her clients are working hard, so she
+expects a positive *r* value showing that her clients can do more push-ups as
+they progress through the regime. Before you start looking at each of the
+variables separately, think about what types of variables you are working with
+by first answering some questions. If you want to review what the different
+variable types are, you can go back to the section on :ref:`variables.
+<variables>`
 
 
 .. mchoice:: participant_variable
@@ -37,6 +55,7 @@ clients can do more push-ups as they progress through the regime.
 
      - Incorrect
 
+
 .. mchoice:: pushups_variable
 
    Question: What type of variable is Number of Pushups?
@@ -48,6 +67,7 @@ clients can do more push-ups as they progress through the regime.
    - Quantitative
 
      + Correct
+
 
 .. mchoice:: date_variable
 
@@ -63,35 +83,20 @@ clients can do more push-ups as they progress through the regime.
      + Correct
 
 
-.. image:: figures/participant_pushup_data.png
-  :width: 32%
-.. image:: figures/participant_pushup_graph.png
-  :width: 67%
-
-Question: Calculate the r value.
-
-She is disappointed to find that the r value is negative. Looking at the scatter
-plot, it looks like each individual has improved, but the overall trend is
-negative. This is an example of `Simpson’s paradox <https://en.wikipedia.org/wiki/Simpson%27s_paradox>`__,
+As you have learned in the past, you can Recall that you can use the `CORREL`
+function to calculate the *r* value. When calculating the *r* value, you can see
+that it is -0.41. However, looking at the scatter plot, it looks like each
+individual has improved, but the overall trend is negative. This is an example
+of `Simpson’s paradox <https://en.wikipedia.org/wiki/Simpson%27s_paradox>`_,
 in which every subset of a population shows the opposite effect to the
 population itself. If the trainer could filter by participant, she could find
 the correlation for each participant.
 
 
 .. image:: figures/participant_improvement.png
+   :align: center
+   :alt: Scatter plot with trend lines plotted for each participant.
 
 
 This graph shows that each participant has improved, and the correlation
 coefficient for each individual would be positive.
-
-You can also do filtering using *SUMIF*, *COUNTIF* and *AVERAGEIF*. Suppose the
-same trainer has information about the length of each strength training session
-with each client. She can use *AVERAGEIF* and *COUNTIF* to construct a table
-showing the average length and total number of workouts for each client.
-
-
-.. image:: figures/participant_table.png
-
-
-Question: Complete the table for all participants. What is the average workout
-length for participant B?
