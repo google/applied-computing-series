@@ -8,9 +8,9 @@
 Correlation and Filtering
 =========================
 
-As you have learned in Module A, filtering is a useful technique that helps you
-make sense of a large dataset. Filtering data helps identify the similarities
-and differences between groups and describe the relationships between variables.
+As you learned in Module A, filtering is a useful technique that helps you make
+sense of a large dataset. Filtering data helps identify the similarities and
+differences between groups and describe the relationships between variables.
 Recall that a filter is a way of selecting a subset of rows based on a set of
 column conditions. For example, if you have population data over the past ten
 years for each state, you could use a filter to analyze data only for Florida,
@@ -79,11 +79,11 @@ variable types are, you can go back to the section on :ref:`variables.
      + Correct
 
 
-As you have learned in the past, you can Recall that you can use the `CORREL`
-function to calculate the *r* value. When calculating the *r* value, you can see
-that it is -0.41. However, looking at the scatter plot, it looks like each
-individual has improved, but the overall trend is negative. This is an example
-of `Simpson’s paradox <https://en.wikipedia.org/wiki/Simpson%27s_paradox>`_,
+As you have learned in the past, you can use the `CORREL` function to calculate
+the *r* value. When calculating the *r* value, you can see that it is -0.41.
+However, looking at the scatter plot, it looks like each individual has
+improved. How is this the case when the overall trend is negative? This is
+an example of `Simpson’s paradox <https://en.wikipedia.org/wiki/Simpson%27s_paradox>`_,
 in which every subset of a population shows the opposite effect to the
 population itself. If the trainer could filter by participant, she could find
 the correlation for each participant.
@@ -95,4 +95,6 @@ the correlation for each participant.
 
 
 This graph shows that each participant has improved, and the correlation
-coefficient for each individual would be positive.
+coefficient for each individual would be positive. Although *r* values can be
+useful, it is important for you to closely examine your data before making
+conclusions using just one value.
