@@ -43,10 +43,9 @@ In general, any character can be a delimiter, but it is extremely
 uncommon to use a delimiter that is not a comma, tab, or space.
 
 Luckily, sheets makes importing data relatively straightforward. `Here
-is a website with multiple data sets 
-<https://data.fivethirtyeight.com/>` that you can
-download to your computer and then work with in Sheets.
-Pick your favorite data set to download. 
+is a dataset on 80 different brands of
+cereal <https://www.kaggle.com/crawford/80-cereals>`__, that you can
+download to your computer and then work within Sheets.
 
 Question: Import this data into Sheets using the following instructions.
 
