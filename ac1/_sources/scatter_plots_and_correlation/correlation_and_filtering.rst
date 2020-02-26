@@ -57,8 +57,8 @@ variable types are, you can go back to the section on :ref:`variables.
 
    - Categorical
 
-     - Incorrect: Link back to discussion in module A. Because Date is being
-       graphed on the x-axis, it is being treated as a quantity, not a category.
+     - Incorrect: Because date is being graphed on the x-axis, it is being
+       treated as a quantity, not a category.
 
    - Quantitative
 
@@ -83,5 +83,5 @@ apparent once the data is filtered by participant.
 
 This graph shows that each participant has improved, and the correlation
 coefficient for each individual would be positive. Although *r* values can be
-useful, it is important for you to closely examine your data before making
-conclusions using just one value.
+useful, it is important that you closely examine data before making conclusions
+using just one value.
