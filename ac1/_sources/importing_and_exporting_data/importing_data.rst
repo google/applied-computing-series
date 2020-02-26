@@ -22,22 +22,22 @@ The most common file format that is used with spreadsheets is a
 The most common separators are listed below.
 
 1. Comma: Files using “,” as the separator are called “comma-separated
-value” (csv) files.
+   value” (csv) files.
 
-.. image:: figures/csv_example.png
-    :alt: A screenshot of an example csv file. 
+   .. image:: figures/csv_example.png
+       :alt: A screenshot of an example csv file. 
    
 
 2. Tab: Files using tab as the separator are called “tab-separated
-value” (tsv) files.
+   value” (tsv) files.
 
-.. image:: figures/tsv_example.png
-    :alt: A screenshot of an example tsv file. 
+   .. image:: figures/tsv_example.png
+       :alt: A screenshot of an example tsv file. 
    
 3. Space: These exist but are significantly less common.
 
-.. image:: figures/ssv_example.png
-    :alt: A screenshot of an example ssv file. 
+   .. image:: figures/ssv_example.png
+       :alt: A screenshot of an example ssv file. 
 
 In general, any character can be a delimiter, but it is extremely
 uncommon to use a delimiter that is not a comma, tab, or space.
@@ -52,13 +52,13 @@ Question: Import this data into Sheets using the following instructions.
 1. In a new spreadsheet, click “File > Import”. 
    
    .. image:: figures/import_example.png
-        :alt: A screenshot of how to select import in sheets. 
+       :alt: A screenshot of how to select import in sheets. 
 
    You can either select a file from Google Drive or navigate to “Upload”,
    where you can drag and drop a file or select a local file.
 
    .. image:: figures/upload_example.png 
-        :alt: A screenshot of how to select upload in sheets.
+       :alt: A screenshot of how to select upload in sheets.
 
 2. After selecting a file, you will have to choose from a list of
    options. For the most part, Sheets is pretty good at automatically
@@ -67,14 +67,10 @@ Question: Import this data into Sheets using the following instructions.
    set “Separator type” to “Comma”. You can choose the “Import location”
    that suits you best.
 
-    .. image:: figures/separatortype_example.png 
-        :alt: A screenshot of how to select separator type in sheets.
-
-
+   .. image:: figures/separatortype_example.png 
+       :alt: A screenshot of how to select separator type in sheets.
 
 3. When you click “Import data”, you should see the entire dataset.
 
-    .. image:: figures/cereal_data.png
-        :alt: A screenshot of how to view the entire dataset. 
-
-
+   .. image:: figures/cereal_data.png
+       :alt: A screenshot of how to view the entire dataset. 
