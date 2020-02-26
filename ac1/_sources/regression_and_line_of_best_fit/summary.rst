@@ -3,8 +3,8 @@
    International License. To view a copy of this license, visit
    http://creativecommons.org/licenses/by-sa/4.0/.
 
-.. image:: figures/regressionlobf_summary.png
+.. image:: figures/regression_summary.png
    :align: center
    :alt: Graphic summarizing key concepts of regression and line of best fit.
 
-.. _ Location of summary document: shorturl.at/nDLOR
+.. Location of summary document: shorturl.at/nDLOR
