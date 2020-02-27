@@ -5,3 +5,5 @@
 
 .. image:: figures/summary.png
    :align: center
+
+.. Location of summary document: shorturl.at/nDLOR
