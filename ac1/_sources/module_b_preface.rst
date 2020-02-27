@@ -29,7 +29,7 @@ from so many diverse sources, it has become increasingly important to decipher
 which studies are trustworthy, what statistics are reliable, and what findings
 are legitimate.
 
-In the next few chapters, you will learn much more about analyzing the
-relationship between variables. This will help you investigate the relationship
-between pairs of variables for your own analysis, as well as critically assess
-the statistical findings you read about in the media.
+In the next few chapters, you will learn more about analyzing the relationship
+between variables. This will help you investigate the relationship between pairs
+of variables for your own analysis, as well as critically assess the statistical
+findings you read about in the media.
