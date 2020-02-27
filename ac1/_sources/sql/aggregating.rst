@@ -8,7 +8,7 @@ Aggregating
 ===========
 
 Sheets provides aggregating/grouping functionality via pivot tables, which you
-have :ref:`already seen previously<grouping_data>`. Again, SQL provides the same
+have :ref:`seen in this section<grouping_data>`. Aggregating data means to collect multiple units into one. Again, SQL provides the same
 functionality as Sheets through keywords. In this case, the ``GROUP BY``
 statement allows you to group and aggregate data. For example, you can use
 ``GROUP BY`` to count how many bike trips were taken for each subscriber type,
@@ -189,7 +189,7 @@ station, just for trips that end at station 31111.
 
 
 It can also be useful to combine aggregating functions with the ``ORDER BY``
-clause. This can allow you to sort by an aggretated column to find the minimum
+clause. This can allow you to sort by an aggregated column to find the minimum
 or maximum.
 
 
@@ -221,7 +221,7 @@ above query would have been identical (in almost all SQL servers) if it had been
    :language: sql
    :dburl: /runestone/books/published/ac1/_static/bikeshare.db
 
-   what is the bike number trip count of the bike number with the most trips?
+   what is the bike number and trip count of the bike number with the most trips?
    ~~~~
 
    ====
@@ -319,8 +319,7 @@ that by using ``DISTINCT`` without an aggregating function.
      trip_data
 
 
-Note that selecting distinct values is exactly equivalent to selecting grouped
-values.
+Note that selecting distinct values is equivalent to selecting grouped values.
 
 
 .. activecode:: bikeshare_distinct_bike_using_group_by
@@ -380,7 +379,7 @@ successfully.
 
 
 As with the ``ORDER BY`` clause, ``HAVING`` is an operation on the results.
-While ``WHERE`` filters the data being queries, ``HAVING`` filters the results
+While ``WHERE`` filters the data being queried, ``HAVING`` filters the results
 based on the value of an aggregating function. The ``HAVING`` clause can only be
 used immediately following the ``GROUP BY`` clause.
 
@@ -402,7 +401,7 @@ used immediately following the ``GROUP BY`` clause.
 Extension: Numbered Column Aliases
 ----------------------------------
 
-This section covers no new concepts, but introduces a conventient shorthand
+This section covers no new concepts, but introduces a convenient shorthand
 notation. When using ``GROUP BY`` and ``ORDER BY``, you can often (this is
 supported in almost all SQL servers, but not all) reference columns using the
 number in which they are selected. For example, the following two queries are
