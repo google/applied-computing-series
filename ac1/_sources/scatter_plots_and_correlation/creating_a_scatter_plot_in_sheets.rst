@@ -71,7 +71,7 @@ To choose the horizontal and vertical axis labels, go to
 
 
 Then select “Horizontal axis title” and “Vertical axis title” respectively to 
-add a descriptive horizontal axis label and a vertical axis label.
+add a descriptive horizontal axis label and a descriptive vertical axis label.
 
 .. image:: figures/create_a_scatter_horizontal_label.png
 .. image:: figures/create_a_scatter_vertical_label.png 
