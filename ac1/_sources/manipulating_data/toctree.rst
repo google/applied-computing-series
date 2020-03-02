@@ -14,3 +14,4 @@ Manipulating Data
    filtering.rst
    pivot_tables.rst
    joining_data.rst
+   summary.rst
