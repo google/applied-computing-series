@@ -204,7 +204,7 @@ example, suppose you want to calculate the percentage of trips that start at
 each station. While you can calculate the number of trips that start at each
 start station in a single query, and the the total number of trips in a single
 query, it is complex to calculate both in a single ``SELECT`` statement.
-However, using a subquery can simply and logically accomplish this.
+However, a subquery can be used to simply and logically accomplish this.
 
 
 .. activecode:: bikeshare_subquery_proportion_trips_per_start_station
