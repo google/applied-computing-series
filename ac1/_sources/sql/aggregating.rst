@@ -8,7 +8,8 @@ Aggregating
 ===========
 
 Sheets provides aggregating/grouping functionality via pivot tables, which you
-have :ref:`seen in this section<pivot_tables>`. Aggregating data means to collect multiple units into one. Again, SQL provides the same
+have :ref:`seen in this section<pivot_tables>`. Aggregating data means to
+collect multiple units into one. Again, SQL provides the same
 functionality as Sheets through keywords. In this case, the ``GROUP BY``
 statement allows you to group and aggregate data. For example, you can use
 ``GROUP BY`` to count how many bike trips were taken for each subscriber type,
