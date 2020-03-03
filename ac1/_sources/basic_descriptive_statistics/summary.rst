@@ -6,3 +6,5 @@
 .. image:: figures/statistics_summary.png
    :align: center
    :alt: Graphic summarizing key concepts of basic descriptive statistics.
+
+.. Location of summary document: shorturl.at/nDLOR
