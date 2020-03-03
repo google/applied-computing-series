@@ -13,14 +13,16 @@ of a large dataset. Filtering data helps identify the similarities and
 differences between groups and describe the relationships between variables.
 Recall that a filter is a way of selecting a subset of rows based on a set of
 column conditions. For example, if you have population data over the past ten
-years for each state, you could use a filter to analyze data only for Florida.
-Often, you can only see important differences or trends by filtering. This is
-even the case when finding the correlation coefficient that best reflects the
-data. This is best explained through an example.
+years for each state, you could use a filter to analyze data only for Florida or
+only for the year 2017." Often, you can only see important differences or trends
+by filtering. This is even the case when finding the correlation coefficient
+that best reflects the data. This is best explained through an example.
 
 Imagine that your friend is a `personal trainer who has implemented a new
 strength training regime <https://drive.google.com/open?id=1kzEQ-JCgr0RLCb0ojl1HldF0irO_UzQO0PtxsjBRFtU>`_
 to use with her clients. An screenshot of this data is shown below:
+
+.. TODO: make link globally accessible.
 
 
 .. image:: figures/pushup_graph_and_data.png
