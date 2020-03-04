@@ -7,8 +7,8 @@
 Introduction
 ============
 
-Previously, you saw how you can use Sheets to manipulate data by filtering and 
-grouping. In this section, you will learn more ways to manipulate data in 
-Sheets by creating pivot tables, and joining different pieces
-of data into one table. With these tools, you can more easily see summary 
-statistics of your data and do further data analysis.
+Previously, you saw how you can use Sheets to manipulate data by filtering and
+grouping. In this section, you will learn more ways to manipulate data in
+Sheets by creating pivot tables, and joining different pieces of data into one
+table. With these tools, you can more easily see summary statistics of your
+data and do further data analysis.
