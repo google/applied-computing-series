@@ -11,7 +11,8 @@ Regression and "Line of Best Fit"
    :caption: Contents
    :maxdepth: 2
 
-   regression_and_line_of_best_fit.rst
+   introduction.rst
+   creating_line_of_best_fit.rst
    equation_of_a_line_refresher.rst
    interpreting_slope.rst
    making_predictions_with_the_regression_line.rst
