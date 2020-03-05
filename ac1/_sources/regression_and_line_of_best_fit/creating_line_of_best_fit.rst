@@ -20,8 +20,8 @@ editor by clicking the three dots in the top right corner.
 
 Once the chart editor is open, make sure customize is selected. Under “Series”,
 there is a checkbox to add a trendline. You can change the color and thickness
-of the line, display the R2 value, (this is the same as the coefficient of
-determination), and display the equation of the line.
+of the line, display the :math:`R^{2}` value, (this is the same as the
+coefficient of determination), and display the equation of the line.
 
 
 .. image:: figures/add_trendline.png

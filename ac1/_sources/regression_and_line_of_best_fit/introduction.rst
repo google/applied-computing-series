@@ -3,17 +3,17 @@
    International License. To view a copy of this license, visit
    http://creativecommons.org/licenses/by-sa/4.0/.
 
-.. _introduction:
+.. _introduction_LOBF:
 
 Introduction
 ============
 
 In the last section, you learned that correlation in scatter plots measures the
 linear relationship between two quantitative variables. The closer the
-coefficient of determination (or *r* value) is to 1, and the closer the points
-of the scatter plot are to a straight line, the more reliable your predictions
-will be. But what does this line actually mean and how can it help you make
-predictions?
+coefficient of determination (or :math:`R^2` value) is to 1, and the closer the
+points of the scatter plot are to a straight line, the more reliable your
+predictions will be. But what does this line actually mean and how can it help
+you make predictions?
 
 This line is called the **line of best fit**, or a **regression line**. This
 line can be used to predict information about values that you may not have data
