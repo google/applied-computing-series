@@ -7,20 +7,18 @@
 Selecting
 =========
 
-Selecting in SQL is the process in which you can choose a portion data from a
-database. This is helpful when you are given a large dataset, and want to focus
-in on a smaller portion of the data. Say you are conducting research about bike
-sharing for an internship in Washington D.C. You are given the Capital Bike
-Sharing dataset, which is hosted on a SQLLite database and contains information
-on Washington D.C.’s bike share program for 2011.
+Selecting in SQL is how you can choose a portion of data from a database. This
+is helpful when you are given a large dataset, and want to focus in on a smaller
+portion of the data. Say you are conducting research about bike sharing for an
+internship in Washington D.C. You are given the Capital Bike Sharing dataset,
+which is hosted on a SQLLite database and contains information on Washington
+D.C.’s bike share program for 2011.
 
 You may recall that in Sheets, you could select certain sections of data by
 specifying a cell range or by simply clicking and dragging. In SQL, you can do
 something similar, but rather than specifying a cell range, you'll need to write
 some code to accomplish the same behavior. Don't worry if you've never written
-code before — SQL code actually looks a lot like English! However, there are a
-few differences in syntax specific to SQL that are required so that the code
-will run properly.
+code before — SQL code actually looks a lot like English!
 
 SQL **keywords** are generally written using all **upper case**, while **column names
 and table names** use **lower case**. You can see this in the following example.
@@ -73,10 +71,10 @@ would look like the following.
    LIMIT
      10
 
-However, maybe you want a very high level analysis of your data, and you just
-want to see the number of rows in your dataset. Similar to the ``COUNT``
-function in Sheets, you can use ``COUNT(*)``. This is show in the code block
-below.
+However, maybe you just want to see the number of rows in your dataset rather
+than individual data points. Similar to the ``COUNT`` function in Sheets,
+you can use ``COUNT(*)``. Recall that ``*`` means all, so this function counts
+the total number of rows. This is show in the code block below.
 
 
 .. activecode:: bikeshare_count_star
