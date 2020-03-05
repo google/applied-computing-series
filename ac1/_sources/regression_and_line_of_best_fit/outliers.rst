@@ -9,7 +9,7 @@ Outliers
 ========
 
 As you saw in Module A, some statistics are very sensitive to extreme values, 
-also called `outliers`_. This is also true for lines of best fit. One 
+also called `outliers.`_ This is also true for lines of best fit. One 
 outlier can significantly change what the line of best fit is for a graph.
 
 You can see this very clearly by returning to the scatter plot of mean January 
@@ -99,4 +99,4 @@ important considerations to keep in mind.
    latitude and temperature, and that greater latitudes are associated with
    lower January temperatures.
    
-.. _outliers: https://github.com/google/applied-computing-series/blob/master/ac1/_sources/basic_descriptive_statistics/outliers_and_skew.rst#id2
+.. _outliers.: https://github.com/google/applied-computing-series/blob/master/ac1/_sources/basic_descriptive_statistics/outliers_and_skew.rst#id2
