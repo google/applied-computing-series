@@ -9,7 +9,7 @@ Outliers
 ========
 
 As you saw in Module A, some statistics are very sensitive to extreme values, 
-also called `outliers.`_ This is also true for lines of best fit. One 
+also called `outliers`_. This is also true for lines of best fit. One 
 outlier can significantly change what the line of best fit is for a graph.
 
 You can see this very clearly by returning to the scatter plot of mean January 
