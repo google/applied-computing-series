@@ -42,7 +42,7 @@ longitude   longitude of the station
 
 .. TODO(raskutti): Link to Module B section on joining.
 
-In Sheets, when you need to join data across multipl spreadsheets, you use
+In Sheets, when you need to join data across multiple spreadsheets, you use
 ``VLOOKUP``. In SQL, you use the ``JOIN`` keyword. ``JOIN`` is used to join
 multiple tables on a common column. You specify the common column on which you
 wish to join using the ``ON`` keyword.
@@ -193,10 +193,10 @@ query calculates the mean duration of trips that start at an open station.
 
 
 This could equivalently be done by joining the ``trips`` table to the
-``stations`` tabl on ``trips.start_station = stations.station_id``, then
+``stations`` table on ``trips.start_station = stations.station_id``, then
 filtering on ``WHERE stations.status = 'open'``. However, this involves joining
 every row of both tables. While using the subquery means having two distinct
-``SELECT`` steps, each step involves less data, since each ``WHERE`` clauses
+``SELECT`` steps, each step involves less data, since each ``WHERE`` clause
 filters each table down to much fewer rows.
 
 Another common use case for subqueries involves aggregating functions. For
@@ -204,7 +204,7 @@ example, suppose you want to calculate the percentage of trips that start at
 each station. While you can calculate the number of trips that start at each
 start station in a single query, and the the total number of trips in a single
 query, it is complex to calculate both in a single ``SELECT`` statement.
-However, using a subquery can simply and logically accomplish this.
+However, a subquery can be used to simply and logically accomplish this.
 
 
 .. activecode:: bikeshare_subquery_proportion_trips_per_start_station
