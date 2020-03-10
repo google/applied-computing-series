@@ -17,7 +17,8 @@ temperature and latitude for US cities. Here's what that graph looked like:
 
 
 .. image:: figures/mean_jan_temp.png
-
+   :align: center
+   :alt: A scatterplot of mean january temperatures.
 
 First you should note the slope of this graph before an outlier is added. The 
 slope of this line is -2.1*x + 116. You can practice interpreting what slope 
@@ -41,7 +42,8 @@ graph with the added outlier (the green dot) looks like:
 
 
 .. image:: figures/outlier_jan_temp.png
-
+   :align: center
+   :alt: A scatterplot including an outlier.
 
 Looking at the scatter plot above, it’s easy to identify the outlier because 
 it’s visually far removed from any of the other data points. Outlier 
@@ -53,7 +55,8 @@ fit.  Now imagine you find the line of best fit and create the following graph:
 
 
 .. image:: figures/outlier_jan_temp_line.png
-
+   :align: center
+   :alt: A scatterplot including an outlier and line of best fit.
 
 Once you've calculated the line of best fit and include the outlier of Juneau, 
 the line of best fit is way off. The slope is now positive and the correlation
@@ -63,7 +66,8 @@ data point to create the following graph:
 
 
 .. image:: figures/fix_juneau_data_point.png
-
+   :align: center
+   :alt: A scatterplot with the correct Juneau data point.
 
 Question: If Juneau, Portland, and Seattle are excluded (all cities with fairly
 high January temperatures in the Northern region, indicated in green on the
