@@ -21,7 +21,7 @@ temperature and latitude for US cities. Here's what that graph looked like:
    :alt: A scatterplot of mean january temperatures.
 
 First you should note the slope of this graph before an outlier is added. The 
-slope of this line is -2.1*x + 116. You can practice interpreting what slope 
+slope of this line is :math:`-2.1*x + 116`. You can practice interpreting what slope 
 means by answering the following question:
 
 Question: Fill in the blank by interpreting the slope: When the latitude
