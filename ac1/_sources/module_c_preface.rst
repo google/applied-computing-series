@@ -9,7 +9,8 @@ Module C Preface
 
 A lot of the data that we interact with today is stored in databases. You can
 think of a database as a group of tables. These tables have rows and columns
-just like spreadsheets.Below are a few examples.
+just like spreadsheets. Some examples of data that can be stored in databases
+are listed below.
 
 -   Student records, including grades, at a school
 -   Posts and friends in your favorite social network
@@ -18,15 +19,17 @@ just like spreadsheets.Below are a few examples.
 -   All images that make up Google Maps
 
 All these bits of information are stored in various kinds of databases. Some of
-these are stored in relational databases that are available as open source tools
-like Postgresql, MySQL and SQLite, as well as commercial databases such as
-`Google BigQuery`_, `Oracle`_, `Microsoft SQL Server`_, or `Amazon Aurora`_.
-Others are stored in proprietary systems like Google’s `BigTable`_ or Facebook’s
-`Haystack Object Store`_.
+these are stored in a relational database, which is a database that stores data
+points that are related to one another in some way. These databases are
+available as open source tools like Postgresql, MySQL and SQLite, as well as
+commercial databases such as `Google BigQuery`_, `Oracle`_,
+`Microsoft SQL Server`_, or `Amazon Aurora`_. Others are stored in proprietary
+systems like Google’s `BigTable`_ or Facebook’s `Haystack Object Store`_.
 
-While the mechanism and content of the database may vary, luckily there is a
+While the mechanism and content of the database may vary, there is a
 common language used to extract data: this language is called Structured Query
-Language (SQL, pronounced “sequel”).
+Language (SQL, pronounced “sequel”). This module will teach you how you can use
+SQL to analyze data in a database.
 
 
 .. _Google BigQuery: https://cloud.google.com/bigquery/
