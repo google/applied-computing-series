@@ -46,12 +46,13 @@ graph with the added outlier (the green dot) looks like:
    :alt: A scatterplot including an outlier.
 
 Looking at the scatter plot above, it’s easy to identify the outlier because 
-it’s visually far removed from any of the other data points. Outlier 
+it’s visually far removed from all of the other data points. Outlier 
 identification makes scatter plots a good place to start when analyzing 
-quantitative data. If you find a data point like the one for Juneau in green 
-above, it’s a good idea to investigate. It’s reasonable to guess that there 
-wouldn’t be cities that are so unusual and so very far outside the line of best 
-fit.  Now imagine you find the line of best fit and create the following graph:
+quantitative data. If you find a data point that looks far others like the one 
+for Juneau, it’s a good idea to investigate. It’s reasonable to guess that 
+there wouldn’t be cities that are so unusual and so very far outside the line 
+of best fit. Now imagine you find the line of best fit and create the following 
+graph:
 
 
 .. image:: figures/outlier_jan_temp_line.png
