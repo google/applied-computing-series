@@ -19,14 +19,15 @@ Figures`_ or seen `the movie with the same name`_, a
 true story that follows `Katherine Johnson`_, `Mary Jackson`_, and `Dorothy
 Vaughan`_, three groundbreaking engineers and mathematicians in their careers at
 NASA at a time when NASA was racially segregated and gender discrimination was
-pervasive. Or maybe you’ve read about how pathologists are `using machine
-learning to detect cancer in real-time`_, or how Deepmind is `using neural
-networks to train computers`_ to beat the best `Go`_ players in the world. Maybe
-you’ve seen `Moneyball`_ or read `the non-fiction book of the same name`_, in
-which `Billy Beane`_, the general manager of the Major League Baseball Oakland
-A’s team, uses `“sabermetrics”`_ (essentially just statistics applied to
-baseball) to assemble a division-winning team with low budget and no experienced
-players.
+pervasive.
+
+Or maybe you’ve read about how pathologists are `using machine learning to detect 
+cancer in real-time`_, or how Deepmind is `using neural networks to train 
+computers`_ to beat the best `Go`_ players in the world. Maybe you’ve seen
+`Moneyball`_ or read `the non-fiction book of the same name`_, in which `Billy 
+Beane`_, the general manager of the Major League Baseball Oakland A’s team, uses
+`“sabermetrics”`_ (essentially just statistics applied to baseball) to assemble
+a division-winning team with low budget and no experienced players.
 
 All of these examples fall within the realm of data science, which encompasses
 statistics, decision theory, machine learning, artificial intelligence, and so
