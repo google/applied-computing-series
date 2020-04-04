@@ -34,15 +34,16 @@ much more. But data science doesn’t have to be as complicated as sending
 astronauts to the moon or predicting elections! It can be as simple as looking
 up the weather before deciding what to wear, or checking the price of a t-shirt
 at multiple shops before deciding where to buy it, or reading some reviews of a
-hit new data science movie, *Harry Potter and the Chamber of Spreadsheets*,
-before deciding whether or not to see it. The more informed you are about data,
-the better you can use it to your advantage. Only by understanding how to use it
-can you find ways to fix flaws that exist in data collection and usage today.
-For some examples of problems with data today, check out `this article`_.
-These, and the preceding examples, are all examples of using data to inform
-predictions or decisions. The purpose of this class is to give you the tools to
-help you *use data to make more informed decisions*, whether that be in your
-classes, at work, or even day-to-day life.
+hit new movie before deciding whether or not to see it.
+
+The more informed you are about data, the better you can use it to your
+advantage. Only by understanding how to use it can you find ways to fix flaws
+that exist in data collection and usage today. For some examples of problems
+with data today, check out `this article`_. These, and the preceding examples,
+are all examples of using data to inform predictions or decisions. The purpose
+of this class is to give you the tools to help you *use data to make more
+informed decisions*, whether that be in your classes, at work, or even
+day-to-day life.
 
 In this course, you will learn the following key skills.
 
