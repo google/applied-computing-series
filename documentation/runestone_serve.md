@@ -7,7 +7,7 @@ This document demonstrates how to serve a local copy of a textbook on
 - [Installing Runestone](#installing-runestone)
 - [Serving Content From GitHub](#serving-content-from-github)
 - [Deactivating The Virtual Environment](#deactivating-the-virtual-environment)
-- [This process isn't working for me!](#this-process-isn-t-working-for-me)
+- [This process isn't working for me!](#this-process-isnt-working-for-me)
 
 ## Purpose
 
@@ -30,8 +30,7 @@ these steps, unless you use a new machine.
 cd
 ```
 
-1.  Install `python3-venv`, a package to create virtual Python environments.
-    {value=2}
+2.  Install `python3-venv`, a package to create virtual Python environments.
 
 ```shell
 sudo apt-get install python3-venv
@@ -39,13 +38,13 @@ sudo apt-get install python3-venv
 
 At this command, you will be prompted to enter your password.
 
-1.  Create a virtual environment for use with Runestone. {value=3}
+3.  Create a virtual environment for use with Runestone.
 
 ```shell
 python3 -m venv .virtualenvs/Runestone
 ```
 
-1.  Activate the virtual environment for Runestone. {value=4}
+4.  Activate the virtual environment for Runestone.
 
 ```shell
 . ~/.virtualenvs/Runestone/bin/activate
@@ -54,7 +53,7 @@ python3 -m venv .virtualenvs/Runestone
 The `(Runestone)` prefix is present in your terminal address whenever you are in
 the Runestone virtual environment.
 
-1.  Install Runestone using `pip`. {value=5}
+5.  Install Runestone using `pip`.
 
 ```shell
 pip install runestone
@@ -79,7 +78,7 @@ GitHub.
 The `(Runestone)` prefix is present in your terminal address whenever you are in
 the Runestone virtual environment.
 
-1.  Find your machine's `hostname`. {value=2}
+2.  Find your machine's `hostname`.
 
 ```shell
 hostname
@@ -88,17 +87,17 @@ hostname
 This hostname will be where the textbook is served, so you will need to remember
 this name.
 
-1.  Clone the GitHub repository that you want to serve in Runestone. {value=3}
+3.  Clone the GitHub repository that you want to serve in Runestone.
 
 ```shell
 git clone https://github.com/${YOUR-USERNAME}/${YOUR-REPOSITORY}
 ```
 
-1.  Navigate to the
-    [AC1 textbook folder](https://github.com/google/applied-machine-learning-intensive/tree/master/acs/ac1)
-    using `cd`. {value=4}
+4.  Navigate to the
+    [AC1 textbook folder](https://github.com/google/applied-computing-series/tree/master/ac1)
+    using `cd`.
 
-1.  Build the Runestone server. {value=5}
+5.  Build the Runestone server.
 
 ```shell
 runestone build --all
@@ -112,7 +111,7 @@ warning. Fatal issues will be marked as
 This command generates several auxiliary files in your workspace that are
 necessary for serving the website. Do not check these files into google3.
 
-1.  Serve your content on Runestone. {value=6}
+6.  Serve your content on Runestone.
 
 ```shell
 runestone serve
@@ -123,12 +122,12 @@ the server is being hosted on (usually it will be `8000`). You can then view the
 HTML output of your local content by going to `hostname:8000` in the browser.
 
 All textbook content is created under the
-[`_sources`](https://github.com/google/applied-machine-learning-intensive/tree/master/acs/ac1/_sources)
+[`_sources`](https://github.com/google/applied-computing-series/tree/master/ac1/_sources)
 directory. Navigating to `hostname:8000` takes you to the book's table of
 contents. In order to navigate to a specific file or chapter of the book, you
 can append the filename to the URL, but with the `.html` suffix in place of
 `.rst`. For example, if you edited
-[this file at `_sources/sheets_basics/introduction.rst`](https://github.com/google/applied-machine-learning-intensive/blob/master/acs/ac1/_sources/sheets_basics/introduction.rst)
+[this file at `_sources/sheets_basics/introduction.rst`](https://github.com/google/applied-computing-series/blob/master/ac1/_sources/sheets_basics/introduction.rst)
 and want to see the changes to that file specifically, you can navigate to
 `hostname:8000/sheets_basics/introduction.html`.
 
