@@ -16,16 +16,16 @@ interpreter, such as this one.
 
 - `SQL Online Interpreter`_
 
-Ultimately, if you plan on using SQL more robust purposes, you will want to run
-SQL queries on your own machine. To do this, you will need to download a
-Database Engine and set up a Database Client. There are many options for which
+Ultimately, if you plan on using SQL for more robust purposes, you will want to
+run SQL queries on your own machine. To do this, you will need to download a
+Database Engine and set up a Database Client. There are many options for
 database engines you can use. Some of the most popular ones are listed below.
 Each link takes you to the setup documentation for the database engine. Pick
 one that feels right to you and follow the instructions.
 
 - `MySQL`_
 - `PostgreSQL`_
-- 'SQLite'_
+- `SQLite`_
 
 .. _SQL Online Interpreter: https://sql-js.github.io/sql.js/examples/GUI/
 .. _MySQL: https://dev.mysql.com/doc/mysql-getting-started/en/
