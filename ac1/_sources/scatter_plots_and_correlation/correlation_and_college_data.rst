@@ -52,6 +52,7 @@ can calculate the correlation between completion rate and the other
 variables.
 
 Video - correl
+https://www.youtube.com/watch?v=omIT5V7naqM
 
 Out of all the explanatory variables, it is “SAT average” that has the
 closest correlation to -1 or 1 with completion rate, at r = 0.84.
