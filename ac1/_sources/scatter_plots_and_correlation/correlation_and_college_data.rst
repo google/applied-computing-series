@@ -72,16 +72,18 @@ strong, positive, linear relationship.
 
 .. shortanswer:: completion_rate_1400
 
-    Use the scatter plot to estimate the completion rate at a
-    school with an average SAT score of 1400.
+   Use the scatter plot to estimate the completion rate at a
+   school with an average SAT score of 1400.
 
 .. shortanswer:: completion_rate_accuracy
-    Which estimate do you think was more accurate? Why?
+   
+   Which estimate do you think was more accurate? Why?
 
 .. shortanswer:: completion_rate_median_debt
-    Which variable has the strongest relationship with median
-    debt?
+    
+   Which variable has the strongest relationship with median
+   debt?
 
 .. shortanswer:: completion_rate_correlation_coefficient 
-    What two variables have a correlation coefficient closest to
-    -1?
+   
+   What two variables have a correlation coefficient closest to -1?
