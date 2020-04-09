@@ -65,16 +65,23 @@ strong, positive, linear relationship.
    :alt: Scatter plot with average SAT score as the x-axis and the 
          completion rate as the y-axis with a positive trend.
 
-Question: Use the scatter plot to estimate the completion rate at a
-school with an average SAT score of 1200.
+.. shortanswer:: completion_rate_1200
 
-Question: Use the scatter plot to estimate the completion rate at a
-school with an average SAT score of 1400.
+   Use the scatter plot to estimate the completion rate at a
+   school with an average SAT score of 1200.
 
-Question: Which estimate do you think was more accurate? Why?
+.. shortanswer:: completion_rate_1400
 
-Question: Which variable has the strongest relationship with median
-debt?
+    Use the scatter plot to estimate the completion rate at a
+    school with an average SAT score of 1400.
 
-Question: What two variables have a correlation coefficient closest to
--1?
+.. shortanswer:: completion_rate_accuracy
+    Which estimate do you think was more accurate? Why?
+
+.. shortanswer:: completion_rate_median_debt
+    Which variable has the strongest relationship with median
+    debt?
+
+.. shortanswer:: completion_rate_correlation_coefficient 
+    What two variables have a correlation coefficient closest to
+    -1?
