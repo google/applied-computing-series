@@ -343,7 +343,7 @@ Then under the “Filter by values” option, select only “California”.
    :align: center
 
 Below are two graphs for Alzheimer’s
-deaths: on the left just for California, on the right for the entire country.
+deaths: on the top just for California, on the bottom for the entire country.
 
 .. image:: figures/alzheimers_california.png
    :alt: A screenshot of Alzheimer's chart for California.
