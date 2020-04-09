@@ -51,8 +51,9 @@ used as a proxy for graduation rate. Using the *CORREL* function, you
 can calculate the correlation between completion rate and the other
 variables.
 
-Video - correl
-https://www.youtube.com/watch?v=omIT5V7naqM
+You can watch this `video
+<https://www.youtube.com/watch?v=omIT5V7naqM>`__ to learn more about 
+how to use the *CORREL* function.
 
 Out of all the explanatory variables, it is “SAT average” that has the
 closest correlation to -1 or 1 with completion rate, at r = 0.84.
