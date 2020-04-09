@@ -101,17 +101,16 @@ claim that the assignments have not been assigned fairly?
 
 A: Free response
 
-Within a pivot table, double clicking on any value in the table will create a
-new sheet with the subset of data from that entry in the table. For example,
-double clicking on the value 4 in cell C4 in the table above creates the
-following sheet. You can use this subset to look at Jan’s assignments, and ask
-or answer questions about Jan specifically. This is also a great way to
-investigate interesting values or patterns in a pivot table.
-
 .. image:: figures/pivot_table_subset_example.png
    :alt: A screenshot of a subset of original work hour pivot table.
    :align: center
-
+   
+Within a pivot table, double clicking on any value in the table will create a
+new sheet with the subset of data from that entry in the table. For example,
+double clicking on the value 4 in cell C4 in the table above creates the
+sheet below. You can use this subset to look at Jan’s assignments, and ask
+or answer questions about Jan specifically. This is also a great way to
+investigate interesting values or patterns in a pivot table.
 
 .. image:: figures/jan_meyers.png
    :alt: A screenshot of a pivot table with a Jan filter.
@@ -123,12 +122,11 @@ Example: National Center for Health Statistics
 
 For this example, consider a non-profit organization that works to improve the
 life expectancy of Americans. You have access to data from The National Center
-for Health Statistics (NCHS) is a branch of the Center for Disease Control,
-which provides statistical information about the health of American people.
-`The dataset below presents the number of deaths for the ten leading causes of
-death in the USA for each state beginning in 1999.
+for Health Statistics (NCHS), which is a branch of the Center for Disease 
+Control, that provides statistical information about the health of American 
+people. `The dataset below presents the number of deaths for the ten leading 
+causes of death in the USA for each state beginning in 1999.
 <https://drive.google.com/open?id=1-_73K_54Q7Sil-ErcRGRz2Y7GJ8Aimrcd26xqY44s4Q>`__
-
 
 .. image:: figures/leading_cause_of_death.png
    :alt: A screenshot of a sheet with leading cause of death data.
@@ -156,9 +154,9 @@ Then add “Deaths” as a value to the pivot table.
    :alt: A screenshot of adding value "Deaths" in value in pivot table editor.
    :align: center
 
-Summarize by *SUM*. (There aremany options under summarize. Sum is the most useful for this context,
-but average, median, and count are also commonly used statistics in pivot 
-tables.) 
+Summarize by *SUM*. (There are many options under summarize. Sum is the most 
+useful for this context, but average, median, and count are also commonly used 
+statistics in pivot tables.) 
 
 .. image:: figures/pivot_table_death_summary.png
    :alt: A screenshot of summarizing by sum for value "Deaths" in pivot table editor.
