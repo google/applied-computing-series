@@ -60,7 +60,10 @@ closest correlation to -1 or 1 with completion rate, at r = 0.84.
 Looking at the scatter plot, SAT average and completion rate have a
 strong, positive, linear relationship.
 
-[TODO] Insert image
+.. image:: figures/college_data.png
+   :align: center
+   :alt: Scatter plot with average SAT score as the x-axis and the 
+         completion rate as the y-axis with a positive trend.
 
 Question: Use the scatter plot to estimate the completion rate at a
 school with an average SAT score of 1200.
