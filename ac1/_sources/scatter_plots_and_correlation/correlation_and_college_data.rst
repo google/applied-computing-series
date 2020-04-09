@@ -3,8 +3,8 @@
     International License. To view a copy of this license, visit
     http://creativecommons.org/licenses/by-sa/4.0/.
 
-Example: Correlation and College Data {#example-correlation-and-college-data}
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Example: Correlation and College Data
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Correlation is also used to find which variable might be useful in
 predicting another variable. For example, consider a dataset that
