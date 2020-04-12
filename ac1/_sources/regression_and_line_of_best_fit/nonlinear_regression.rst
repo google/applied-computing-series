@@ -59,7 +59,8 @@ this fourth degree polynomial curve fits nicely!
 
 But as more cities are added in, it becomes apparent that this trendline doesn’t
 fit new cities at all. The polynomial curve was overfit to the data, and a
-linear regression line would have predicted the other cities better.
+linear regression line would have predicted the other cities better. This can 
+be seen below when comparing the top and bottom graph. 
 
 .. image:: figures/polynomial_overfit.png
   :width: 49%
