@@ -42,6 +42,6 @@ the maps.
 
 ### Short Answer
 
-How do you think researchers got statistics on how different groups
+- How do you think researchers got statistics on how different groups
 voted?
 
