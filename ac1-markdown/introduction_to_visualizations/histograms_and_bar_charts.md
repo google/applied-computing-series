@@ -1,6 +1,10 @@
----
-title: Histograms and Bar Charts
----
+<!-- Copyright (C)  Google, Runestone Interactive LLC
+  This work is licensed under the Creative Commons Attribution-ShareAlike 4.0
+  International License. To view a copy of this license, visit
+  http://creativecommons.org/licenses/by-sa/4.0/. -->
+
+Histograms and Bar Charts
+=========================
 
 Some of the most commonly used visualizations are histograms and bar
 charts. These are the types of graphs with vertical bars of different
@@ -44,7 +48,7 @@ variable. Some textbooks and industries, however, do distinguish between
 the two. To understand the full nuance of the difference, it is first
 important to understand different types of variables. The nuance of this
 difference will be more clear after you learn the different types of
-variables in `this section<variables>`{.interpreted-text role="ref"}.
+variables in [this section](../sheets_basics/variables.md).
 
 In some cases, the x-axis (horizontal axis) of the graph represents
 different **categories**. Each category is a distinct group. Examples of
@@ -83,27 +87,21 @@ For the two graphs presented earlier in this section:
         not a category.
     -   There are no gaps between the bars.
 
-::: {.mchoice}
-histogram\_vs\_bar\_chart
+### Multiple Choice
 
-For which of the following variables would you prefer a histogram over a
+1. For which of the following variables would you prefer a histogram over a
 bar chart?
 
--   Marathon completion times
-    -   Correct: Time is always a numeric variable.
--   Undergraduate major
-    -   Incorrect: This is a categorical variable.
--   Income
-    -   Correct: Income is a numeric variable.
--   Income bracket
-    -   Incorrect: While "income" is a numeric variable, once it is
-        discretized into buckets, it becomes categorical (or more
-        precisely,
-        [ordinal](https://en.wikipedia.org/wiki/Ordinal_data)).
-:::
+**A.**   Marathon completion times
+
+**B.**   Undergraduate major
+
+**C.**   Income
+
+**D.**   Income bracket
 
 Using Sheets
-============
+------------
 
 Sheets makes it fairly straightforward to create graphs. The hard part
 is choosing the right graph and customizing it to best display your
@@ -119,9 +117,8 @@ just a few important things to keep in mind when creating graphs.
 
 -   Make all text (main title, axis titles, axis labels) big enough to
     read. (There are no hard and fast rules here, but always have
-    `accessibility<creating_visualization_checklist>`{.interpreted-text
-    role="ref"} at the forefront of your mind when creating
-    visualizations.)
+    [accessibility](creating_visualization_checklist.md) at the forefront
+    of your mind when creating visualizations.)
 -   Choose descriptive titles for the horizontal and vertical axes.
 -   Choose the right bin size (width) for histograms.
 
@@ -134,8 +131,14 @@ case. (It is also recommended to use column charts over bar charts.)
     this one.
 -   The "histogram" option has vertical bars with no gaps.
 
-::: {.shortanswer}
-appropriate\_graph
+### Short Answer
 
-What is the appropriate graph for this data? Create the graph in Sheets.
-:::
+- What is the appropriate graph for this data? Create the graph in Sheets.
+
+<details>
+<summary>Answers</summary>
+<br>
+ 
+1. Marathon completion times (time is always numeric), Income (income is numeric, until it discretized into buckets, like example D)
+
+</details>

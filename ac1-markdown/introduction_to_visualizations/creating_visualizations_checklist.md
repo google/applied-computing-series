@@ -1,3 +1,7 @@
+<!-- Copyright (C)  Google, Runestone Interactive LLC
+  This work is licensed under the Creative Commons Attribution-ShareAlike 4.0
+  International License. To view a copy of this license, visit
+  http://creativecommons.org/licenses/by-sa/4.0/. -->
 
 Checklist for Creating Visualizations
 =====================================
@@ -14,14 +18,14 @@ visualization.
 
 For example, look at the following example of a chart.
 
-![A line graph comparing number of likes over time of two posts.](figures/not_color_blind.png){.align-center}
+![A line graph comparing number of likes over time of two posts.](figures/not_color_blind.png)
 
 However, someone who is color-blind may see the graph as shown below,
 which has been [generated using this color-blindness
 simulator](https://www.color-blindness.com/coblis-color-blindness-simulator/).
 As you can see, it is more difficult to read.
 
-![A line graph comparing number of likes over time of two posts.](figures/color_blind.png){.align-center}
+![A line graph comparing number of likes over time of two posts.](figures/color_blind.png)
 
 How might you ensure that a color-blind person can understand your
 visualization. How about if a person was dyslexic? [This article
@@ -47,7 +51,7 @@ to consider when making visualizations that are accessible for viewers.
 Here is a checklist for you to reference when making a visualization.
 More details are listed below the checklist.
 
-![A summary checklist for reading visualizations, listed below.](figures/creating_visualizations_checklist.png){.align-center}
+![A summary checklist for reading visualizations, listed below.](figures/creating_visualizations_checklist.png)
 
 1.  **Why** are you making this visualization? What **point** do you
     intend to make with the visualization?

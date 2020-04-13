@@ -1,10 +1,19 @@
----
-title: Introduction To Visualizations
----
+<!-- Copyright (C)  Google, Runestone Interactive LLC
+  This work is licensed under the Creative Commons Attribution-ShareAlike 4.0
+  International License. To view a copy of this license, visit
+  http://creativecommons.org/licenses/by-sa/4.0/. -->
 
-::: {.toctree caption="Contents" maxdepth="2"}
-introduction.rst example\_visualizations.rst
-reading\_visualizations\_checklist.rst
-creating\_visualizations\_checklist.rst histograms\_and\_bar\_charts.rst
-summary.rst
-:::
+Introduction To Visualizations
+==============================
+
+Contents
+--------
+
+[Introduction](introduction.md)
+
+[Reading Visualizations Checklist](reading_visualizations_checklist.md)
+
+[Creating Visualizations Checklist](creating_visualizations_checklist.md)
+
+[Summary](summary.md)
+

@@ -1,7 +1,13 @@
----
-subtitle: 'What should I look for when reading a visualization?'
-title: Checklist for Reading Visualizations
----
+<!-- Copyright (C)  Google, Runestone Interactive LLC
+  This work is licensed under the Creative Commons Attribution-ShareAlike 4.0
+  International License. To view a copy of this license, visit
+  http://creativecommons.org/licenses/by-sa/4.0/. -->
+
+Checklist for Reading Visualizations
+====================================
+
+'What should I look for when reading a visualization?'
+------------------------------------------------------
 
 When you find a visualization online, it is important to ensure that you
 understand where the data is coming from and how this may affect how it
@@ -14,7 +20,7 @@ Here is a checklist of important things to consider when reading a
 visualization. More detailed descriptions of what to look for in a
 visualization are listed below the checklist.
 
-![A summary checklist for creating visualizations, listed below.](figures/visualization_checklist.png){.align-center}
+![A summary checklist for creating visualizations, listed below.](figures/visualization_checklist.png)
 
 1.  Who is the **author** of the visualization?
     -   Is the author a single person, or is the author writing on
@@ -57,9 +63,8 @@ visualization are listed below the checklist.
     -   What does this type of visualization do to accentuate their
         point?
 
-::: {.shortanswer}
-visualization\_checklist
+### Short Answer
 
-Find an example of a data visualization online. Follow the checklist
+- Find an example of a data visualization online. Follow the checklist
 above with your chosen visualization.
-:::
+

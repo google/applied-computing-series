@@ -1,9 +1,13 @@
----
-title: Example Visualizations
----
+<!-- Copyright (C)  Google, Runestone Interactive LLC
+  This work is licensed under the Creative Commons Attribution-ShareAlike 4.0
+  International License. To view a copy of this license, visit
+  http://creativecommons.org/licenses/by-sa/4.0/. -->
 
-"Hollywood\'s Gender Imbalance"
-===============================
+Example Visualizations
+=============================
+
+"Hollywood's Gender Imbalance"
+------------------------------
 
 Take a look at the visualization titled "Hollywood\'s Gender Imbalance",
 which appears in [this article, authored by statistics-based media site
@@ -23,7 +27,7 @@ questions.
     the text did?
 
 "What if only non-white people voted?"
-======================================
+--------------------------------------
 
 FiveThirtyEight also posted an article that asks: [what if only certain
 subsets of US citizens
@@ -36,9 +40,8 @@ the maps.
 -   Which reading of the article took more time?
 -   Which reading of the article was more enjoyable?
 
-::: {.shortanswer}
-538\_information\_collection
+### Short Answer
 
 How do you think researchers got statistics on how different groups
 voted?
-:::
+

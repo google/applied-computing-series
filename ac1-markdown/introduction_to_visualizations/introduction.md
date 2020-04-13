@@ -1,3 +1,8 @@
+<!-- Copyright (C)  Google, Runestone Interactive LLC
+  This work is licensed under the Creative Commons Attribution-ShareAlike 4.0
+  International License. To view a copy of this license, visit
+  http://creativecommons.org/licenses/by-sa/4.0/. -->
+
 Introduction
 ============
 
@@ -23,25 +28,25 @@ While reviewing them, keep in mind what you like about them and what
 elements on them guide your understanding of their meaning.
 
 Pie Chart
-=========
+---------
 
-![An example pie chart visualization.](figures/example_pie_chart.png){.align-center}
+![An example pie chart visualization.](figures/example_pie_chart.png)
 
 This pie chart example shows the proportion of the backgrounds for the
 most influential artists of their time from different countries.
 
 Table
-=====
+-----
 
-![An example table visualization.](figures/table_data_example.png){.align-center}
+![An example table visualization.](figures/table_data_example.png)
 
 This table holds standard information about people. Each column contains
 data for a different category.
 
 Bar Chart
-=========
+---------
 
-![An example bar chart visualization.](figures/bar_chart_example.png){.align-center}
+![An example bar chart visualization.](figures/bar_chart_example.png)
 
 This figure holds information about the amount of trips and average fare
 depending on the duration of taxi rides in Chicago.
