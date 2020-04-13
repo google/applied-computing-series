@@ -1,6 +1,10 @@
----
-title: Module C Preface
----
+<!-- Copyright (C)  Google, Runestone Interactive LLC
+  This work is licensed under the Creative Commons Attribution-ShareAlike 4.0
+  International License. To view a copy of this license, visit
+  http://creativecommons.org/licenses/by-sa/4.0/. -->
+
+Module C Preface
+================
 
 A lot of the data that we interact with today is stored in databases.
 You can think of a database as a group of tables. These tables have rows

@@ -1,6 +1,10 @@
----
-title: Module B Preface
----
+<!-- Copyright (C)  Google, Runestone Interactive LLC
+  This work is licensed under the Creative Commons Attribution-ShareAlike 4.0
+  International License. To view a copy of this license, visit
+  http://creativecommons.org/licenses/by-sa/4.0/. -->
+
+Module B Preface
+================
 
 In the previous module, you learned techniques to analyze data in Google
 Sheets. Now, it\'s time to learn how to analyze even larger datasets.
