@@ -43,29 +43,37 @@ But, in this case, switching to a polynomial curve doesn’t help explain the
 relationship between latitude and January temperature since the temperature 
 should get *colder* as the latitude of the city increases, not warmer as the 
 curve indicates. This curve, like the line of best fit, is sensitive to the 
-outlier of Juneau, which is much further north than the other cities. Unless 
-the data demonstrates a clear curve, it’s often better to stick to linear 
-regression.
+outlier of Juneau, which is much further north than the other cities. It is 
+better to first try linear regression and check if it fits the data, before 
+moving on to non-linear regression.  
 
 **Overfitting** is when your predictive line or curve fits too closely to a
-particular set of data, and may not make reliable predictions for other data.
-For example, consider a set of temperature and latitude data with only five
-cities. When looking at only these five data points, the trend seems curved, and
-this fourth degree polynomial curve fits nicely!
+particular set of data, and may not make reliable predictions for other sets of 
+data. For example, consider a set of temperature and latitude data with only 
+five cities. When looking at only these five data points, the trend seems 
+curved, and this fourth degree polynomial curve fits nicely!
 
 
 .. image:: figures/overfitting_graph.png
+  :align: center
+  :alt: Screenshot of a plot with a polynomial trendline thats overfit. 
 
 
 But as more cities are added in, it becomes apparent that this trendline doesn’t
 fit new cities at all. The polynomial curve was overfit to the data, and a
 linear regression line would have predicted the other cities better. This can 
 be seen below when comparing the top and bottom graph. 
+<<<<<<< Updated upstream
+=======
 
-.. image:: figures/polynomial_overfit.png
-  :width: 49%
-.. image:: figures/polynomial_overfit_linear_regression.png
-  :width: 49%
+.. image:: figures/overfit_example.png
+    :align: center
+    :alt: Screenshot of a plot with a third degree polynomial trendline thats overfit to a couple of data points.
+>>>>>>> Stashed changes
+
+.. image:: figures/overfit_linear_regression_example.png
+    :align: center
+    :alt: Screenshot of a plot with a third degree polynomial trendline and a better fit linear trendline. 
 
 The complete set of July temperatures, in red, has a strong, linear trend. The
 dataset with only five cities appeared to have a curve because the number of
