@@ -11,10 +11,11 @@ In SQL, just as in many languages, one of the most basic and useful concepts is
 the if/else syntax. :ref:`Just as in Sheets<what_is_a_formula_painters>`, you
 can use ``IF`` to return different values based on whether a condition is true.
 
-For example, suppose are interested in counting the number of trips that take
-shorter and longer than one hour. The duration column contains the duration in
-seconds, so you can use this to create a column that tells you whether the
-duration is over one hour (3600 seconds).
+For example, going back to the bikeshare data, suppose you are interested in 
+counting the number of trips that are shorter than one hour and longer than one
+hour. The duration column contains the duration of the trips in seconds, so you 
+can use this to create a column that tells you whether the duration is over one 
+hour (3600 seconds).
 
 
 .. activecode:: bikeshare_count_trips_above_below_one_hour
@@ -35,8 +36,8 @@ The syntax of the ``IF`` statement is
 should look familar, as it is exactly the same as the syntax for the ``IF``
 function in Sheets.
 
-Note the use of the ``TRUE`` and ``FALSE`` keywords, which are also similar to
-in Sheets. You do not need to use these specific keywords, you can use any
+Note the use of the ``TRUE`` and ``FALSE`` keywords, which are also similar in
+Sheets. You do not need to use these specific keywords, you can use any
 indicator you like. For example, you could write
 ``IF(duration > 3600, "over_one_hour", "not_over_one_hour")`` or
 ``IF(duration > 3600, 1, 0)``. In this case, the column name
