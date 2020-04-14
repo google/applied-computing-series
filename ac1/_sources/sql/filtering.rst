@@ -11,7 +11,8 @@ In this section, you will learn how to filter data in SQL. Previously, you
 learned how to filter data in Sheets. Filtering data is to look at only a 
 subset of rows, based on some column condition. For example, if you have 
 a database containing information for all citizens of the USA, a filter 
-could be applied to look only at residents of Texas. 
+could be applied to look only at residents of Texas. You have
+already seen :ref:`how to apply filters in Sheets<filtering_data>`.
 
 Filtering data in SQL is as simple as using the ``WHERE`` keyword. You can
 append ``WHERE column_condition`` to any SQL query, and the result will be
