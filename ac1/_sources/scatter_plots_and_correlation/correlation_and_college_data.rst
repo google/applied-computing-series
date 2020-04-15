@@ -3,8 +3,8 @@
     International License. To view a copy of this license, visit
     http://creativecommons.org/licenses/by-sa/4.0/.
 
-Example: Correlation and College Data {#example-correlation-and-college-data}
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Example: Correlation and College Data
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Correlation is also used to find which variable might be useful in
 predicting another variable. For example, consider a dataset that
@@ -51,25 +51,39 @@ used as a proxy for graduation rate. Using the *CORREL* function, you
 can calculate the correlation between completion rate and the other
 variables.
 
-Video - correl
+You can watch this `video
+<https://www.youtube.com/watch?v=omIT5V7naqM>`__ to learn more about 
+how to use the *CORREL* function.
 
 Out of all the explanatory variables, it is “SAT average” that has the
 closest correlation to -1 or 1 with completion rate, at r = 0.84.
 Looking at the scatter plot, SAT average and completion rate have a
 strong, positive, linear relationship.
 
-[TODO] Insert image
+.. image:: figures/college_data.png
+   :align: center
+   :alt: Scatter plot with average SAT score as the x-axis and the 
+         completion rate as the y-axis with a positive trend.
 
-Question: Use the scatter plot to estimate the completion rate at a
-school with an average SAT score of 1200.
+.. shortanswer:: completion_rate_1200
 
-Question: Use the scatter plot to estimate the completion rate at a
-school with an average SAT score of 1400.
+   Use the scatter plot to estimate the completion rate at a
+   school with an average SAT score of 1200.
 
-Question: Which estimate do you think was more accurate? Why?
+.. shortanswer:: completion_rate_1400
 
-Question: Which variable has the strongest relationship with median
-debt?
+   Use the scatter plot to estimate the completion rate at a
+   school with an average SAT score of 1400.
 
-Question: What two variables have a correlation coefficient closest to
--1?
+.. shortanswer:: completion_rate_accuracy
+   
+   Which estimate do you think was more accurate? Why?
+
+.. shortanswer:: completion_rate_median_debt
+    
+   Which variable has the strongest relationship with median
+   debt?
+
+.. shortanswer:: completion_rate_correlation_coefficient 
+   
+   What two variables have a correlation coefficient closest to -1?
