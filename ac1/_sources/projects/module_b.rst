@@ -13,93 +13,181 @@ Project Description
 In this project, you will complete a statistical analysis on a dataset, then
 write a report summarizing your findings.
 
-Here are the steps you’ll need to complete. **Under each step are sub-bullets
+Here are the steps you’ll need to complete.**Under each step are sub-bullets
 detailing questions you need to answer in your report.**
 
-1.  Form a group of no more than 4 people. (You may want to form a group with
-    people who are in a similar major or have similar interests as this may make
-    dataset selection easier).
-2.  Choose one of the provided datasets. If you feel strongly about another
-    dataset that is not included in the list, please make sure to have it
-    approved by the instructor before proceeding.
+**Step 1: Choosing a Dataset**
 
-    -   What made you choose this dataset?
-    -   What aspects of this dataset did you expect to find challenging?
+In any data science project, you will need good, reliable data. There are many
+data sources available online. Chances are if there is a topic you are
+interested in, there is a corresponding dataset. It is important that the
+dataset you choose does not have any copyright restrictions and is trustworthy.
+You can check on the website to see if the dataset is licensed and what
+restrictions there may be on using it. In most cases, using the data and drawing
+conclusions from it is just fine, but republishing the data itself is not
+allowed.
 
-3.  Clean the data and account for the incorrect / missing data as you see fit.
+**To Do:**
 
-    -   How did you clean the data? What steps were taken? Be sure to reference
-        data types in your discussion.
-    -   Are there any ethical issues with the way you cleaned the data? What are
-        they?
-    -   Did you make any trade-offs as you were cleaning? What and why?
+- Form a group of no more than 4 people. (You may want to form a group with
+  people who are in a similar major or have similar interests as this may make
+  dataset selection easier).
+- Find a dataset to analyze online. If you are unsure where to start looking,
+  check out the hints section for some places to start. If you have questions
+  about your dataset, ask an instructor before proceeding.
 
-4.  Join the multiple sheets across a common column. You will need to join
-    datasets using vlookup.
+- **Deliverable:** State and describe your dataset. Why did you choose this
+  particular dataset?
 
-    -   What did you choose as the joining key? Why?
+*Hints:*
 
-5.  Using the joined dataset, find summary statistics for the population.
+- Places to find free datasets: `World Bank Open Data`_, `FiveThirtyEight`_,
+  `Kaggle`_
+- `Additional list of websites to find datasets`_
+- Revisit the importing data section from module B for review on how to import
+  data
 
-    -   For all of the numeric variables, what are the population-wide mean,
-        median, variance, standard deviation?
 
-6.  Choose subsets of the data that you find interesting. Find summary
-    statistics for the numeric variables, within those subsets of the data.
+**Step 2: Clean Your Dataset**
 
-    -   Explain why you chose this set of groups.
-    -   Within subsets of interest, what are the count, mean, median, variance,
-        standard deviation?
-    -   Is the sample size enough within each group? What does this imply for
-        reliability of summary statistics, and for privacy considerations?
+Only rarely will datasets ever be ready for analysis right off the bat.
+Therefore, you will need to prepare your dataset to make useful observations.
+Don’t worry if it seems overwhelming at first. You want to remove outliers that
+may skew your dataset, while still maintaining the integrity of your data. Some
+steps have been provided to help with this process. Once you clean your dataset,
+you should be able to find sections of the data that are interesting and find
+relevant relationships.
 
-7.  Present the grouped summary statistics in the report.
+**To Do:**
 
-    -   Include both a pivot table and a visualization that compares summary
-        statistics across groups.
-    -   What comparisons are particularly interesting? Why?
+- First look at your data and see if you can spot any inconsistencies
+- Filter out unwanted outliers
+- Check for missing data values
+- **Deliverable:** Summarize your data cleaning process and make sure to
+  answer the following questions.
 
-8.  Determine two quantitative variables that have either a strong or an
-    interesting relationship.
+  - Are there any ethical issues with the way you cleaned the data? What are
+    they?
+  - Did you make any trade-offs as you were cleaning? What were these tradeoffs
+    and why did you make this decision?
 
-    -   How did you determine that this relationship was particularly
-        interesting?
-    -   Identify any potential lurking variables. How did you find them?
+*Hints:*
+  - For a more in-depth explanation of data cleaning `read this.`_
 
-9.  Fit a regression on the data.
+**Step 3: Consolidate and Summarize your Data**
 
-    -   What is the equation for the line of best fit?
-    -   Does the line of best fit fit the data well? If not, why not?
-    -   If you are getting surprising results, what is surprising and why?
+After cleaning up your data, you will want an overview of what your data is
+saying. Sometimes when working with a large dataset, your data will be split
+across different sheets, making it difficult to find summary statistics. If
+that is the case, you will need to join common sections first before finding
+interesting statistics about your data.
 
-10. Interpret the coefficients of the linear model, in the context of the chosen
-    variables.
+**To Do:**
 
-    -   What does this imply for the variable being predicted? Be sure to
-        include references to “correlation” and “causation” effects.
+- Join the multiple sheets across a common column if necessary. You will need to
+  join datasets using vlookup
+- Using the joined dataset, find summary statistics for the population.
+- **Deliverables:** Describe how you consolidated your data and chose your
+  subsections. Make sure the following questions are answered in your
+  discussion.
 
-11. Choose some data points to predict using your regression.
+  - If you needed to join your data across sheets, what did you choose as the
+    joining key? Why?
+  - For all of the numeric variables, what are the population-wide mean, median,
+    variance, standard deviation?
 
-    -   For which data points is it appropriate to use this regression model?
-        Why?
-    -   In a short paragraph, report your predictions in the context of the
-        problem.
+*Hints:*
 
-        1.  Good example: We predict that someone with a shoe size of 6.5 will
-            be 5’4”.
-        2.  Inadequate example: Only reporting the point (6.5, 64”).
+- Revisit :ref:`the section on joining data <joining_data>`
+- Look at :ref:`the section on measures of center for mean and median <measures_of_center>`
+- Review :ref:`the section on measures of spread for variance and standard deviation <measures_of_spread>`
 
-    -   Is the prediction logical? Why or why not?
+**Step 4: Choosing Subsets**
 
-12. Include a conclusion summarizing your findings.
+Sometimes you can find interesting trends in subsets of the data rather than the
+whole dataset. For example, if you are looking at data about each of the 50
+states in the United States, you can find interesting summary statistics about
+the west coast states as compared to the east coast states.
 
-13. Submit your report **and your sheets** reflecting your analysis by **[Due
-    Date]**.
+**To Do:**
 
-14. **Optional** (faculty can decide whether to include or not): After
-    completing and submitting your project, complete the group work self
-    assessment and group assessment.
+- Choose subsets of the data that you find interesting. Find summary statistics
+  for the numeric variables, within those subsets of the data.
+- From these subsets, create a pivot table and a visualization that compares
+  summary statistics across groups.
+- **Deliverables:** Continue your discussion section. Describe the subsets you
+  chose from the dataset and include your pivot table and visualizations. Make
+  sure the following questions are addressed.
 
+  - Explain why you chose this set of groups.
+  - Within subsets of interest, what are the count, mean, median, variance,
+    standard deviation?
+  - Is the sample size enough within each group? What does this imply for
+    reliability of summary statistics, and for privacy considerations?
+  - What comparisons are particularly interesting? Why?
+
+*Hints:*
+
+- `Disadvantages of a small sample size.`_
+- `Refresher on data privacy.`_
+
+**Step 5: Analyze your Data**
+
+Now that you’ve looked into some subsets of data, it’s time to be more
+quantitative in your analysis. Look for relationships in the data and use these
+relationships to make predictions.
+
+**To Do:**
+
+- Determine two quantitative variables that have either a strong or an
+  interesting relationship.
+- Identify any potential lurking variables.
+- Fit a regression on the data and find the equation for the line of best fit.
+- Interpret the coefficients of the linear model, in the context of the chosen
+  variables.
+- Choose some data points to predict using your regression.
+- **Deliverable:** Write the analysis section of your paper using what you have
+  already done above. In addition, in a short paragraph, report your predictions
+  in the context of the problem. Make sure the following questions are
+  addressed:
+
+  - How did you identify lurking variables?
+  - Does the line of best fit fit the data well? If not, why not? If the result
+    is surprising, what is surprising and why?
+  - Include references to “correlation” and “causation” effects.
+  - Is your prediction logical?
+
+*Hints:*
+
+- When reporting predictions here are some examples:
+
+  - Good example: We predict that someone with a shoe size of 6.5 will be 5’4”.
+  - Inadequate example: Only reporting the point (6.5, 64”).
+  - Revisit :ref:`the section on causation vs. correlation <correlation_vs_causation>`
+
+**Step 6: Conclude and reflect**
+
+The power of data science is that you can get meaningful takeaways from
+statistics that can help you make a positive impact on society. Now that you’ve
+done data analysis, take a moment to reflect on your findings and think about
+the broader implications.
+
+**To Do:**
+
+- Include a conclusion summarizing your findings.
+  - Who does this affect?
+  - What did you learn?
+- Proofread your report.
+- **Deliverable:** Write the conclusion section of your paper. Submit your
+  report and your sheets reflecting your analysis by [Due Date].
+
+*Hints:*
+
+- `Examples of reports backed by data science`_
+
+**Optional** (faculty can decide whether to include or not): After completing
+and submitting your project, complete the group work self assessment and group
+assessment.
 
 Grading Rubric
 --------------
@@ -230,3 +318,12 @@ Grading Rubric
      -
      -
      -
+
+.. _World Bank Open Data: https://data.worldbank.org/
+.. _FiveThirtyEight: https://data.fivethirtyeight.com/
+.. _Kaggle: https://www.kaggle.com/datasets
+.. _Additional list of websites to find datasets: https://www.dataquest.io/blog/free-datasets-for-projects/
+.. _read this.: https://elitedatascience.com/data-cleaning
+.. _Disadvantages of a small sample size.: https://sciencing.com/disadvantages-small-sample-size-8448532.html
+.. _Refresher on data privacy.: https://www.siliconrepublic.com/enterprise/ethics-data-science-bias
+.. _Examples of reports backed by data science: https://www.un.org/en/climatechange/reports.shtml
