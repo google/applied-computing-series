@@ -16,6 +16,23 @@ write a report summarizing your findings.
 Here are the steps you’ll need to complete. **Under each step are sub-bullets
 detailing questions you need to answer in your report.**
 
+** Step 1: Choosing a Dataset**
+
+In any data science project, you will need good, reliable data. There are many
+data sources available online. Chances are if there is a topic you are
+interested in, there is a corresponding dataset. It is important that the
+dataset you choose does not have any copyright restrictions and is trustworthy.
+
+To Do:
+
+    -   Form a group of no more than 4 people. (You may want to form a group with
+    people who are in a similar major or have similar interests as this may make
+    dataset selection easier)
+    -   Find a dataset to analyze online. If you are unsure where to start looking,
+    check out the hints section for some places to start. If you have questions
+    about your dataset, ask an instructor before proceeding.
+    -   Deliverable: State and describe your dataset. Why did you choose this particular dataset?
+
 1.  Form a group of no more than 4 people. (You may want to form a group with
     people who are in a similar major or have similar interests as this may make
     dataset selection easier).
