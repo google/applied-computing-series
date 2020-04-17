@@ -40,7 +40,7 @@ Example: Painters
 
 The definitions above might be a bit abstract. Sheets makes a lot more
 sense when there is data, so here is an example. In [this
-dataset](https://docs.google.com/spreadsheets/d/17bkoB97dUdR0MBuaBXsWLR0VjkEYhJydXJUYV0tcWjw/edit#gid=2146787371),
+dataset](https://docs.google.com/spreadsheets/d/1Yb_HCT2Dvdo5J_dbQdEifb3ymXMyrWSnPKKmERRnIB8/edit#gid=30572353),
 there is information about 50 of the most prolific painters of all time.
 
 In general:
@@ -67,7 +67,7 @@ In general:
 ![Example image of the \"painters\" dataset.](figures/painters_example_sheets.png)
 
 Use [this
-dataset](https://docs.google.com/spreadsheets/d/17bkoB97dUdR0MBuaBXsWLR0VjkEYhJydXJUYV0tcWjw/edit#gid=2146787371)
+dataset](https://docs.google.com/spreadsheets/d/1Yb_HCT2Dvdo5J_dbQdEifb3ymXMyrWSnPKKmERRnIB8/edit#gid=30572353)
 to answer the following questions.
 
 ### Multiple Choice
