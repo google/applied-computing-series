@@ -16,7 +16,6 @@ is that the input to a formula can be new data (e.g. `=1+1`), or
 existing data from cells (e.g. `=A1+A2`), or a combination (e.g.
 `=A1+1`). Below are some illustrative examples of how formulas work.
 
-[TODO fix]
 
 |   |                formula               | result |
 |---|--------------------------------------|--------|
@@ -55,7 +54,6 @@ First, you enter the recipe for 12 servings into a table. (Note that for
 the ingredients with fractional amounts like 2/3 cup vegetable oil, you
 need to use a formula, namely `=2/3`).
 
-[TODO fix]
 |  |       ingredient    | amount for 12 servings |
 |--|---------------------|------------------------|
 | 1| flour (cup)         |              3         |
@@ -155,8 +153,6 @@ referencing
 here.](https://edu.gcfglobal.org/en/googlespreadsheets/types-of-cell-references/1/)
 
 As an example, suppose you have the following sheet.
-
-[TODO fix]
 
 |    | A  |
 |:---|----|
