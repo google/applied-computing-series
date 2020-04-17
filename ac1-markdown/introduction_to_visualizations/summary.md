@@ -3,6 +3,6 @@
   International License. To view a copy of this license, visit
   http://creativecommons.org/licenses/by-sa/4.0/. -->
 
-<!-- This summary can be found at ____ -->
+<!-- All summares can be found at shorturl.at/mrLNV -->
 
 ![A line graph comparing number of likes over time of two posts.](figures/summary.png)
