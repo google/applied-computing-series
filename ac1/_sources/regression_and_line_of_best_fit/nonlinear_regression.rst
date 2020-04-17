@@ -10,52 +10,69 @@ Non-Linear Regression
 
 Up to this point you’ve only fit straight lines to data, but Sheets can fit
 other trendlines to data as well, including exponential, polynomial, logarithmic
-and others. You can access these other options from the chart editor. In
-“Customize Menu” > “Series”, after checking the trendline option, you can select
-“Type”. The dropdown menu gives a variety of other types of trendlines.
+and more. You can access these other options from the chart editor. 
+
+To change the type of a trendline in sheets you can go to "Chart Editor" 
+> “Customize Menu” > “Series,” and after checking the trendline option, you can select
+“Type.” Then you will see a  dropdown menu with different types of trendlines.
+
+.. image:: figures/sheets_trendline.png
+  :align: center
+  :alt: Screenshot of how to change trendline type in sheets. 
 
 For example, the number of users of a certain popular website grew dramatically
-between 2004 and 2010. In this case, the linear trendline doesn’t fit the
-exponential growth seen in number of users. An exponential curve fits this
-example much better.
+between 2004 and 2010. In this case, the linear trendline, on the left, does 
+not fit the exponential growth seen in number of users. The exponential curve,
+on the right, fits this example much better.
 
 
 .. image:: figures/trendline_type.png
-
+  :align: center
+  :alt: Screenshot of two plots, one with a linear trendline and the other exponential. 
 
 You should be careful when choosing trendline type. For example, a polynomial
 curve can be fit to the latitude and January temperature data.
 
 
 .. image:: figures/polynomial_curve.png
+  :align: center
+  :alt: Screenshot of a plot with a polynomial trendline. 
 
 
 But, in this case, switching to a polynomial curve doesn’t help explain the
-relationship between latitude and January temperature because you already know
-that the temperature should get *colder* as the latitude of the city increases,
-not warmer as the curve indicates. This curve, like the line of best fit, is
-sensitive to the outlier of Juneau, which is much further north than the other
-cities. Unless the data demonstrates a clear curve, it’s often better to stick
-to linear regression.
+relationship between latitude and January temperature since the temperature 
+should get *colder* as the latitude of the city increases, not warmer as the 
+curve indicates. This curve, like the line of best fit, is sensitive to the 
+outlier of Juneau, which is much further north than the other cities. It is 
+better to first try linear regression and check if it fits the data, before 
+moving on to non-linear regression.  
 
-\**Overfitting \**is when your predictive line or curve fits too closely to a
-particular set of data, and may not make reliable predictions for other data.
-For example, consider a set of temperature and latitude data with only five
-cities. When looking at only these five data points, the trend seems curved, and
-this fourth degree polynomial curve fits nicely!
+**Overfitting** is when your predictive line or curve fits too closely to a
+particular set of data, and may not make reliable predictions for other sets of 
+data. For example, consider a set of temperature and latitude data with only 
+five cities. When looking at only these five data points, the trend seems 
+curved, and this fourth degree polynomial curve fits nicely!
 
 
 .. image:: figures/overfitting_graph.png
+  :align: center
+  :alt: Screenshot of a plot with a polynomial trendline thats overfit. 
 
 
 But as more cities are added in, it becomes apparent that this trendline doesn’t
 fit new cities at all. The polynomial curve was overfit to the data, and a
-linear regression line would have predicted the other cities better.
+linear regression line would have predicted the other cities better. This can 
+be seen below when comparing the top and bottom graph. 
 
-.. image:: figures/polynomial_overfit.png
-  :width: 49%
-.. image:: figures/polynomial_overfit_linear_regression.png
-  :width: 49%
+
+.. image:: figures/overfit_example.png
+    :align: center
+    :alt: Screenshot of a plot with a third degree polynomial trendline thats overfit to a couple of data points.
+
+
+.. image:: figures/overfit_linear_regression_example.png
+    :align: center
+    :alt: Screenshot of a plot with a third degree polynomial trendline and a better fit linear trendline. 
 
 The complete set of July temperatures, in red, has a strong, linear trend. The
 dataset with only five cities appeared to have a curve because the number of
@@ -66,17 +83,3 @@ any better than a straight line. Unless you have a good reason to think the data
 should be curved (for example, if you have some domain knowledge which predicts
 a polynomial relationship), a straight line is the best choice.
 
-In this section you learned:
-
--  Sheets can be used to find and display the **line of best fit** describing
-   the linear relationship between two variables.
--  The line of best fit can be used to make predictions by plugging in given
-   values to the equation.
--  Predictions aren’t accurate if you **extrapolate**.
--  The **slope** of the line of best fit quantifies how the variables change in
-   relationship to each other.
--  The line of best fit is very sensitive to **outliers** and extreme values.
--  The line of best fit doesn’t have to be a straight line. It can be
-   exponential, polynomial, or many others. But be careful not to **overfit**
-   the trendline, especially with small datasets.
-   
