@@ -266,7 +266,7 @@ Example: Student Heights
 Suppose you have this dataset containing the heights of students in a class.
 
 
-.. image:: figures/screenshot_studentheights_spread.png
+.. image:: figures/student_heights_outlier.png
    :align: center
    :alt: A Sheets screenshot of a dataset of student heights.
 
