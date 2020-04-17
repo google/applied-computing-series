@@ -32,13 +32,6 @@ $100,000, and the other half are unemployed.
    :alt: A visual for the salaries of those in Wonkytown and Consistentville. 
 
 
-.. https://docs.google.com/presentation/d/11O5DHFz8OJn2cIiDnSHd0hfAmY1HDaFQKtGBd3HYCmQ/edit?usp=sharing
-
-.. image:: figures/city_salary_visual.png
-   :align: center
-   :alt: A visual for the salaries of those in Wonkytown and Consistentville with example incomes. 
-
-
 Above is an example dataset for 6 people in each of the towns and their 
 salaries.
 
