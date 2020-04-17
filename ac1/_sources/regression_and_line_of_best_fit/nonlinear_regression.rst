@@ -64,7 +64,6 @@ fit new cities at all. The polynomial curve was overfit to the data, and a
 linear regression line would have predicted the other cities better. This can 
 be seen below when comparing the top and bottom graph. 
 
-=======
 
 .. image:: figures/overfit_example.png
     :align: center
