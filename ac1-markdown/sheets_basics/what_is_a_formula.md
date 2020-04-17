@@ -127,7 +127,7 @@ The formula in cell `D2` references cells `B2` and `E2`. When you copy-paste
 this formula to `D3`, Sheets assumes you want the formula to update to
 reference cells `B3` and `E3`.
 
-![image](figures/chocolate_cake_relative_referencing_not_working.png){.align-center}
+![image](figures/chocolate_cake_relative_referencing_not_working.png)
 
 This is called **relative referencing**, because cell referencing in the
 formula is relative to where the formula is used. (So when it is used in
@@ -185,7 +185,7 @@ should be as below.
 Copy-pasting this formula down for the other ingredients now works as
 intended.
 
-![image](figures/chocolate_cake_amounts_for_custom_servings.png){.align-center}
+![image](figures/chocolate_cake_amounts_for_custom_servings.png)
 
 Now, if you update the number of servings you need in cell E2, the
 amounts for the shopping list magically update themselves.
