@@ -16,7 +16,6 @@ is that the input to a formula can be new data (e.g. `=1+1`), or
 existing data from cells (e.g. `=A1+A2`), or a combination (e.g.
 `=A1+1`). Below are some illustrative examples of how formulas work.
 
-[TODO fix]
 
 |   |                formula               | result |
 |---|--------------------------------------|--------|
@@ -55,7 +54,6 @@ First, you enter the recipe for 12 servings into a table. (Note that for
 the ingredients with fractional amounts like 2/3 cup vegetable oil, you
 need to use a formula, namely `=2/3`).
 
-[TODO fix]
 |  |       ingredient    | amount for 12 servings |
 |--|---------------------|------------------------|
 | 1| flour (cup)         |              3         |
@@ -129,7 +127,7 @@ The formula in cell `D2` references cells `B2` and `E2`. When you copy-paste
 this formula to `D3`, Sheets assumes you want the formula to update to
 reference cells `B3` and `E3`.
 
-![image](figures/chocolate_cake_relative_referencing_not_working.png){.align-center}
+![image](figures/chocolate_cake_relative_referencing_not_working.png)
 
 This is called **relative referencing**, because cell referencing in the
 formula is relative to where the formula is used. (So when it is used in
@@ -155,8 +153,6 @@ referencing
 here.](https://edu.gcfglobal.org/en/googlespreadsheets/types-of-cell-references/1/)
 
 As an example, suppose you have the following sheet.
-
-[TODO fix]
 
 |    | A  |
 |:---|----|
@@ -189,7 +185,7 @@ should be as below.
 Copy-pasting this formula down for the other ingredients now works as
 intended.
 
-![image](figures/chocolate_cake_amounts_for_custom_servings.png){.align-center}
+![image](figures/chocolate_cake_amounts_for_custom_servings.png)
 
 Now, if you update the number of servings you need in cell E2, the
 amounts for the shopping list magically update themselves.
