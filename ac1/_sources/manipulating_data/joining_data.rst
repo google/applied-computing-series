@@ -176,8 +176,6 @@ year so that the population of that year can be matched to the deaths from that
 year. To match the table of deaths to the year selected, add another filter to
 the pivot table of deaths by state restricting to the year 2010.
 
-Video of pivot table, deaths by state.
-
 
 .. image:: figures/pivot_deaths.png
 
