@@ -218,8 +218,27 @@ it more understandable if you format this column as a percentage.)
    
      - Incorrect: The state with the highest death rate is not Texas.
 
-Question: What is the average death rate?
 
+.. mchoice:: average_death_rate
+
+   What is the average death rate?
+
+   - .97%
+   
+     - Incorrect: Make sure you're not including the grand total.
+       
+   - .58%
+   
+     - Incorrect: The average death rate is not .58%.
+       
+   - .49%
+   
+     - Incorrect: The average death rate is not .49%.
+       
+   - .62%
+   
+     + Correct: Correct.
+     
 There is a pretty big variation in death rates by state. One possible reason for
 this difference is the typical age in each state. States with younger
 populations should have a lower death rate than states with older populations.
