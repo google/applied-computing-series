@@ -198,9 +198,25 @@ it more understandable if you format this column as a percentage.)
 .. image:: figures/death_rate_column.png
 
 
-Video of adding columns for state population and death rate.
+.. mchoice:: highest_death_rate
 
-Question: Which state has the highest death rate?
+   Which state has the highest death rate?
+
+   - Arkansas.
+   
+     - Incorrect: The state with the highest death rate is not Arkansas.
+       
+   - New York.
+   
+     - Incorrect: The state with the highest death rate is not New York.
+       
+   - West Virginia
+   
+     + Correct: The state with the highest death rate is West Virginia.
+       
+   - Texas
+   
+     - Incorrect: The state with the highest death rate is not Texas.
 
 Question: What is the average death rate?
 
