@@ -246,8 +246,9 @@ The file `age_by_state.csv <https://drive.google.com/open?id=1Y9FeVkVNFwJrei0ndz
 has the median age for each state from 2010. Add a new column for median state
 age using *VLOOKUP*.
 
-Question: What is the correlation between the death rate and the median
-age?
+.. shortanswer:: death_age_correlation
+
+   What is the correlation between the death rate and the median age?
 
 
 .. image:: figures/median_age_death_rate.png
@@ -258,13 +259,15 @@ populations *do* tend to have a lower death rate than states with older
 populations. Of course, since correlation does not imply causation, that doesn’t
 necessarily mean that if you move to Alaska, you’ll turn younger or live longer.
 
-Question: Write a summary of this finding that you can send out to your
-teammates. Keep it brief and non-technical, but refer to important findings.
+.. shortanswer:: summary_findings
+
+   Write a summary of this finding that you can send out to your teammates. 
+   Keep it brief and non-technical, but refer to important findings.
 
 Answering questions relating different variables and trying to explain variation
 often involves bringing together information from different sources. *VLOOKUP*
 is a great tool for joining data, but it’s not the only one. In the next few
-weeks of this course and in the course to follow, you’ll learn about other ways
+weeks of this course you’ll learn about other ways
 to join data that are more flexible and that work for much larger datasets.
 
 Example: Cause of Death over Time
