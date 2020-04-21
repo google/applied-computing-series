@@ -62,27 +62,29 @@ and is_sorted.
 In this example, *VLOOKUP* finds that the price of an apple is $0.79. Try
 copying the formula down to the cells C3:C8.
 
-Question: Why does *VLOOKUP* not work for Loaf of Bread and Dozen Eggs?
+.. mchoice:: error_message
 
-1. They aren’t listed in the Prices tab.
+   Why does *VLOOKUP* not work for Loaf of Bread and Dozen Eggs?
 
-   -  Feedback message - While that can cause a similar error, both items are
-      listed in the Prices tab.
+   - They aren’t listed in the Prices tab.
+   
+     - Incorrect: While that can cause a similar error, both items are
+       listed in the Prices tab.
 
-2. They aren’t spelled correctly.
+   - They aren’t spelled correctly.
 
-   -  Feedback message - While that can cause a similar error, both items are
+     - Incorrect: While that can cause a similar error, both items are
       spelled correctly.
 
-3. The formula changed when it was copied.
+   - The formula changed when it was copied.
 
-   -  Feedback message - Correct! The range changed when the formula was copied
+     + Correct: The range changed when the formula was copied
       down. Rather than change it by hand in each cell, this is a great time to
-      use absolute references. (*Link to absolute references.*)
+      use absolute references.
 
-4. Those have to be looked up by hand.
+   - Those have to be looked up by hand.
 
-   -  Feedback message - You want to avoid that as much as possible. It is
+     - Incorrect: You want to avoid that as much as possible. It is
       tedious and error prone.
 
 Video of VLOOKUP.
