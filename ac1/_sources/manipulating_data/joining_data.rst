@@ -120,8 +120,25 @@ out for a grocery list with 100 items. That method is also more error prone.
 Another benefit to using *VLOOKUP* is that, if the price changes, you can update
 the prices tab and the subtotal will automatically be recalculated.
 
-Question: If apples are on sale for 39 cents each, what would the new subtotal
-be?
+.. mchoice:: cheaper_apples
+
+   If apples are on sale for 39 cents each, what would the new subtotal be?
+
+   - $37.75
+   
+     + Correct: The total is $37.75.
+     
+   - $15.77
+   
+     - Incorrect: Change the price of apples in the Prices sheet.
+     
+   - $32.64
+   
+     - Incorrect: Change the price of apples in the Prices sheet.
+     
+   - $25.22
+     
+     - Incorrect: Change the price of apples in the Prices sheet.
 
 Example: Death Rate by State
 ----------------------------
