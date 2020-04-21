@@ -87,8 +87,6 @@ copying the formula down to the cells C3:C8.
      - Incorrect: You want to avoid that as much as possible. It is
       tedious and error prone.
 
-Video of VLOOKUP.
-
 Finish the grocery list by completing the following:
 
 -  Correct the formula so that the Grocery List sheet has the prices for each
