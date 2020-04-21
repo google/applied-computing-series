@@ -33,12 +33,12 @@ Thankfully, there is a function in Sheets that can do this work automatically.
 
 The *VLOOKUP* function matches elements from one list to the corresponding
 values in another. You will use this to add the cost of each item in your
-grocery list. \_VLOOKUP \_takes four values as input: search_key, range, index,
+grocery list. *VLOOKUP* takes four values as input: search_key, range, index,
 and is_sorted.
 
 -  The **search_key** is the value *VLOOKUP* will try to match. For apples, the
    search_key will be A2 which contains the text “Apples”.
--  The*\* range*\* is a table, either in the same sheet or in another sheet in
+-  The **range** is a table, either in the same sheet or in another sheet in
    the same file, where *VLOOKUP* will look for the search_key. In this case,
    the  table will be in the Prices sheet, in the cells A1:B21. To point sheets
    to another sheet you can either navigate to that sheet and select the area
@@ -59,7 +59,7 @@ and is_sorted.
 .. image:: figures/vlookup.png
 
 
-In this example, \_VLOOKUP \_finds that the price of an apple is $0.79. Try
+In this example, *VLOOKUP* finds that the price of an apple is $0.79. Try
 copying the formula down to the cells C3:C8.
 
 Question: Why does *VLOOKUP* not work for Loaf of Bread and Dozen Eggs?
