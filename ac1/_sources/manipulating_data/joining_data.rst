@@ -264,17 +264,17 @@ necessarily mean that if you move to Alaska, you’ll turn younger or live longe
    Write a summary of this finding that you can send out to your teammates. 
    Keep it brief and non-technical, but refer to important findings.
 
-Answering questions relating different variables and trying to explain variation
-often involves bringing together information from different sources. *VLOOKUP*
-is a great tool for joining data, but it’s not the only one. In the next few
-weeks of this course you’ll learn about other ways
-to join data that are more flexible and that work for much larger datasets.
+Answering questions relating different variables and trying to explain 
+variation often involves bringing together information from different sources. 
+*VLOOKUP* is a great tool for joining data, but it’s not the only one. In the 
+next few weeks of this course you’ll learn about other ways to join data that 
+are more flexible and that work for much larger datasets.
 
 Example: Cause of Death over Time
 ---------------------------------
 
 One possible explanation for the increase in the number of deaths due to cancer,
-unintended injuries and alzheimer’s disease, is that the population of the USA
+unintended injuries and Alzheimer’s disease, is that the population of the USA
 has increased over the same time period. To rule out population growth as a
 cause of the increase, you need to look at the percentage of the population that
 died from each cause over time, rather than the raw numbers of deaths.
@@ -286,11 +286,8 @@ population data starts in 2010, add a filter to only display the years 2010 to
 deaths by the population for each year.
 
 Add a row below showing the population for each year from 2010 to 2016. (There
-are several ways to do this. The solution below uses the sum of each column of
-state populations to get the population for each year.)
-
-Video of adding US population by year.
-
+are several ways to do this. One possible solution uses the sum of each column 
+of state populations to get the population for each year.)
 
 .. image:: figures/us_population_by_year.png
 
@@ -299,9 +296,6 @@ To graph the percentage for each cause of death, construct a table below (or in
 another sheet) with the same row and column labels. The value of each cell in
 this table will be the number of deaths for that cause and year divided by the
 population for that year.
-
-Video of constructing a table of death %.
-
 
 .. image:: figures/death_percentage.png
 
