@@ -13,19 +13,18 @@ Project Description
 In this project, you will complete a statistical analysis on a dataset, then
 write a report summarizing your findings.
 
-Here are the steps you’ll need to complete.**Under each step are sub-bullets
+Here are the steps you’ll need to complete. **Under each step are sub-bullets
 detailing questions you need to answer in your report.**
 
 **Step 1: Choosing a Dataset**
 
 In any data science project, you will need good, reliable data. There are many
-data sources available online. Chances are if there is a topic you are
-interested in, there is a corresponding dataset. It is important that the
-dataset you choose does not have any copyright restrictions and is trustworthy.
-You can check on the website to see if the dataset is licensed and what
-restrictions there may be on using it. In most cases, using the data and drawing
-conclusions from it is just fine, but republishing the data itself is not
-allowed.
+data sources available online. If there is a topic you are interested in, there
+is most likely a corresponding dataset. It is important that the dataset you
+choose does not have any copyright restrictions and is trustworthy. You can
+check on the website to see if the dataset is licensed and what restrictions
+there may be on using it. In most cases, using the data and drawing conclusions
+from it is just fine, but republishing the data itself is not allowed.
 
 **To Do:**
 
@@ -42,26 +41,26 @@ allowed.
 *Hints:*
 
 - Places to find free datasets: `World Bank Open Data`_, `FiveThirtyEight`_,
-  `Kaggle`_
-- `Additional list of websites to find datasets`_
+  `Kaggle`_.
+- `Additional list of websites to find datasets`_.
 - Revisit the importing data section from module B for review on how to import
-  data
+  data.
 
 
 **Step 2: Clean Your Dataset**
 
-Only rarely will datasets ever be ready for analysis right off the bat.
-Therefore, you will need to prepare your dataset to make useful observations.
-Don’t worry if it seems overwhelming at first. You want to remove outliers that
-may skew your dataset, while still maintaining the integrity of your data. Some
-steps have been provided to help with this process. Once you clean your dataset,
-you should be able to find sections of the data that are interesting and find
-relevant relationships.
+Only rarely will datasets ever be ready for analysis right away. Therefore, you
+will need to prepare your dataset to make useful observations. Don’t worry if it
+seems overwhelming at first. You want to remove outliers that may skew your
+dataset, while still maintaining the integrity of your data. Some steps have
+been provided to help with this process. Once you clean your dataset, you should
+be able to find sections of the data that are interesting and find relevant
+relationships.
 
 **To Do:**
 
-- First look at your data and see if you can spot any inconsistencies
-- Filter out unwanted outliers
+- First look at your data and see if you can spot any inconsistencies.
+- Filter out unwanted outliers.
 - Check for missing data values
 - **Deliverable:** Summarize your data cleaning process and make sure to
   answer the following questions.
@@ -85,7 +84,7 @@ interesting statistics about your data.
 **To Do:**
 
 - Join the multiple sheets across a common column if necessary. You will need to
-  join datasets using vlookup
+  join datasets using VLOOKUP.
 - Using the joined dataset, find summary statistics for the population.
 - **Deliverables:** Describe how you consolidated your data and chose your
   subsections. Make sure the following questions are answered in your
@@ -98,9 +97,9 @@ interesting statistics about your data.
 
 *Hints:*
 
-- Revisit :ref:`the section on joining data <joining_data>`
-- Look at :ref:`the section on measures of center for mean and median <measures_of_center>`
-- Review :ref:`the section on measures of spread for variance and standard deviation <measures_of_spread>`
+- Revisit :ref:`the section on joining data <joining_data>`.
+- Look at :ref:`the section on measures of center for mean and median <measures_of_center>`.
+- Review :ref:`the section on measures of spread for variance and standard deviation <measures_of_spread>`.
 
 **Step 4: Choosing Subsets**
 
@@ -149,7 +148,7 @@ relationships to make predictions.
 - **Deliverable:** Write the analysis section of your paper using what you have
   already done above. In addition, in a short paragraph, report your predictions
   in the context of the problem. Make sure the following questions are
-  addressed:
+  addressed.
 
   - How did you identify lurking variables?
   - Does the line of best fit fit the data well? If not, why not? If the result
@@ -163,7 +162,7 @@ relationships to make predictions.
 
   - Good example: We predict that someone with a shoe size of 6.5 will be 5’4”.
   - Inadequate example: Only reporting the point (6.5, 64”).
-  - Revisit :ref:`the section on causation vs. correlation <correlation_vs_causation>`
+  - Revisit :ref:`the section on causation vs. correlation <correlation_vs_causation>`.
 
 **Step 6: Conclude and reflect**
 
@@ -183,7 +182,7 @@ the broader implications.
 
 *Hints:*
 
-- `Examples of reports backed by data science`_
+- `Examples of reports backed by data science`_.
 
 **Optional** (faculty can decide whether to include or not): After completing
 and submitting your project, complete the group work self assessment and group
