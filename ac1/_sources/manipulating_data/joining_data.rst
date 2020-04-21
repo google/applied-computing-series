@@ -94,8 +94,26 @@ Finish the grocery list by completing the following:
 -  Multiply the cost per item by the number needed.
 -  Sum the costs of for each item to get the total cost of the grocery list.
 
-Question: What is the total for all the items on this grocery list in the
-quantities given?
+.. mchoice:: grocery_list_total
+
+   What is the total for all the items on this grocery list in the quantities 
+   given?
+
+   - $40.55
+   
+     + Correct: The total is $40.55.
+     
+   - $13.33
+   
+     - Incorrect: Remember to multiply the price by the quantity.
+     
+   - $93.31
+   
+     - Incorrect: Make sure the prices are being multiplied by the correct quantity.
+     
+   - $20.23
+     
+     - Incorrect: Remember to sum all of the costs.
 
 While you could have filled these in by hand, imagine filling that information
 out for a grocery list with 100 items. That method is also more error prone.
