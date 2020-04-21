@@ -120,6 +120,9 @@ out for a grocery list with 100 items. That method is also more error prone.
 Another benefit to using *VLOOKUP* is that, if the price changes, you can update
 the prices tab and the subtotal will automatically be recalculated.
 
+To get a sense of how easy it is to recalculate the total in Sheets when a single 
+item's price changes, answer the following question:
+
 .. mchoice:: cheaper_apples
 
    If apples are on sale for 39 cents each, what would the new subtotal be?
