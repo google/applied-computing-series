@@ -68,24 +68,24 @@ copying the formula down to the cells C3:C8.
 
    - They aren’t listed in the Prices tab.
    
-     - Incorrect: While that can cause a similar error, both items are
-       listed in the Prices tab.
+     - Incorrect: While that can cause a similar error, both items are listed 
+       in the Prices tab.
 
    - They aren’t spelled correctly.
 
-     - Incorrect: While that can cause a similar error, both items are
-      spelled correctly.
+     - Incorrect: While that can cause a similar error, both items are spelled 
+       correctly.
 
    - The formula changed when it was copied.
 
-     + Correct: The range changed when the formula was copied
-      down. Rather than change it by hand in each cell, this is a great time to
-      use absolute references.
+     + Correct: The range changed when the formula was copied down. Rather than 
+       change it by hand in each cell, this is a great time to use absolute 
+       references.
 
    - Those have to be looked up by hand.
 
-     - Incorrect: You want to avoid that as much as possible. It is
-      tedious and error prone.
+     - Incorrect: You want to avoid that as much as possible. It is tedious and 
+       error prone.
 
 Finish the grocery list by completing the following:
 
@@ -109,7 +109,8 @@ Finish the grocery list by completing the following:
      
    - $93.31
    
-     - Incorrect: Make sure the prices are being multiplied by the correct quantity.
+     - Incorrect: Make sure the prices are being multiplied by the correct 
+       quantity.
      
    - $20.23
      
@@ -117,11 +118,11 @@ Finish the grocery list by completing the following:
 
 While you could have filled these in by hand, imagine filling that information
 out for a grocery list with 100 items. That method is also more error prone.
-Another benefit to using *VLOOKUP* is that, if the price changes, you can update
-the prices tab and the subtotal will automatically be recalculated.
+Another benefit to using *VLOOKUP* is that, if the price changes, you can 
+update the prices tab and the subtotal will automatically be recalculated.
 
-To get a sense of how easy it is to recalculate the total in Sheets when a single 
-item's price changes, answer the following question:
+To get a sense of how easy it is to recalculate the total in Sheets when a 
+single item's price changes, answer the following question:
 
 .. mchoice:: cheaper_apples
 
@@ -146,9 +147,11 @@ item's price changes, answer the following question:
 Example: Death Rate by State
 ----------------------------
 
-Another issue your nonprofit wants to know is how each state stacks up against
-the others, in terms of causes of death. For example, are some states
-heart-healthier than others?
+Earlier, you considered a non-profit that works to improve the life expectancy 
+of Americans, and you helped them find the leading causes of deaths in the USA. 
+Now your nonprofit wants to know how each state stacks up against the others, 
+in terms of causes of death. For example, are some states heart-healthier than 
+others?
 
 To begin to answer these questions, first make a pivot table and a bar chart to
 tell you which states have the most deaths.
