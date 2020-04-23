@@ -4,8 +4,9 @@
    http://creativecommons.org/licenses/by-sa/4.0/.
 
 
-How to Run SQL Outside of Runestone
-===================================
+How to Run SQL Outside of This Textbook
+=======================================
+
 In this section, you learned some basic SQL commands to analyze large datasets.
 In the interactive version of this textbook, there was a SQL interpreter.
 However, when using SQL outside of the textbook, including in your project, you
