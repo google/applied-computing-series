@@ -10,102 +10,188 @@ Module C
 Project Description
 -------------------
 
-In this project, you will extract data from a SQL database, run a linear
-regression to find whether a correlation exists, then write a report summarizing
-your findings.
+In this project, you will complete a statistical analysis on a dataset, then
+write a report summarizing your findings.
 
 Here are the steps you’ll need to complete. **Under each step are sub-bullets
 detailing questions you need to answer in your report.**
 
-1.  Form a group of no more than 4 people. (You may want to form a group with
-    people who are in a similar major or have similar interests as this may make
-    dataset selection easier).
-2.  Choose one of the provided datasets in the provided SQL server.
+**Step 1: Choosing a Dataset**
 
-    -   What made you choose this dataset?
-    -   What aspects of this dataset did you expect to find challenging?
+When selecting a database to use for this project, keep the following in mind.
+Read through all of the instructions to ensure the selected database contains
+enough data to be used for this project. Ensure that the source is reliable if
+it is not one of the recommended databases to choose from. Also, make sure that
+you are able to use this data. You can check on the website to see if the
+dataset is licensed and what restrictions there may be on using it. In most
+cases, using the data and drawing conclusions from it is just fine, but
+republishing the data itself is not allowed.
 
-3.  **Using SQL**, account for any incorrect or missing data as you see fit.
-    (This should include checking for data types and nulls.)
+**To Do:**
 
-    -   What steps were taken? Be sure to reference data types in your
-        discussion.
-    -   Are there any ethical issues with the way you cleaned the data? What are
-        they?
+- Form a group of no more than 4 people. (You may want to form a group with
+  people who are in a similar major or have similar interests as this may make
+  dataset selection easier).
+- Find a dataset to analyze online. If you are unsure where to start looking,
+  check out the hints section for some places to start. If you have questions
+  about your dataset, ask an instructor before proceeding.
 
-4.  Think of 2-3 interesting questions you would like to answer using these
-    datasets. These should involve joining the datasets **using SQL** in order
-    to link variables from different datasets.
+- **Deliverable:** State and describe your dataset. Why did you choose this
+  particular dataset?
 
-    -   What were the questions you chose and why?
-    -   Which datasets did you have to join?
-    -   What are the primary keys on which you join?
-    -   What type of JOIN was applicable for your questions?
-    -   Explain how you verified that your datasets were merged in the way you
-        expected.
+*Hints:*
 
-5.  Think of 2-3 interesting statistical questions you would like to answer
-    using these datasets. These should involve calculating the mean, median, and
-    standard deviation **using SQL**.
+- Places to find free datasets: `World Bank Open Data`_, `FiveThirtyEight`_,
+  `Kaggle`_.
+- `Additional list of websites to find datasets`_.
 
-    -   For example:
 
-        1.  Compare the mean and standard deviation for two different variables.
-        2.  Compare the mean and median for a single variable.
+**Step 2: Clean Your Dataset**
 
-    -   What were the questions you chose and what were the results?
+Only rarely will datasets ever be ready for analysis right away. Therefore, you
+will need to prepare your dataset to make useful observations. Don’t worry if it
+seems overwhelming at first. You want to remove outliers that may skew your
+dataset, while still maintaining the integrity of your data. Some steps have
+been provided to help with this process. Once you clean your dataset, you should
+be able to find sections of the data that are interesting and find relevant
+relationships.
 
-    -   What do these results mean in the context of the dataset?
+**To Do:**
 
-6.  **Using SQL**, find summary statistics for the main groups within the
-    dataset based on your chosen categorical variable.
+- First look at your data and see if you can spot any inconsistencies.
+- Filter out unwanted outliers.
+- Check for missing or incorrect data (check for data types and nulls).
+- **Deliverable:** Summarize your data cleaning process and make sure to
+  answer the following questions.
 
-    -   For groups of interest, what are the mean, median, variance, standard
-        deviation within group?
-    -   Is the sample size enough within each group?
+  - Are there any ethical issues with the way you cleaned the data? What are
+    they?
+  - Did you make any trade-offs as you were cleaning? What were these tradeoffs
+    and why did you make this decision?
 
-7.  Export grouped data from the SQL server to sheets.
+*Hints:*
+  - For a more in-depth explanation of data cleaning `read this.`_
 
-8.  **Using sheets**, visualize (what you consider to be) the most interesting
-    results from (6).
 
-    -   Why did you choose these visualizations? Be specific as to the types of
-        visualization.
-    -   Discuss how center and spread are impacted by the categorical variable.
+**Step 3: Join Tables**
 
-9.  Determine two quantitative variables that have either a strong or an
-    interesting relationship. **Using Sheets**, fit a regression on the data.
+By joining tables across the database you can answer questions and analyze data
+with a different perspective. For resources, refer back to the :ref:`section on
+joining tables <joining_sql>` earlier in the textbook.
 
-    -   How did you determine that this relationship was particularly
-        interesting?
-    -   Identify any potential lurking variables. How did you find them?
-    -   What is the equation for the line of best fit, and does the line of best
-        fit fit the data well? If not, why not?
-    -   If you are getting surprising results, what is surprising and why?
+**To Do:**
 
-10. Choose a categorical variable that you predict will have an interesting
-    relationship with the other variables in the dataset.
+- Think of 2-3 interesting questions you would like to answer using the
+  database. These should involve joining the tables using SQL in order to link
+  variables from different tables.
+- Using the joined dataset, find summary statistics for the population.
+- **Deliverables:** Answer the following questions in the Joining section of
+  your report.
 
-    -   Why did you choose this variable?
-    -   What led you to predict this variable would have an interesting
-        relationship with the other variables?
+  - What were the questions you chose and why?
+  - Which datasets did you have to join?
+  - What are the primary keys on which you join?
+  - What type of JOIN was applicable for your questions?
 
-11. Formulate a new question about how the relationship identified above may be
-    influenced by another categorical variable.
 
-    -   **Using Sheets**, create scatterplots and regression lines for each
-        category (using either multiple graphs or multiple colors).
-    -   In a short paragraph, compare and contrast how the regression analysis
-        varies between these groups.
+**Step 4: Analyze**
 
-12. Include a conclusion summarizing your findings.
+For your research, think of 2-3 interesting statistical questions you would like
+to answer using these datasets. These should involve calculating the mean,
+median, and standard deviation using SQL. Also, in your analysis, select a
+categorical variable to focus on.
 
-13. Submit your report, **including an appendix of all of your SQL code**, by
-    **[Due Date]**.
+**To Do:**
 
-14. **Optional** (faculty can decide whether to include or not): After
-    completing and submitting your project, complete the group work self
-    assessment and group assessment.
+- Calculate the mean, median, and standard deviation using SQL.
+
+  - For example:
+
+    - Compare the mean and standard deviation for two different variables.
+    - Compare the mean and median for a single variable.
+
+- Choose a categorical variable that you predict will have an interesting
+  relationship with the other variables in the dataset.
+
+  - Why did you choose this variable?
+  - What led you to predict this variable would have an interesting relationship
+    with the other variables?
+
+- Using SQL, find summary statistics for the main groups within the dataset
+  based on your chosen categorical variable.
+
+  - For groups of interest, what are the mean, median, variance, standard
+    deviation within the group?
+  - Is the sample size enough within each group?
+
+- Formulate a new question about how the relationship identified above may be
+  influenced by another categorical variable.
+
+  - Using Sheets, create scatter plots and regression lines for each category
+    (using either multiple graphs or multiple colors).
+  - In a short paragraph, compare and contrast how the regression analysis
+    varies between these groups.
+
+- **Deliverables:** Answer the questions in each of the above sections in the
+  summary statistics section of your report. Add a paragraph that compares and
+  contrasts the variation of the regression analysis as specified above.
+
+
+**Step 5: Visualize**
+
+As discussed in the textbook, visualizations are important to convey your
+findings. You will create visualizations in Sheets of your results. Keep in mind
+:ref:`accessibility guidelines <creating_visualization_checklist>` when creating
+your visualizations.
+
+**To Do:**
+
+- Export grouped data from the SQL server to sheets.
+- **Deliverable:** Using sheets, create a visualization for (what you consider
+  to be) the most interesting results from your summary statistics.
+
+  - Why did you choose these visualizations? Be specific as to the types of
+    visualization.
+  - Discuss how center and spread are impacted by the categorical variable.
+
+
+**Step 6: Regression**
+
+Determine two quantitative variables that have either a strong or an interesting
+relationship.
+
+**To Do:**
+
+- Determine two quantitative variables that have either a strong or an
+  interesting relationship. Using Sheets, fit a regression on the data.
+
+  - How did you determine that this relationship was particularly interesting?
+  - Identify any potential lurking variables. How did you find them?
+  - What is the equation for the line of best fit, and does the line of best fit
+    fit the data well? If not, why not?
+  - If you are getting surprising results, what is surprising and why?
+
+- **Deliverable:** Answer the above questions.
+
+**Step 7: Conclude and reflect**
+
+The power of data science is that you can get meaningful takeaways from
+statistics that can help you make a positive impact on society. Now that you’ve
+done data analysis, take a moment to reflect on your findings and think about
+the broader implications.
+
+**To Do:**
+
+- Include a conclusion summarizing your findings.
+  - Who does this affect?
+  - What did you learn?
+- Proofread your report.
+- **Deliverable:** Write the conclusion section of your paper. Submit your
+  report and your sheets reflecting your analysis by [Due Date].
+
+**Optional** (faculty can decide whether to include or not): After completing
+and submitting your project, complete the group work self assessment and group
+assessment.
 
 
 Grading Rubric
@@ -242,3 +328,13 @@ Grading Rubric
      - The report’s structure lacks clarity or is otherwise difficult to read.
        The report has several spelling/grammar errors.
      - There is no report.
+
+
+.. _World Bank Open Data: https://data.worldbank.org/
+.. _FiveThirtyEight: https://data.fivethirtyeight.com/
+.. _Kaggle: https://www.kaggle.com/datasets
+.. _Additional list of websites to find datasets: https://www.dataquest.io/blog/free-datasets-for-projects/
+.. _read this.: https://elitedatascience.com/data-cleaning
+.. _Disadvantages of a small sample size.: https://sciencing.com/disadvantages-small-sample-size-8448532.html
+.. _Refresher on data privacy.: https://www.siliconrepublic.com/enterprise/ethics-data-science-bias
+.. _Examples of reports backed by data science: https://www.un.org/en/climatechange/reports.shtml
