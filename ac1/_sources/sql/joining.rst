@@ -3,6 +3,7 @@
    International License. To view a copy of this license, visit
    http://creativecommons.org/licenses/by-sa/4.0/.
 
+.. _joining_sql:
 
 Joining
 =======
