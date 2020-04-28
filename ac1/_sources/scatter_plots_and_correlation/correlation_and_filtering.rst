@@ -19,11 +19,8 @@ by filtering. This is even the case when finding the correlation coefficient
 that best reflects the data. This is best explained through an example.
 
 Imagine that your friend is a `personal trainer who has implemented a new
-strength training regime <https://drive.google.com/open?id=1kzEQ-JCgr0RLCb0ojl1HldF0irO_UzQO0PtxsjBRFtU>`_
+strength training regime <https://docs.google.com/spreadsheets/d/1UPIYNKxl1bSDmiYQsDwN_mGk_mA0XxkvXZHYnNlebi8/edit?usp=sharing>`_
 to use with her clients. An screenshot of this data is shown below:
-
-.. TODO: make link globally accessible.
-
 
 .. image:: figures/pushup_graph_and_data.png
   :align: center
@@ -42,7 +39,7 @@ variable types are, you can go back to the section on :ref:`variables.
 
 .. mchoice:: participant_variable
 
-   Question: What type of variable is Participant?
+   What type of variable is Participant?
 
    - Categorical
 

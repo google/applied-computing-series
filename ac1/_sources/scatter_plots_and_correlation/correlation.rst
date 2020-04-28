@@ -15,6 +15,7 @@ coefficients.
 
 .. image:: figures/correlations_example.png
    :align: center
+   :alt: A visualization of correlations.
 
 As you can see, in the first row of the examples above, the closer the
 points are to lying on a straight line, the closer the correlation is to
@@ -32,6 +33,7 @@ how correlation is calculated.
 
 .. image:: figures/scatter_plots_correlation_question.png
    :align: center
+   :alt: Multiple scatter plots for the questions below.
 
 Question: Using the above figure as a guide, match the correlation to
 each of the scatterplots from previous questions.
@@ -76,7 +78,7 @@ direction.
    Which would have the largest *r2* value?
    
 
-.. mchoice:: scatter-correlation-ex-3
+.. mchoice:: scatter-correlation-ex-4
    :answer_a: 0.7
    :answer_b: -0.1
    :answer_c: 0.9

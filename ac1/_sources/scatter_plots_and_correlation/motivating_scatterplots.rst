@@ -135,7 +135,7 @@ can use a bar chart.
 
 .. image:: figures/avg_temp_region_jan.png
    :align: center
-   :alt: A bar chart depicting average Janurary and July temperatures for each of the regions.
+   :alt: A bar chart depicting average January and July temperatures for each of the regions.
 
 
 .. mchoice:: difference_regional
@@ -143,7 +143,7 @@ can use a bar chart.
    Looking at the visualization, which month has a bigger regional difference in
    temperatures?
 
-   - Janurary
+   - January
 
      + Correct
 
@@ -162,6 +162,6 @@ could you get a better prediction of what the temperature may be? This is where
 scatterplots will come in handy.
 
 
-.. _following dataset: https://drive.google.com/open?id=1Qhl09FAMxhHr9WVIKxfVK9UklvDVpiYMdgvKuaWZRa0
+.. _following dataset: https://docs.google.com/spreadsheets/d/1ZmEmZwed-kGdDUDhxCxCzXtYLa4hRKZVoeRVQ5Cqo-M/edit?usp=sharing
 .. _latitude, longitude: https://en.wikipedia.org/wiki/Geographic_coordinate_system
 .. _See here for a map of the USA with latitude and longitude lines.: https://pasarelapr.com/images/map-of-usa-with-lines-of-latitude-and-longitude/map-of-usa-with-lines-of-latitude-and-longitude-2.jpg
