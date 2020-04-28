@@ -17,7 +17,7 @@ Example: Grocery List
 ---------------------
 
 Suppose you have `a file with two sheets
-<https://drive.google.com/open?id=14G4uiN4SNyoj8ZiIKWzACHBHPzQY6lvDC54MWwZJP8U>`__:
+<https://docs.google.com/spreadsheets/d/1QlVMi3EYcJg4o8aKuK1IJZXrM3HGQFAQu262lAz1amg/edit?usp=sharing>`__:
 a grocery list, and a list of prices of various items. The grocery list contains
 the items you need and the quantity. The prices list has various items available
 at the grocery store and their cost. To calculate the total cost for this
@@ -169,7 +169,7 @@ percentage of people who died in each state. This percentage, called the death
 rate, is the result of dividing the number of deaths in the state by the state
 population for a specific year.
 
-The `state_population.csv <https://drive.google.com/open?id=1NiG_3AGTw1y2V69di_d_loIFwTcQTmPWIjZgvHChvsk>`__
+The `state_population.csv <https://docs.google.com/spreadsheets/d/1Nnfcs8Um2dZScXMXWErS8VDZwKLAjDDhAMvfQ0mpGFQ/edit?usp=sharing>`__
 file has the population of each state from 2010 to 2018. Copy that sheet into a
 new sheet in your NCHS file. To calculate the death rate, you must specify a
 year so that the population of that year can be matched to the deaths from that
@@ -242,7 +242,7 @@ it more understandable if you format this column as a percentage.)
 There is a pretty big variation in death rates by state. One possible reason for
 this difference is the typical age in each state. States with younger
 populations should have a lower death rate than states with older populations.
-The file `age_by_state.csv <https://drive.google.com/open?id=1Y9FeVkVNFwJrei0ndzhlN2AcF-ELMNxCy5ynqPUHGhA>`__
+The file `age_by_state.csv <https://docs.google.com/spreadsheets/d/1YWB6hKAFpBEjj8jZ4N3K_N2cULK0cd1eQdPV8BIPi2M/edit?usp=sharing>`__
 has the median age for each state from 2010. Add a new column for median state
 age using *VLOOKUP*.
 

@@ -9,10 +9,12 @@ Making Predictions with the Regression Line
 ===========================================
 
 Recall that in
-:ref:`(the section on regression lines)<regression_and_line_of_best_fit>`, you
+:ref:`(the section on regression lines)<creating_line_of_best_fit>`, you
 learned about the equation for the regression line.
 
 .. image:: figures/average_sat_score_completion_rate.png
+   :align: center
+   :alt: A scatter plot showing the completion rate of students against their SAT scores.
 
 Returning to the scatter plot showing average SAT score and completion rate, the
 equation of the regression line is y = 0.0011*x - 0.7116. The slope is 0.0011
@@ -42,10 +44,13 @@ So, University X has a predicted completion rate of 63.86%. The point
 
 
 .. image:: figures/sat_completion_rate_annotated.png
+   :align: center
+   :alt: The same scatter plot as before, with a marked data point at a 1200 SAT score and 0.6386 completion rate.
 
+.. shortanswer:: completion_rate_SAT
 
-Question: Use the regression line to estimate the completion rate for a school
-with an average SAT score of 1400.
+   Use the regression line to estimate the completion rate for a school with an average SAT score of 1400.
+
 
 You can use the same method to estimate the completion rate for a school with an
 average SAT score of 600.

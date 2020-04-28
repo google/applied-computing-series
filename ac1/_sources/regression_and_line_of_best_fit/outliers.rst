@@ -24,13 +24,27 @@ First you should note the slope of this graph before an outlier is added. The
 slope of this line is :math:`-2.1*x + 116`. You can practice interpreting what slope 
 means by answering the following question:
 
-Question: Fill in the blank by interpreting the slope: When the latitude
-increases by 1, the predicted January temperature \__.
 
-1. Drops by -2.1 degrees
-2. Drops by 2.1 degrees
-3. Drops by 116 degrees
-4. Drops by 1 degree
+.. mchoice:: weather_january
+
+   Fill in the blank by interpreting the slope: When the latitude increases by 1, the predicted January temperature \__.
+
+   - Drops by -2.1 degrees
+
+     - Incorrect
+
+   - Drops by 2.1 degrees
+
+     + Correct
+
+   - Drops by 116 degrees
+
+     - Incorrect
+
+   - Drops by 1 degree
+
+     - Incorrect
+
 
 This line fits the data well, and the correlation coefficient between the two
 variables is -0.85, so any predictions are likely to be reliable. 
@@ -70,19 +84,26 @@ data point to create the following graph:
    :align: center
    :alt: A scatterplot with the correct Juneau data point.
 
-Question: If Juneau, Portland, and Seattle are excluded (all cities with fairly
-high January temperatures in the Northern region, indicated in green on the
-scatter plot above) from the dataset, what do you think will happen to the line
-of best fit and the correlation coefficient?
+.. mchoice:: lobf_correlation_coefficient
 
-1. The line of best fit will have a steeper slope, and the correlation
-   coefficient will be closer to 0.
-2. The line of best fit will have a shallower slope, and the correlation
-   coefficient will be closer to 0.
-3. The line of best fit will have a steeper slope, and the correlation
-   coefficient will be closer to -1.
-4. The line of best fit will have a shallower slope, and the correlation
-   coefficient will be closer to -1.
+   If Juneau, Portland, and Seattle are excluded (all cities with fairly high January temperatures in the Northern region, indicated in green on the scatter plot above) from the dataset, what do you think will happen to the line of best fit and the correlation coefficient?
+
+   - The line of best fit will have a steeper slope, and the correlation coefficient will be closer to 0.
+
+     - Incorrect
+
+   - The line of best fit will have a shallower slope, and the correlation coefficient will be closer to 0.
+
+     - Incorrect
+
+   - The line of best fit will have a steeper slope, and the correlation coefficient will be closer to -1.
+
+     + Correct
+
+   - The line of best fit will have a shallower slope, and the correlation coefficient will be closer to -1.
+
+     - Incorrect
+
 
 You’ve seen that the line of best fit is very useful for making predictions and
 for understanding the relationship between two variables. Here are some
