@@ -210,7 +210,8 @@ Grading Rubric
      -
      -
      -
-**Optional**(faculty can choose whether to include or not): `Here`_ is a folder
+     
+**Optional** (faculty can choose whether to include or not): `Here`_ is a folder
 with example projects that meet diffirent graing criteria (from Needs 
 Improvement to Above and Beyond).   
 
