@@ -3,6 +3,6 @@
   International License. To view a copy of this license, visit
   http://creativecommons.org/licenses/by-sa/4.0/. -->
 
-<!-- All summaries can be found shorturl.at/mrLNV -->
+<!-- All summaries can be found at shorturl.at/mrLNV -->
 
-![Graphic summarizing key concepts of basic descriptive statistics.](figures/sheets_summary.png)
+![A summary of the scatterplots section.](figures/summary.png)
