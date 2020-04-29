@@ -3,8 +3,8 @@
   International License. To view a copy of this license, visit
   http://creativecommons.org/licenses/by-sa/4.0/. -->
 
-'Non-Linear Regression'
-=======================
+Non-Linear Regression
+=====================
 
 Up to this point you've only fit straight lines to data, but Sheets can
 fit other trendlines to data as well, including exponential, polynomial,
