@@ -14,60 +14,99 @@ In this project, you will design a survey to answer a research question of your
 own, and then share the results.
 
 Here are the steps you’ll need to complete.
+ 
+**Step 1: Choose a Research Question**
 
-1.  Form a group of no more than 4 people.
+In a group, decide on a research question. Your question should ask about the 
+relationship between two or more attributes. 
 
-    -   You may want to form a group with people who are in a similar major or
-        have similar interests as this may make question selection easier.
+Examples of good research questions include:
 
-2.  Decide on a research question with your group members. Your question should
-    ask about the relationship between **two or more** attributes.
+- Does handedness (left or right) have an impact on whether you played a sport
+  in high school? 
+- Do people who have dogs walk more than people who don’t?
 
-    -   Examples of a good research question: Does handedness (left or right)
-        have an impact on whether you played a sport in high school? Do people
-        who have dogs walk more than people who don’t?
-    -   Example of an inadequate question: What percent of people are
-        left-handed? (This question involves only one attribute.)
+An example of an inadequate research question would be: 
 
-3.  Design a survey with questions to help you answer your research question.
-    Remember to create clear questions that elicit specific answers.
+- What percent of people are left-handed? (This question only involves one 
+  attribute.) 
 
-4.  Deploy your survey and collect **at least 30** responses.
+**To Do:**
 
-    -   Having trouble getting enough responses, or want more participants? Try
-        social media!
+- Form a group of no more than 4 people. (You may want to form a group with 
+  people who are in a similar major or have similar interests as this may make 
+  question selection easier.)
+- Choose a research question that asks about the relationship between two or 
+  more attributes. 
+ 
+**Step 2: Design and Deploy a Survey** 
 
-5.  Analyze your dataset by calculating summary statistics for the groups of
-    interest. Remember to answer your research question, though you may have
-    other insights you’d like to share as well.
+You will need to design a survey with relevant questions to help answer your 
+research question. Remember to create clear questions that elicit specific 
+answers. Then deploy your survey and collect at least 30 responses.
 
-    -   To answer your research question, you’ll need to subset the data in some
-        way. (For example, compare left-handed people to right-handed people.)
-    -   You may need to do some basic data cleaning of the data.
-    -   Calculate summary statistics (mean, median, standard deviation, and
-        variance) from your data for each subset and compare the statistics for
-        the groups of interest.
+**To Do:**
 
-6.   Visualize your findings.
+- Design a survey with clear and relevant questions to answer your research 
+  question. 
+- Deploy the survey and collect at least 30 responses. 
 
-    -   You may use whatever chart types you like.
-    -   Be sure to include a few sentences on what each chart conveys.
+*Hint:*
+Having trouble getting enough responses, or want more participants? Try social 
+media!
+ 
+**Step 3: Analyze your Data** 
 
-7.  Share your results. Make a slide deck to share with the class that includes
-    answers to the following.
+Analyze your dataset by calculating summary statistics for the groups of 
+interest. Remember to answer your research question, though you may have other 
+insights you’d like to share as well.
 
-    -   What is your research question?
-    -   Where did your data come from?
-    -   What is your answer to the research question?
-    -   What are possible sources of bias, and how would you improve your study
-        next time?
+**To Do:**
 
-8.  Submit your slides, sheet used for analysis, and a link to your survey by
-    **[Due Date]**.
+- Subset the data in a way that helps you answer your research question.  
+  (For instance, in the example question above, you would subset the data into 
+  left-handed people and right-handed people.)
+- Do some basic data cleaning of the data if necessary. 
+- Calculate summary statistics (mean, median, standard deviation, and variance) 
+  from your data for each subset and compare the statistics for the groups of 
+  interest.
 
-9.  **Optional** (faculty can decide whether to include or not): After
-    completing and submitting your project, complete the group work self
-    assessment and group assessment.
+*Hint:* 
+If you are unsure how to clean your data, `read this.`_
+ 
+
+**Step 4: Visualize your Findings and Share your Results** 
+
+Visualize your findings through whatever chart types you find useful. Then 
+share your results with the class by creating a slide deck. 
+
+**To Do:** 
+
+- Create a visual for your findings using chart types of your choice. Include a 
+  few sentences on what each chart conveys. 
+- Make a slide deck to share with the class that includes answers to the following. 
+
+  - What is your research question?
+  - Where did your data come from?
+  - What is your answer to the research question?
+  - What are possible sources of bias, and how would you improve your study 
+    next time?
+
+*Hint:* 
+If you need help creating helpful visuals, re-visit :ref:`this checklist on 
+creating visualizations <creating_visualization_checklist>`. 
+
+**Step 5: Submit your Materials**
+
+Submit everything you used in each of the above steps.
+
+**To Do:** 
+
+- Submit your slides, sheet used for analysis, and a link to your survey by 
+  [Due Date].
+- Optional (faculty can decide whether to include or not): After completing and 
+  submitting your project, complete the group work self assessment and group 
+  assessment.
 
 
 Grading Rubric
@@ -171,3 +210,10 @@ Grading Rubric
      -
      -
      -
+     
+**Optional** (faculty can choose whether to include or not): `Here`_ is a 
+folder with example projects that meet different grading criteria (from Needs 
+Improvement to Above and Beyond). 
+
+.. _read this.: https://elitedatascience.com/data-cleaning
+.. _Here : https://drive.google.com/open?id=1ywZa4HAaLPV5UvkQb6pkVFQeNYJOjqPb
