@@ -211,9 +211,9 @@ Grading Rubric
      -
      -
      
-**Optional** (faculty can choose whether to include or not): `Here`_ is a folder
-with example projects that meet diffirent graing criteria (from Needs 
-Improvement to Above and Beyond).   
+**Optional** (faculty can choose whether to include or not): `Here`_ is a 
+folder with example projects that meet different grading criteria (from Needs 
+Improvement to Above and Beyond). 
 
 .. _read this.: https://elitedatascience.com/data-cleaning
 .. _Here : https://drive.google.com/open?id=1ywZa4HAaLPV5UvkQb6pkVFQeNYJOjqPb
