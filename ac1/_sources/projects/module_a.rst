@@ -29,7 +29,7 @@ Examples of good research questions include:
 An example of an inadequate research question would be: 
 
 - What percent of people are left-handed? (This question only involves one 
-  attribute) 
+  attribute.) 
 
 **To Do:**
 
@@ -37,7 +37,7 @@ An example of an inadequate research question would be:
   people who are in a similar major or have similar interests as this may make 
   question selection easier.)
 - Choose a research question that asks about the relationship between two or 
-  more attributes 
+  more attributes. 
  
 **Step 2: Design and Deploy a Survey** 
 
@@ -210,5 +210,9 @@ Grading Rubric
      -
      -
      -
+**Optional**(faculty can choose whether to include or not): `Here`_ is a folder
+with example projects that meet diffirent graing criteria (from Needs 
+Improvement to Above and Beyond).   
 
 .. _read this.: https://elitedatascience.com/data-cleaning
+.. _Here : https://drive.google.com/open?id=1ywZa4HAaLPV5UvkQb6pkVFQeNYJOjqPb
