@@ -5,6 +5,6 @@
 
 .. image:: figures/summary.png
    :align: center
-   :alt: A line graph comparing number of likes over time of two posts.
+   :alt: Summary for the visualizations section.
 
-.. Location of summary document: shorturl.at/nDLOR
+.. Location of summary document: shorturl.at/mrLNV

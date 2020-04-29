@@ -7,4 +7,4 @@
    :align: center
    :alt: Graphic summarizing key concepts of regression and line of best fit.
 
-.. Location of summary document: shorturl.at/nDLOR
+.. Location of summary document: shorturl.at/mrLNV

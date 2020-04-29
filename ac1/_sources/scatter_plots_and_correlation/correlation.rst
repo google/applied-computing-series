@@ -57,10 +57,10 @@ You can use Sheets to find correlation using the *CORREL* function.
 `Video - how to find correlation in sheets.
 <https://www.youtube.com/watch?v=omIT5V7naqM>`__
 
-A common, related value is *r2*, called the **coefficient of
+A common, related value is *r^2*, called the **coefficient of
 determination**. \**The coefficient of determination is the proportion
 of variation explained by the explanatory variable. \**It can be
-calculated by squaring the correlation coefficient. The closer *r2* is
+calculated by squaring the correlation coefficient. The closer *r^2* is
 to 1, the closer *r* was to either 1 or -1, and thus the stronger the
 relationship between the variables. The coefficient of determination is
 useful when you’re only interested in strength, rather than strength and
