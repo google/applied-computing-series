@@ -3,6 +3,11 @@
   International License. To view a copy of this license, visit
   http://creativecommons.org/licenses/by-sa/4.0/. -->
 
-<!-- All summaries can be found shorturl.at/mrLNV -->
+Contents
+========
 
-![Graphic summarizing key concepts of basic descriptive statistics.](figures/sheets_summary.png)
+[Importing data](importing_data.md)
+
+[Exporting data](exporting_data.md)
+
+[Summary](summary.md)

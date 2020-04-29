@@ -18,4 +18,6 @@ SQL
    aggregating.rst
    ifs_and_cases.rst
    joining.rst
+   summary.rst
    how_to_run_sql.rst
+
