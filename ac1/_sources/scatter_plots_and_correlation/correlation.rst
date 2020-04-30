@@ -75,7 +75,7 @@ direction.
 
 .. shortanswer:: scatter-correlation-ex-3
 
-   Which would have the largest *r2* value?
+   Which would have the largest :math:`r^2` value?
    
 
 .. mchoice:: scatter-correlation-ex-4
@@ -85,4 +85,4 @@ direction.
    :answer_d: 0.05
    :correct: c
 
-   Which of the following r values would have the largest *r2* value?
+   Which of the following r values would have the largest :math:`r^2` value?
