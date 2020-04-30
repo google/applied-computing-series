@@ -329,7 +329,10 @@ Grading Rubric
        The report has several spelling/grammar errors.
      - There is no report.
 
+**Optional** (faculty can choose whether to include or not): `Here`_ is an
+example project. 
 
+.. _Here : https://drive.google.com/open?id=1lYx1vIQsdeL3OUpYn2L1tZBLykFlgvwl
 .. _World Bank Open Data: https://data.worldbank.org/
 .. _FiveThirtyEight: https://data.fivethirtyeight.com/
 .. _Kaggle: https://www.kaggle.com/datasets
