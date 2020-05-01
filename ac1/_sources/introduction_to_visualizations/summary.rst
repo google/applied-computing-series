@@ -3,8 +3,11 @@
    International License. To view a copy of this license, visit
    http://creativecommons.org/licenses/by-sa/4.0/.
 
-.. image:: figures/summary.png
-   :align: center
-   :alt: A line graph comparing number of likes over time of two posts.
+.. Location of summary document: shorturl.at/mrLNV
 
-.. Location of summary document: shorturl.at/nDLOR
+Summary
+=======
+
+.. image:: figures/visualizations_summary.png
+   :align: center
+   :alt: Summary for the visualizations section.

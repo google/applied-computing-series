@@ -3,8 +3,11 @@
     International License. To view a copy of this license, visit
     http://creativecommons.org/licenses/by-sa/4.0/.
 
-.. Link to summary document: shorturl.at/nDLOR 
+.. Link to summary document: shorturl.at/mrLNV
 
-.. image:: figures/importing_exporting_summary.png
+Summary
+=======
+
+.. image:: figures/importing_summary.png
    :align: center
    :alt: Graphic summarizing key concepts of importing and exporting files.

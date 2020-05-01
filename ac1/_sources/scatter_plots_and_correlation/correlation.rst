@@ -15,6 +15,7 @@ coefficients.
 
 .. image:: figures/correlations_example.png
    :align: center
+   :alt: A visualization of correlations.
 
 As you can see, in the first row of the examples above, the closer the
 points are to lying on a straight line, the closer the correlation is to
@@ -32,6 +33,7 @@ how correlation is calculated.
 
 .. image:: figures/scatter_plots_correlation_question.png
    :align: center
+   :alt: Multiple scatter plots for the questions below.
 
 Question: Using the above figure as a guide, match the correlation to
 each of the scatterplots from previous questions.
@@ -55,10 +57,10 @@ You can use Sheets to find correlation using the *CORREL* function.
 `Video - how to find correlation in sheets.
 <https://www.youtube.com/watch?v=omIT5V7naqM>`__
 
-A common, related value is *r2*, called the **coefficient of
+A common, related value is *r^2*, called the **coefficient of
 determination**. \**The coefficient of determination is the proportion
 of variation explained by the explanatory variable. \**It can be
-calculated by squaring the correlation coefficient. The closer *r2* is
+calculated by squaring the correlation coefficient. The closer *r^2* is
 to 1, the closer *r* was to either 1 or -1, and thus the stronger the
 relationship between the variables. The coefficient of determination is
 useful when you’re only interested in strength, rather than strength and
@@ -73,14 +75,14 @@ direction.
 
 .. shortanswer:: scatter-correlation-ex-3
 
-   Which would have the largest *r2* value?
+   Which would have the largest :math:`r^2` value?
    
 
-.. mchoice:: scatter-correlation-ex-3
+.. mchoice:: scatter-correlation-ex-4
    :answer_a: 0.7
    :answer_b: -0.1
    :answer_c: 0.9
    :answer_d: 0.05
    :correct: c
 
-   Which of the following r values would have the largest *r2* value?
+   Which of the following r values would have the largest :math:`r^2` value?

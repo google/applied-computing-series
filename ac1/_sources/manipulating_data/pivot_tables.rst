@@ -11,7 +11,7 @@ Pivot Tables
 Tables that show the average or total for different groups are often very
 helpful. Suppose some coworkers at a local company aren’t sure if `the hours for
 which they are each scheduled have been assigned fairly
-<https://drive.google.com/open?id=1XnI8Z8UZJxzHeUAly7Qj2I5i1ZCxIs13YR72LcXYQjc>`__.
+<https://docs.google.com/spreadsheets/d/1wJlGc0z1_LaVy4NccEN65frFBU5grnQ5hCJ-iKmskSc/edit?usp=sharing>`__.
 A table showing each employee, the hours they had been assigned and how often
 they opened or closed the business could be used to see if there were big
 differences in assignments, and decide if those assignments were fair. 
@@ -84,22 +84,28 @@ shift for only those three days.
    :align: center
 
 
-Question: Who was assigned the most opening shifts?
+.. mchoice:: most_openings
+   :answer_a: Jan Myers
+   :answer_b: Larry Thornton
+   :answer_c: Harlan Guthrie
+   :correct: a
 
-::
+   Who was assigned the most opening shifts?
 
-   A: Jan Myers
 
-Question: Who was assigned the smallest number of hours?
+.. mchoice:: least_hours
+   :answer_a: Harlan Guthrie
+   :answer_b: Jan Myers
+   :answer_c: Zayna Li
+   :correct: a
 
-::
+   Who was assigned the smallest number of hours?
 
-   A: Harlan Guthrie
 
-Question: What evidence from the table would support the employees’
-claim that the assignments have not been assigned fairly?
+.. shortanswer:: fair_shifts
 
-A: Free response
+   What evidence from the table would support the employees’ claim that the assignments have not been assigned fairly?
+
 
 .. image:: figures/pivot_table_subset_example.png
    :alt: A screenshot of a subset of original work hour pivot table.
@@ -126,17 +132,19 @@ for Health Statistics (NCHS), which is a branch of the Center for Disease
 Control, that provides statistical information about the health of American 
 people. `The dataset below presents the number of deaths for the ten leading 
 causes of death in the USA for each state beginning in 1999.
-<https://drive.google.com/open?id=1-_73K_54Q7Sil-ErcRGRz2Y7GJ8Aimrcd26xqY44s4Q>`__
+<https://docs.google.com/spreadsheets/d/1fCaevMSqlbq9lGJhqYVp8f_UWcKV4mCA5q81YJsQ0M8/edit?usp=sharing>`__
 
 .. image:: figures/leading_cause_of_death.png
    :alt: A screenshot of a sheet with leading cause of death data.
    :align: center
 
-Question: How many people died from cancer in Nevada in 2007?
 
-::
+.. fillintheblank:: 2007_NV_cancer
 
-   Answer: 4331
+   How many people died from cancer in Nevada in 2007? |blank|
+
+   - :answer: 4331
+
 
 You are working on a project for your nonprofit to try to find the leading
 causes of death in the USA, in order to target possible areas of improvement for
@@ -191,25 +199,27 @@ heart disease. This is astonishingly high, and shows that efforts towards
 reducing heart disease or ameliorating symptoms due to heart disease is the 
 highest priority for the nonprofit.
 
-Question: Which cause, out of these top ten, has the smallest share of deaths?
 
-::
+.. fillintheblank:: smallest_death_cause
 
-   Answer: Suicide
+   Which cause, out of these top ten, has the smallest share of deaths? |blank|
 
-Question: What percent of the deaths represented in this table are due to
-stroke?
+   - :answer: Suicide
 
-::
 
-   Answer: 7.5%
+.. fillintheblank:: percent_stroke_deaths
 
-Question: What percentage of the deaths in this dataset do the top two causes of
-deaths account for?
+   What percent of the deaths represented in this table are due to stroke? |blank|
 
-::
+   - :answer: 7.5%
 
-   Answer: 63 - 64%
+
+.. fillintheblank:: top_two
+
+   What percentage of the deaths in this dataset do the top two causes of deaths account for? |blank|
+
+   - :answer: 63 - 64%
+
 
 In order to present this information to your teammates, it might be easier to
 display this information as a chart, rather than a table. A bar chart,
@@ -286,20 +296,21 @@ presenting this to your teammates, you need to address these issues. Consider
 reducing the number of causes displayed (perhaps to just the most “interesting” 
 causes), and changing the colors used.
 
-Question: What causes of death have had increasing percentages from 1999 to
-2016?
+.. fillintheblank:: increasing_deaths
 
-::
+   What causes of death have had increasing percentages from 1999 to
+   2016? |blank|
 
-   Answer: Alzheimer’s, Cancer, CLRD, Unintentional injuries, Diabetes, Suicide
-   Kidney disease
+   - :answer: Alzheimer’s, Cancer, CLRD, Unintentional injuries, Diabetes, Suicide, Kidney disease
 
-Question: What causes of death have had decreasing percentages from 1999 to
-2016?
 
-::
+.. fillintheblank:: decreasing_deaths
 
-   Answer: Heart disease, Influenza and pneumonia, Stroke 
+   What causes of death have had decreasing percentages from 1999 to
+   2016? |blank|
+
+   - :answer: Heart disease, Influenza and pneumonia, Stroke 
+
 
 It’s difficult to see in the graph above, but deaths due to Alzheimer’s disease
 have been steadily increasing. This change is much easier to see if Alzheimer’s
@@ -321,8 +332,14 @@ deaths.
    :alt: A screenshot of adding a filter for Alzheimer’s.
    :align: center
 
-Question: What is the ratio of Alzheimer’s disease deaths in 2016
-compared to 1999?
+
+.. fillintheblank:: unique_id
+
+   What is the ratio of Alzheimer’s disease deaths in 2016
+   compared to 1999? |blank|
+
+   - :answer: 4532 to 15570
+
 
 While the raw number of deaths is significantly greater for heart disease and
 cancer, the growth of Alzheimer’s disease deaths is also very worrying to your

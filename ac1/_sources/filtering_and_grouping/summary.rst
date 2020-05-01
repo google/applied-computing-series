@@ -3,7 +3,10 @@
     International License. To view a copy of this license, visit
     http://creativecommons.org/licenses/by-sa/4.0/.
 
-.. image:: figures/summary.png
-   :align: center
+.. Location of summary document: shorturl.at/mrLNV
 
-.. Location of summary document: shorturl.at/nDLOR
+Summary
+=======
+
+.. image:: figures/filtering_summary.png
+   :align: center

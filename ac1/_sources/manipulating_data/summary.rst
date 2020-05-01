@@ -3,8 +3,11 @@
     International License. To view a copy of this license, visit
     http://creativecommons.org/licenses/by-sa/4.0/.
 
-.. Link to summary document: shorturl.at/nDLOR
+.. Link to summary document: shorturl.at/mrLNV
 
-.. image:: figures/manipulating_data_summary.png
+Summary
+=======
+
+.. image:: figures/manipulating_summary.png
    :align: center
    :alt: Graphic summarizing key concepts of manipulating data in Sheets.

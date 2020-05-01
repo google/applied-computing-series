@@ -22,12 +22,14 @@ method to better understand the relationship between the two variables *x* and *
 
 .. image:: figures/negative_slope.png
   :width: 49%
+  :align: center
   :alt: A graph of the equation y equals negative one third times x plus five and the slope is negative.
 
 This figure depicts an equation of a line that has a y-intercept of 5 and a negative slope.
 
 .. image:: figures/positive_slope.png
   :width: 49%
+  :align: center
   :alt: A graph of the equation of y equals 2 times x plus one. 
 
 The equation of the line in the above figure has a y-intercept of 1 and a positive slope.

@@ -16,7 +16,7 @@ How to make a scatter plot
 --------------------------
 
 First, copy over the city, state, latitude and July mean temperature columns 
-from the weather data here into a new sheet.
+from the weather data `here<https://docs.google.com/spreadsheets/d/1ZmEmZwed-kGdDUDhxCxCzXtYLa4hRKZVoeRVQ5Cqo-M/edit?usp=sharing>`__ into a new sheet.
 
 .. image:: figures/create_a_scatter_copy_data.png
    :alt: A screenshot of a Sheet with the weather data's city, state, latitude, and July.
@@ -100,16 +100,17 @@ add a descriptive horizontal axis label and a descriptive vertical axis label.
 You now have a scatter plot for latitude versus July mean temperature. Using 
 the scatter plot, answer the questions below. 
 
-Question: What city represents the point furthest to the right on the
-scatter plot?
+.. fillintheblank:: furthest_right_city
 
-::
+   What city represents the point furthest to the right on the scatter plot? |blank|
 
-   A: Seattle
+   - :Seattle: Correct
+     :x: Incorrect
 
-Question: What city represents the point closest to the y-axis on the
-scatter plot?
 
-::
+.. fillintheblank:: furthest_left_city
 
-   A: Miami-Hialeah
+   What city represents the point closest to the y-axis on the scatter plot? |blank|
+
+   - :Miami-Hialeah: Correct
+     :x: Incorrect

@@ -207,7 +207,7 @@ resources that contribute to increased graduation rates.
 
 .. mchoice:: slope_line_of_best_fit
 
-   Question: Which of the following is the correct interpretation of the slope
+   Which of the following is the correct interpretation of the slope
    of the line of best fit?
 
    (Predicted Median Debt of Graduates) = 0.209 \* (Average Net Tuition) + 19043

@@ -25,7 +25,7 @@ variables.
 Now, you will apply the concepts you’ve learned so far to help identify
 relationships in `a dataset about colleges and
 universities
-<https://drive.google.com/open?id=1bQnNX8lAH3QnYHZlKlJqrMuHLgWcToTjjyEeDOV92bM>`__
+<https://docs.google.com/spreadsheets/d/17Uc5J53fHSPHTReNAMw2s-CxLWljPRhbZYvTUtcB8OY/edit?usp=sharing>`__
 across the USA. For each school, the dataset has information about the
 following.
 

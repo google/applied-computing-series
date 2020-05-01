@@ -47,7 +47,7 @@ is a dataset on 80 different brands of
 cereal <https://www.kaggle.com/crawford/80-cereals>`__, that you can
 download to your computer and then work within Sheets.
 
-Question: Import this data into Sheets using the following instructions.
+Import this data into Sheets using the following instructions.
 
 1. In a new spreadsheet, click “File > Import”. 
    

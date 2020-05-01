@@ -76,8 +76,8 @@ relationships.
 **Step 3: Join Tables**
 
 By joining tables across the database you can answer questions and analyze data
-with a different perspective. For resources, refer back to the :ref:`section on
-joining tables <joining_sql>` earlier in the textbook.
+with a different perspective. For resources, refer back to the 
+:ref:`section on joining tables <joining_sql>` earlier in the textbook.
 
 **To Do:**
 
@@ -141,7 +141,7 @@ categorical variable to focus on.
 
 As discussed in the textbook, visualizations are important to convey your
 findings. You will create visualizations in Sheets of your results. Keep in mind
-:ref:`accessibility guidelines <creating_visualization_checklist>` when creating
+:ref:`accessibility guidelines <creating_visualizations_checklist>` when creating
 your visualizations.
 
 **To Do:**

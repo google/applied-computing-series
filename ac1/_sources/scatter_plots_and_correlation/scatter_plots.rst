@@ -26,8 +26,8 @@ latitudes between 25 and 26 degrees, for 26 to 27 degrees, and so on. By
 using cities with very similar latitudes, you could make a more accurate
 prediction of Charleston’s temperature. However, it would be tedious to
 create so many groups. Rather than converting latitude to buckets of
-variables (aka a `categorical variable`_),
-you could use latitude as a `quantitative variable`_.
+variables (aka a :ref:`categorical variable<variables>`),
+you could use latitude as a :ref:`quantitative variable<variables>`.
 
 Scatter plots show the relationship between two quantitative variables.
 The variable on the x-axis is called the **explanatory variable**. The
@@ -64,19 +64,16 @@ temperatures for cities with similar latitudes. The actual January
 temperature in Charleston is 50 degrees F, so this prediction is more
 accurate than the 52 degrees F predicted from the bar chart.
 
-Question: Why did the scatter plot produce a more accurate prediction
-that the bar chart?
+.. shortanswer:: accuracy-prediction
 
-::
+   Why did the scatter plot produce a more accurate prediction than the bar chart?
 
-   A: Free Response
 
-Question: The latitude of El Paso, Texas is 31.7 degrees. Use that to
-predict the January temperature in El Paso.
+.. fillintheblank:: elpaso_temp
 
-::
+   The latitude of El Paso, Texas is 31.7 degrees. Use that to predict the January temperature in El Paso. |blank|
 
-   A: Range 45 - 55 or so.
+   - :answer: Range 45 - 55 or so.
 
 The city of Juneau, Alaska has a latitude of 58 degrees. Because there
 are no other cities in the dataset with similar latitudes, it is not
@@ -84,6 +81,3 @@ possible to make a reliable guess about the January temperature in
 Juneau. Trying to make a prediction about values not represented by your
 data is called **extrapolation**, and predictions made in this way are
 considered unreliable.
-
-.. _categorical variable: https://github.com/google/applied-computing-series/blob/master/ac1/_sources/basic_descriptive_statistics/variables.rst#id2
-.. _quantitative variable: https://github.com/google/applied-computing-series/blob/master/ac1/_sources/basic_descriptive_statistics/variables.rst#id2
