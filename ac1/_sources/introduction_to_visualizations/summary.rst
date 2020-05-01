@@ -3,8 +3,11 @@
    International License. To view a copy of this license, visit
    http://creativecommons.org/licenses/by-sa/4.0/.
 
-.. image:: figures/summary.png
+.. Location of summary document: shorturl.at/mrLNV
+
+Summary
+=======
+
+.. image:: figures/visualizations_summary.png
    :align: center
    :alt: Summary for the visualizations section.
-
-.. Location of summary document: shorturl.at/mrLNV

@@ -5,6 +5,9 @@
 
 .. Link to summary document: shorturl.at/mrLNV
 
-.. image:: figures/summary.png
+Summary
+=======
+
+.. image:: figures/scatter_plots_summary.png
    :align: center
    :alt: A summary of the scatterplots section.

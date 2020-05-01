@@ -5,6 +5,9 @@
 
 .. Link to summary document: shorturl.at/mrLNV
 
-.. image:: figures/manipulating_data_summary.png
+Summary
+=======
+
+.. image:: figures/manipulating_summary.png
    :align: center
    :alt: Graphic summarizing key concepts of manipulating data in Sheets.

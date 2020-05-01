@@ -5,6 +5,9 @@
 
 .. Link to summary document: shorturl.at/mrLNV
 
-.. image:: figures/importing_exporting_summary.png
+Summary
+=======
+
+.. image:: figures/importing_summary.png
    :align: center
    :alt: Graphic summarizing key concepts of importing and exporting files.
