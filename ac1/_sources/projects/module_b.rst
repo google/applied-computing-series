@@ -318,6 +318,9 @@ Grading Rubric
      -
      -
 
+**Optional** (faculty can choose whether to include or not): `Here`_ is an
+example project.
+
 .. _World Bank Open Data: https://data.worldbank.org/
 .. _FiveThirtyEight: https://data.fivethirtyeight.com/
 .. _Kaggle: https://www.kaggle.com/datasets
@@ -326,3 +329,4 @@ Grading Rubric
 .. _Disadvantages of a small sample size.: https://sciencing.com/disadvantages-small-sample-size-8448532.html
 .. _Refresher on data privacy.: https://www.siliconrepublic.com/enterprise/ethics-data-science-bias
 .. _Examples of reports backed by data science: https://www.un.org/en/climatechange/reports.shtml
+.. _Here : https://docs.google.com/document/d/1Sq4k8Pv1eX6o27zzW6mE0WJ_jdQS4xuvOiKFas27ZLo/edit?usp=sharing
