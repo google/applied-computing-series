@@ -191,6 +191,9 @@ think about the broader implications.
 completing and submitting your project, complete the group work self
 assessment and group assessment.
 
+**Optional** (faculty can choose whether to include or not): [Here](https://drive.google.com/open?id=1lYx1vIQsdeL3OUpYn2L1tZBLykFlgvwl)
+is an example project.
+
 Grading Rubric
 --------------
 

@@ -94,7 +94,7 @@ share your results with the class by creating a slide deck.
 
 *Hint:* 
 If you need help creating helpful visuals, re-visit :ref:`this checklist on 
-creating visualizations <creating_visualization_checklist>`. 
+creating visualizations <creating_visualizations_checklist>`. 
 
 **Step 5: Submit your Materials**
 
@@ -108,6 +108,9 @@ Submit everything you used in each of the above steps.
   submitting your project, complete the group work self assessment and group 
   assessment.
 
+**Optional** (faculty can choose whether to include or not): `Here`_ is a 
+folder with example projects that meet different grading criteria (from Needs 
+Improvement to Above and Beyond). 
 
 Grading Rubric
 --------------
@@ -210,10 +213,6 @@ Grading Rubric
      -
      -
      -
-     
-**Optional** (faculty can choose whether to include or not): `Here`_ is a 
-folder with example projects that meet different grading criteria (from Needs 
-Improvement to Above and Beyond). 
 
 .. _read this.: https://elitedatascience.com/data-cleaning
 .. _Here : https://drive.google.com/open?id=1ywZa4HAaLPV5UvkQb6pkVFQeNYJOjqPb

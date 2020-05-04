@@ -95,7 +95,7 @@ variables. Here are some important considerations to keep in mind.
     degrees won't be very accurate.
 -   Be careful if your dataset contains outliers as lines of best fit
     are very sensitive to extreme values. Even one outlier can change
-    the direction of the line of best fit and dramatically reduce the R2
+    the direction of the line of best fit and dramatically reduce the :math:`r^2`
     value. For example, if the January temperature for Boston is
     accidentally recorded as 678 degrees, the line of best fit won't fit
     the rest of the data, and won't be useful for making predictions.
