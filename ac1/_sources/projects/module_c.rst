@@ -193,6 +193,8 @@ the broader implications.
 and submitting your project, complete the group work self assessment and group
 assessment.
 
+**Optional** (faculty can choose whether to include or not): `Here`_ is an
+example project.
 
 Grading Rubric
 --------------
@@ -328,9 +330,6 @@ Grading Rubric
      - The report’s structure lacks clarity or is otherwise difficult to read.
        The report has several spelling/grammar errors.
      - There is no report.
-
-**Optional** (faculty can choose whether to include or not): `Here`_ is an
-example project. 
 
 .. _Here : https://drive.google.com/open?id=1lYx1vIQsdeL3OUpYn2L1tZBLykFlgvwl
 .. _World Bank Open Data: https://data.worldbank.org/
