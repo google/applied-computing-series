@@ -4,7 +4,7 @@
    http://creativecommons.org/licenses/by-sa/4.0/.
 
 
-What Is A Sheet?
+What is a Sheet?
 ================
 
 Fundamentally, a spreadsheet (also known as a sheet) is a table, or a matrix. It
@@ -43,8 +43,8 @@ Example: Painters
 -----------------
 
 The definitions above might be a bit abstract. Sheets makes a lot more sense
-when there is data, so here is an example. In `this dataset`_, there is
-information about 50 of the most prolific painters of all time.
+when there is data, so here is an example. In `this dataset`_ from `Kaggle`_,
+there is information about 50 of the most prolific painters of all time.
 
 In general:
 
@@ -111,4 +111,5 @@ Use `this dataset`_ to answer the following questions.
      :x: Incorrect: Don’t get the row number mixed up with the value in the “id”
          column.
 
-.. _this dataset: https://docs.google.com/spreadsheets/d/1Yb_HCT2Dvdo5J_dbQdEifb3ymXMyrWSnPKKmERRnIB8/edit#gid=30572353
+.. _this dataset: https://docs.google.com/spreadsheets/d/1Cvn9rGbliYR0pN0OzO9h7eDvyV96LEPkrlw-DMTlONw/edit?usp=sharing
+.. _Kaggle: https://www.kaggle.com/ikarus777/best-artworks-of-all-time

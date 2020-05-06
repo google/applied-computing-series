@@ -159,10 +159,10 @@ The ``MATCH`` function has three inputs and looks like this:
       order and return the smallest value greater than or equal to ``search_key``
 
 To practice using ``MATCH``, suppose a company called CandyData handed you the
-`Halloween Candy`_ dataset with information about various Halloween candies. 
-Suppose they ask you to find out which of the candies is most expensive. You 
-know that you need to find the row with the highest value in the Price Percent 
-column, so you can use the ``MATCH`` function! 
+`Halloween Candy`_ dataset from FiveThirtyEight with information about various
+Halloween candies. Suppose they ask you to find out which of the candies is most
+expensive. You know that you need to find the row with the highest value in the
+Price Percent column, so you can use the ``MATCH`` function! 
 
 Now you must start filling in the inputs for ``MATCH``. The first input is the 
 value you’re searching for. You’re looking for the maximum value in the column, 

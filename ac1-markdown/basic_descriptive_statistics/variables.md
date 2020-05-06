@@ -72,10 +72,10 @@ Example: Student Data
 ---------------------
 
 To illustrate the difference between quantitative and categorical
-variable, consider the following example concerning data of students in
-a class.
+variable, consider the following example concerning data of
+[students in a class](https://docs.google.com/spreadsheets/d/1SbhCo8ZjEfFmBGwE7TLdsq-mxvMQa3hOmL5DMWF2ZTc/edit?usp=sharing).
 
-![image](figures/student_data.png)
+![image](figures/sheet_example.png)
 
 The dataset contains, for a 20 student class, the name, height, hair
 color, and birthday of students in the class.
@@ -89,8 +89,8 @@ non-numeric values.
 Example: Weather
 ----------------
 
-In this and all following examples using this dataset, the temperature
-is reported in degrees Fahrenheit.
+In this and all following examples using this dataset,
+the temperature is reported in degrees Fahrenheit.
 
 The dataset contains, for several US cities, the average (mean),
 minimum, and maximum temperatures for each day from July 1, 2014 to June
