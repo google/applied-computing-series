@@ -9,7 +9,7 @@ Making Predictions with the Regression Line
 ===========================================
 
 Recall that in
-:ref:`(the section on regression lines)<creating_line_of_best_fit>`, you
+:ref:`the section on regression lines <creating_line_of_best_fit>`, you
 learned about the equation for the regression line.
 
 .. image:: figures/average_sat_score_completion_rate.png
@@ -17,8 +17,8 @@ learned about the equation for the regression line.
    :alt: A scatter plot showing the completion rate of students against their SAT scores.
 
 Returning to the scatter plot showing average SAT score and completion rate, the
-equation of the regression line is y = 0.0011*x - 0.7116. The slope is 0.0011
-and the y-intercept is -0.7116. Another way to write this is to use the
+equation of the regression line is :math:`y = 0.0011x - 0.7116`. The slope is
+0.0011 and the y-intercept is -0.7116. Another way to write this is to use the
 descriptions of the x and y variables.
 
 
@@ -37,10 +37,10 @@ Because University X has an average SAT score of 1200, you will replace that
 portion of the regression line equation with the number 1200.
 
 :math:`\text{Predicted Completion Rate} = 0.0011 \times (1200) - 0.7116 =
-0.6386 (\text{or} 63.86%)`
+0.6386 \text{ (or } 63.86 \%)`
 
 So, University X has a predicted completion rate of 63.86%. The point
-(1200, .6386) is illustrated on the scatter plot below.
+(1200, 0.6386) is illustrated on the scatter plot below.
 
 
 .. image:: figures/sat_completion_rate_annotated.png
@@ -56,7 +56,7 @@ You can use the same method to estimate the completion rate for a school with an
 average SAT score of 600.
 
 :math:`\text{Predicted Completion Rate} = 0.0011 \times (600) - 0.7116 =
--0.0365 (\text{or} -3.65%)`
+-0.0365 \text{ (or } -3.65 \%)`
 
 But a negative completion rate doesn’t make sense! A school can’t have a
 graduation rate lower than 0%. The reason this doesn’t make sense is because 600
@@ -65,11 +65,3 @@ that range is extrapolation. Because there is only one school with an average
 SAT score that low, using this regression line is not going to give a reliable
 (or even reasonable) prediction. Finding regression lines and making predictions
 can be difficult with such outliers.
-
-What if, instead, you try to predict completion rate based on the percentage of
-students receiving federal loans? As the correlation between the percentage of
-students receiving federal loans and completion rate is much smaller than the
-correlation between average SAT score and completion rate, any predictions made
-using the correlation between these variables will be less accurate. This is
-reflected in the scatter plot as well, where the data points are much more
-spread out.

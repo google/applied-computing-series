@@ -67,24 +67,24 @@ copying the formula down to the cells C3:C8.
    Why does *VLOOKUP* not work for Loaf of Bread and Dozen Eggs?
 
    - They aren’t listed in the Prices tab.
-   
-     - Incorrect: While that can cause a similar error, both items are listed 
+
+     - Incorrect: While that can cause a similar error, both items are listed
        in the Prices tab.
 
    - They aren’t spelled correctly.
 
-     - Incorrect: While that can cause a similar error, both items are spelled 
+     - Incorrect: While that can cause a similar error, both items are spelled
        correctly.
 
    - The formula changed when it was copied.
 
-     + Correct: The range changed when the formula was copied down. Rather than 
-       change it by hand in each cell, this is a great time to use absolute 
+     + Correct: The range changed when the formula was copied down. Rather than
+       change it by hand in each cell, this is a great time to use absolute
        references.
 
    - Those have to be looked up by hand.
 
-     - Incorrect: You want to avoid that as much as possible. It is tedious and 
+     - Incorrect: You want to avoid that as much as possible. It is tedious and
        error prone.
 
 Finish the grocery list by completing the following:
@@ -96,32 +96,32 @@ Finish the grocery list by completing the following:
 
 .. mchoice:: grocery_list_total
 
-   What is the total for all the items on this grocery list in the quantities 
+   What is the total for all the items on this grocery list in the quantities
    given?
 
    - $40.55
-   
+
      + Correct: The total is $40.55.
-     
+
    - $13.33
-   
+
      - Incorrect: Remember to multiply the price by the quantity.
-     
+
    - $93.31
-   
-     - Incorrect: Make sure the prices are being multiplied by the correct 
+
+     - Incorrect: Make sure the prices are being multiplied by the correct
        quantity.
-     
+
    - $20.23
-     
+
      - Incorrect: Remember to sum all of the costs.
 
 While you could have filled these in by hand, imagine filling that information
 out for a grocery list with 100 items. That method is also more error prone.
-Another benefit to using *VLOOKUP* is that, if the price changes, you can 
+Another benefit to using *VLOOKUP* is that, if the price changes, you can
 update the prices tab and the subtotal will automatically be recalculated.
 
-To get a sense of how easy it is to recalculate the total in Sheets when a 
+To get a sense of how easy it is to recalculate the total in Sheets when a
 single item's price changes, answer the following question:
 
 .. mchoice:: cheaper_apples
@@ -129,28 +129,28 @@ single item's price changes, answer the following question:
    If apples are on sale for 39 cents each, what would the new subtotal be?
 
    - $37.75
-   
+
      + Correct: The total is $37.75.
-     
+
    - $15.77
-   
+
      - Incorrect: Change the price of apples in the Prices sheet.
-     
+
    - $32.64
-   
+
      - Incorrect: Change the price of apples in the Prices sheet.
-     
+
    - $25.22
-     
+
      - Incorrect: Change the price of apples in the Prices sheet.
 
 Example: Death Rate by State
 ----------------------------
 
-Earlier, you considered a non-profit that works to improve the life expectancy 
-of Americans, and you helped them find the leading causes of deaths in the USA. 
-Now your nonprofit wants to know how each state stacks up against the others, 
-in terms of causes of death. For example, are some states heart-healthier than 
+Earlier, you considered a non-profit that works to improve the life expectancy
+of Americans, and you helped them find the leading causes of deaths in the USA.
+Now your nonprofit wants to know how each state stacks up against the others,
+in terms of causes of death. For example, are some states heart-healthier than
 others?
 
 To begin to answer these questions, first make a pivot table and a bar chart to
@@ -203,19 +203,19 @@ it more understandable if you format this column as a percentage.)
    Which state has the highest death rate?
 
    - Arkansas.
-   
+
      - Incorrect: The state with the highest death rate is not Arkansas.
-       
+
    - New York.
-   
+
      - Incorrect: The state with the highest death rate is not New York.
-       
+
    - West Virginia
-   
+
      + Correct: The state with the highest death rate is West Virginia.
-       
+
    - Texas
-   
+
      - Incorrect: The state with the highest death rate is not Texas.
 
 
@@ -224,21 +224,21 @@ it more understandable if you format this column as a percentage.)
    What is the average death rate?
 
    - .97%
-   
+
      - Incorrect: Make sure you're not including the grand total.
-       
+
    - .58%
-   
+
      - Incorrect: The average death rate is not .58%.
-       
+
    - .49%
-   
+
      - Incorrect: The average death rate is not .49%.
-       
+
    - .62%
-   
+
      + Correct: Correct.
-     
+
 There is a pretty big variation in death rates by state. One possible reason for
 this difference is the typical age in each state. States with younger
 populations should have a lower death rate than states with older populations.
@@ -261,13 +261,13 @@ necessarily mean that if you move to Alaska, you’ll turn younger or live longe
 
 .. shortanswer:: summary_findings
 
-   Write a summary of this finding that you can send out to your teammates. 
+   Write a summary of this finding that you can send out to your teammates.
    Keep it brief and non-technical, but refer to important findings.
 
-Answering questions relating different variables and trying to explain 
-variation often involves bringing together information from different sources. 
-*VLOOKUP* is a great tool for joining data, but it’s not the only one. In the 
-next few weeks of this course you’ll learn about other ways to join data that 
+Answering questions relating different variables and trying to explain
+variation often involves bringing together information from different sources.
+*VLOOKUP* is a great tool for joining data, but it’s not the only one. In the
+next few weeks of this course you’ll learn about other ways to join data that
 are more flexible and that work for much larger datasets.
 
 Example: Cause of Death over Time
@@ -286,7 +286,7 @@ population data starts in 2010, add a filter to only display the years 2010 to
 deaths by the population for each year.
 
 Add a row below showing the population for each year from 2010 to 2016. (There
-are several ways to do this. One possible solution uses the sum of each column 
+are several ways to do this. One possible solution uses the sum of each column
 of state populations to get the population for each year.)
 
 .. image:: figures/us_population_by_year.png
