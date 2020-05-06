@@ -98,39 +98,57 @@ the painters dataset to French painters.
 Notice that when trying to count the number of rows, selecting the cells
 selects all cells between the first and the last, not just the filtered
 cells. Note that the selected range is
-`H5:H48`. While there are only 13 filtered rows, the range selects all rows between 5 and 48. This returns a count of 44 French artists, which is incorrect. The same is true for cell ranges when using `SUM`and`AVERAGE`.  Instead of copy-pasting the filtered table to a new sheet and then using summary functions, you can just use grouping functions. For example, to count the number of French painters, you can use`COUNTIF`. The range to be counted is the “nationality” column, and the column condition checks whether the value is “French”. 
+`H5:H48`. While there are only 13 filtered rows, the range selects all
+rows between 5 and 48. This returns a count of 44 French artists, which
+is incorrect. The same is true for cell ranges when using `SUM`and`AVERAGE`.
+Instead of copy-pasting the filtered table to a new sheet and then using summary
+functions, you can just use grouping functions. For example, to count the number
+of French painters, you can use`COUNTIF`. The range to be counted is the
+“nationality” column, and the column condition checks whether the value is “French”.
 
  ![A screenshot from Sheets of a painters dataset grouped to count the number of painters whose nationality is French.](figures/french_painters_using_countif.png)   
    
 ### Fill in the blank
    
-3. Use`SUMIF`to find the number of paintings by French painters.    
+3. Use`SUMIF`to find the number of paintings by French painters.
     
 Note that if you wanted to use the more general definition of “French” (any painter who has French as one of their nationalities), you would need to use a different filter condition. In general, the filter condition for checking if "word" appears anywhere in the text looks like`\"*word*\"` . [This forum discussion goes into more detail](https://stackoverflow.com/questions/17152704/google-spreadsheet-count-if-contains-a-string). This can apply to any grouping function.  Use grouping functions ( ``COUNTIF`,`SUMIF`,`AVERAGEIF`` ) when answering the following questions.  
 
-### Fill in the blank      
+### Fill in the blank
 
-4. How many Italian (only nationality is Italian) painters are in the list?     
+4. How many Italian (only nationality is Italian) painters are in the list?
  
 5. What is the mean number of paintings by Italian painters? (Round your answer  
-to the nearest whole number.) 
+to the nearest whole number.)
 
 ### Multiple choice
    
 6. Which genre produced more paintings: impressionism or romanticism? (You may   simplify this by only looking at painters whose only genre is impressionism   or romanticism.)     
    
-**A.** Impressionism       
+**A.** Impressionism
    
-**B.** Romanticism       
+**B.** Romanticism
    
-### Fill in the blank   
+### Fill in the blank
    
 7. How many painters were associated with multiple genres? (Hint: Look for    painters whose "genre" field contains a comma.) 
    
 Example: Titanic
 ----------------  
    
-The `Titanic`_ was a passenger ship that sank on its journey from Southampton (England) to New York (USA) in 1912, `killing over 1,500 people`_. This example uses passenger data from the tragedy. Each row records a passenger on the ship.  The purpose of this example is to find out whether some groups, for example, women and children who had priority access to life rafts in case of emergency, had a higher survival rate than others. For example, did women and children have a higher survival rate than men? This can be done very conveniently using grouping functions.  In its raw state, the survival of each passenger is encoded as “Dead” or “Alive” in column B. These words are hard to deal with numerically, so you should probably first transform these values to numbers. For example, the following formula maps “Dead” to 0 and “Alive” to 1. (The example is for cell B2, but it can be copy-pasted for the other rows.) You can insert a column on the left of column C and use this column for the formula.   
+The [Titanic](https://en.wikipedia.org/wiki/RMS_Titanic) was a passenger ship
+that sank on its journey from Southampton (England) to New York (USA) in 1912,
+[killing over 1,500 people](https://en.wikipedia.org/wiki/Passengers_of_the_RMS_Titanic).
+This example uses passenger data from the tragedy. Each row records a passenger on the ship.
+The purpose of this example is to find out whether some groups, for example, women and
+children who had priority access to life rafts in case of emergency, had a higher survival
+rate than others. For example, did women and children have a higher survival rate than men?
+This can be done very conveniently using grouping functions.  In its raw state, the survival
+of each passenger is encoded as “Dead” or “Alive” in column B. These words are hard to deal
+with numerically, so you should probably first transform these values to numbers.
+For example, the following formula maps “Dead” to 0 and “Alive” to 1.
+(The example is for cell B2, but it can be copy-pasted for the other rows.)
+You can insert a column on the left of column C and use this column for the formula.
 
 ```
 =IF(B2=“Alive”, 1, 0)
@@ -142,7 +160,10 @@ The `Titanic`_ was a passenger ship that sank on its journey from Southampton (E
 
 8. What is the survival rate on the Titanic? (Give your answers as a    percentage, to two decimal places.)    
 
-This survival rate you just calculated is the overall survival rate for all passengers. What if you want to know the survival rate just for men, or just for women, or just for children?  To calculate the survival rate just for men, you need to find the mean of column C, but only if column E is equal to “Man”. This is a perfect use case for ``AVERAGEIF\`\`.
+This survival rate you just calculated is the overall survival rate for all passengers.
+What if you want to know the survival rate just for men, or just for women, or just for children?
+To calculate the survival rate just for men, you need to find the mean of column C, but only
+if column E is equal to “Man”. This is a perfect use case for ``AVERAGEIF\`\`.
 
 ``` {.none}
 =AVERAGEIF(E$2:E$2209, "=Man", C$2:C$2209)
