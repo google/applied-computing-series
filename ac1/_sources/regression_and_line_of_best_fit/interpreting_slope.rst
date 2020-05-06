@@ -34,7 +34,9 @@ line of best fit.
 You can practice this through an example. Below is a scatter plot with median
 SAT Math score as the explanatory variable, and median earnings after graduation
 as the explained variable. A line of best fit has already been added to the
-graph.
+graph. You can follow along with this example by using the
+`SAT data spreadsheet <https://docs.google.com/spreadsheets/d/1FCvsdw0wvtaD7G5tvOtMcHRMfoC0n-UFyjtidIW-wQE/edit?usp=sharing>`_
+which contains data from `College Scorecard. <https://collegescorecard.ed.gov/data/>`_
 
 
 .. image:: figures/SAT_Math_and_Earnings.png
@@ -232,3 +234,5 @@ resources that contribute to increased graduation rates.
      increases by .209 dollars.
 
      + Correct
+
+.. https://docs.google.com/spreadsheets/d/1FCvsdw0wvtaD7G5tvOtMcHRMfoC0n-UFyjtidIW-wQE/edit?usp=sharing
