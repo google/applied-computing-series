@@ -34,7 +34,9 @@ line of best fit.
 You can practice this through an example. Below is a scatter plot with median
 SAT Math score as the explanatory variable, and median earnings after graduation
 as the explained variable. A line of best fit has already been added to the
-graph.
+graph. You can follow along with this example by using the
+`SAT data spreadsheet <https://docs.google.com/spreadsheets/d/1FCvsdw0wvtaD7G5tvOtMcHRMfoC0n-UFyjtidIW-wQE/edit?usp=sharing>`_
+which contains data from `College Scorecard. <https://collegescorecard.ed.gov/data/>`_
 
 
 .. image:: figures/SAT_Math_and_Earnings.png
@@ -84,7 +86,7 @@ following:
    :align: center
    :alt: Annotated scatterplot showing the change in y is 11895 while the change in x is 100.
 
-You can use incorporate this change into the equation for slope:
+You can incorporate this change into the equation for slope:
 
 .. math::
    \frac{\text{change in median earnings}}{\text{change in median SAT math
@@ -162,7 +164,7 @@ The equation of the line of best fit is:
    \text{Percentage with Federal Loans} + 0.775
 
 
-You can interpret the slope and you have done before by breaking it into the
+You can interpret the slope as you have done before by breaking it into the
 change in y over the change in x.
 
 
@@ -210,7 +212,8 @@ resources that contribute to increased graduation rates.
    Which of the following is the correct interpretation of the slope
    of the line of best fit?
 
-   (Predicted Median Debt of Graduates) = 0.209 \* (Average Net Tuition) + 19043
+   :math:`(Predicted Median Debt of Graduates) = 0.209 \times (Average Net
+   Tuition) + 19043`
 
    - For every dollar that median debt increases by, average net tuition
      increases by .209 dollars.
