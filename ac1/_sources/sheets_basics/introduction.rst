@@ -13,12 +13,14 @@ using statistics!
 This section introduces you to the basics of spreadsheets, and walks through a
 few illustrative examples.
 
-There are multiple spreadsheet softwares, including Google Sheets, Apple
-Numbers, Microsoft Excel, and more. While functionality may differ slightly
-across platforms, the core concepts and syntaxes are the same. In this course,
-whenever sheets are mentioned, it is in reference to Google Sheets, which is
-pictured below with example student data.
+There are multiple spreadsheet softwares and the one we will focus on in this
+textbook is Google Sheets. While functionality may differ slightly across
+platforms, the core concepts and syntaxes are the same. In this course, whenever
+sheets are mentioned, it is in reference to Google Sheets, which is pictured
+below with example `student data`_.
 
 .. image:: figures/sheet_example.png
    :align: center 
    :alt: Spreadsheet with example student data of name, height, hair color.
+
+.. _student data: https://docs.google.com/spreadsheets/d/1SbhCo8ZjEfFmBGwE7TLdsq-mxvMQa3hOmL5DMWF2ZTc/edit?usp=sharing
