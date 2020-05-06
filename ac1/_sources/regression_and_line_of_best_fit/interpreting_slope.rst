@@ -234,5 +234,3 @@ resources that contribute to increased graduation rates.
      increases by .209 dollars.
 
      + Correct
-
-.. https://docs.google.com/spreadsheets/d/1FCvsdw0wvtaD7G5tvOtMcHRMfoC0n-UFyjtidIW-wQE/edit?usp=sharing
