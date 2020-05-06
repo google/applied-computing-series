@@ -15,7 +15,7 @@ Equation of a Line (Refresher)
 All line equations in this text will be presented in the form *y = mx + b*,
 where *m* is the slope and *b* is the y-intercept. This is also called
 slope-intercept form. The **y-intercept** is the y-value at the point where the
-line crosses the y-axis. The :ref:`slope <interpreting-slope>` gives the steepness
+line crosses the y-axis. The :ref:`slope <interpreting_slope>` gives the steepness
 of the line, and can be positive, negative, or zero. Slope-intercept form is a
 method to better understand the relationship between the two variables *x* and *y*.
 
@@ -30,7 +30,7 @@ This figure depicts an equation of a line that has a y-intercept of 5 and a nega
 .. image:: figures/positive_slope.png
   :width: 49%
   :align: center
-  :alt: A graph of the equation of y equals 2 times x plus one. 
+  :alt: A graph of the equation of y equals 2 times x plus one.
 
 The equation of the line in the above figure has a y-intercept of 1 and a positive slope.
 

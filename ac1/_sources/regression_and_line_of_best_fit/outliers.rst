@@ -8,11 +8,11 @@
 Outliers
 ========
 
-As you saw in Module A, some statistics are very sensitive to extreme values, 
-also called :ref:`outliers <outliers_and_skew>`. This is also true for lines of 
+As you saw in Module A, some statistics are very sensitive to extreme values,
+also called :ref:`outliers <outliers_and_skew>`. This is also true for lines of
 best fit. One outlier can significantly change what the line of best fit is for a graph.
 
-You can see this very clearly by returning to the scatter plot of mean January 
+You can see this very clearly by returning to the scatter plot of mean January
 temperature and latitude for US cities. Here's what that graph looked like:
 
 
@@ -20,9 +20,9 @@ temperature and latitude for US cities. Here's what that graph looked like:
    :align: center
    :alt: A scatterplot of mean january temperatures.
 
-First you should note the slope of this graph before an outlier is added. The 
-slope of this line is :math:`-2.1*x + 116`. You can practice interpreting what slope 
-means by answering the following question:
+First you should note the slope of this graph before an outlier is added. The
+slope of this line is :math:`-2.1x + 116`. You can practice interpreting
+what slope means by answering the following question:
 
 
 .. mchoice:: weather_january
@@ -47,11 +47,11 @@ means by answering the following question:
 
 
 This line fits the data well, and the correlation coefficient between the two
-variables is -0.85, so any predictions are likely to be reliable. 
+variables is -0.85, so any predictions are likely to be reliable.
 
-Now compare this to what happens when you add a data point for Juneau, Alaska, 
-where the average January temperature is 31 degrees. Also imagine that there 
-was a data entry error and someone entered 331, rather than 31. Here’s what the 
+Now compare this to what happens when you add a data point for Juneau, Alaska,
+where the average January temperature is 31 degrees. Also imagine that there
+was a data entry error and someone entered 331, rather than 31. Here’s what the
 graph with the added outlier (the green dot) looks like:
 
 
@@ -59,24 +59,23 @@ graph with the added outlier (the green dot) looks like:
    :align: center
    :alt: A scatterplot including an outlier.
 
-Looking at the scatter plot above, it’s easy to identify the outlier because 
-it’s visually far removed from all of the other data points. Outlier 
-identification makes scatter plots a good place to start when analyzing 
-quantitative data. If you find a data point that looks far others like the one 
-for Juneau, it’s a good idea to investigate. It’s reasonable to guess that 
-there wouldn’t be cities that are so unusual and so very far outside the line 
-of best fit. Now imagine you find the line of best fit and create the following 
-graph:
+Looking at the scatter plot above, it’s easy to identify the outlier because
+it’s visually far removed from all of the other data points. Outlier
+identification makes scatter plots a good place to start when analyzing
+quantitative data. If you find a data point that looks far from others like the
+one for Juneau, it’s a good idea to investigate. It’s reasonable to guess that
+there wouldn’t be cities that are so unusual and so far outside the line of best
+fit. Now imagine you find the line of best fit and create the following graph:
 
 
 .. image:: figures/outlier_jan_temp_line.png
    :align: center
    :alt: A scatterplot including an outlier and line of best fit.
 
-Once you've calculated the line of best fit and include the outlier of Juneau, 
+Once you've calculated the line of best fit and include the outlier of Juneau,
 the line of best fit is way off. The slope is now positive and the correlation
 coefficient has gone from -0.85 to 0.43! Correlation coefficients and lines of
-best fit are very sensitive to outliers. Now, imagine you’ve fixed the Juneau 
+best fit are very sensitive to outliers. Now, imagine you’ve fixed the Juneau
 data point to create the following graph:
 
 
