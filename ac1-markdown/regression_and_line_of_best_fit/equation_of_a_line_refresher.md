@@ -11,8 +11,9 @@ Equation of a Line (Refresher)
 All line equations in this text will be presented in the form *y = mx +
 b*, where *m* is the slope and *b* is the y-intercept. This is also
 called slope-intercept form. The **y-intercept** is the y-value at the
-point where the line crosses the y-axis. The [slope](interpreting_slope.md)
-gives the steepness of the line, and can be positive, negative, or zero.
+ppoint where the line crosses the y-axis. The
+[slope](interpreting_slope.md) gives the
+steepness of the line, and can be positive, negative, or zero.
 Slope-intercept form is a method to better understand the relationship
 between the two variables *x* and *y*.
 
