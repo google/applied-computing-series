@@ -11,7 +11,7 @@ Selecting in SQL is how you can choose a portion of data from a database. This
 is helpful when you are given a large dataset, and want to focus in on a smaller
 portion of the data. Say you are conducting research about bike sharing for an
 internship in Washington D.C. You are given the Capital Bike Sharing dataset,
-which is hosted on a SQLLite database and contains information on Washington
+which is hosted on a SQLite database and contains information on Washington
 D.C.’s bike share program for 2011.
 
 You may recall that in Sheets, you could select certain sections of data by
