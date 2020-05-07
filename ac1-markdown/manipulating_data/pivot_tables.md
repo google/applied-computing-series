@@ -10,7 +10,7 @@ Tables that show the average or total for different groups are often
 very helpful. Suppose some coworkers at a local company aren't sure if
 [the hours for which they are each scheduled have been assigned
 fairly](https://docs.google.com/spreadsheets/d/1wJlGc0z1_LaVy4NccEN65frFBU5grnQ5hCJ-iKmskSc/edit?usp=sharing).
-A table showing each employee, the hours they had been assigned and how
+A table showing each employee, the hours they had been assigned, and how
 often they opened or closed the business could be used to see if there
 were big differences in assignments, and decide if those assignments
 were fair.
@@ -248,7 +248,7 @@ for filtering, so you can restrict the table to Alzheimer's related
 deaths only.
 
 In the pivot table editor, the last option is "Filter". Add a filter to
-"Cause Name."
+"Cause Name".
 
 ![A screenshot of adding a filter for \"Cause Name\" in Chart Editor.](figures/pivot_table_filter_cn.png)
 

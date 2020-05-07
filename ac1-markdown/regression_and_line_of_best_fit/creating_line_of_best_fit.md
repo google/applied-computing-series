@@ -26,7 +26,7 @@ Once you have added a trendline, it will appear on your graph.
 
 ![Scatter plot with a trendline.](figures/average_sat_score_completion_rate.png)
 
-Now that there is a trend line and equation of a line on the graph, you
+Now that there is a trendline and equation of a line on the graph, you
 can use this information to analyze data and predict results given your
 data. In particular you can use the slope and y-intercept. Don\'t worry
 if you don\'t remember how to find this information from the equation of
