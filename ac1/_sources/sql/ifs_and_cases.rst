@@ -8,7 +8,7 @@ Ifs and Cases
 =============
 
 In SQL, just as in many languages, one of the most basic and useful concepts is
-the if/else syntax. :ref:`Just as in Sheets<what_is_a_formula_painters>`, you
+the if/else syntax. :ref:`Just as in Sheets<what_is_a_formula>`, you
 can use ``IF`` to return different values based on whether a condition is true.
 
 For example, going back to the bikeshare data, suppose you are interested in 
