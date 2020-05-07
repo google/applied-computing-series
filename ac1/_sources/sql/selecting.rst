@@ -86,7 +86,7 @@ the total number of rows. This is show in the code block below.
    FROM
      trip_data
 
-Notice that the ``AS`` keyword is used after ``COUNT(*)``. This name the column
+Notice that the ``AS`` keyword is used after ``COUNT(*)``. This names the column
 that counts the number of rows as ``n_rows``. This is similar to creating a new
 column in Sheets and naming it n_rows. In general, whenever you select a column
 that is not one of the existing columns of the table, you should use the ``AS``
