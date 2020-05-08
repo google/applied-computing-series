@@ -42,7 +42,7 @@ The most common separators are listed below.
 In general, any character can be a delimiter, but it is extremely
 uncommon to use a delimiter that is not a comma, tab, or space.
 
-Luckily, sheets makes importing data relatively straightforward. `Here
+Luckily, Sheets makes importing data relatively straightforward. `Here
 is a dataset on 80 different brands of
 cereal <https://www.kaggle.com/crawford/80-cereals>`__, that you can
 download to your computer and then work within Sheets.
