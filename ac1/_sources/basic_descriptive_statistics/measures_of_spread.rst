@@ -29,7 +29,12 @@ $100,000, and the other half are unemployed.
 
 .. image:: figures/consistentville_and_wonkytown.png
    :align: center
-   :alt: A visual for the salaries of those in Wonkytown and Consistentville. 
+   :alt: A visual of Wonkytown and Consistentville names. 
+
+
+.. image:: figures/city_income.png
+   :align: center
+   :alt: A table for the salaries of people in Wonkytown and Consistentville.
 
 
 Above is an example dataset for 6 people in each of the towns and their 
@@ -263,7 +268,7 @@ deviation manually. Usually, you will have to use a tool such as Sheets.
 Example: Student Heights
 ------------------------
 
-Suppose you have this dataset containing the heights of students in a class.
+Suppose you have this `dataset containing the heights of students in a class`_.
 
 
 .. image:: figures/student_heights_outlier.png
@@ -303,7 +308,7 @@ spread as well as other statistics. Try this on your own in Sheets if you are
 interested in getting more experience with any of the previously learned
 statistics.
 
-
+.. _dataset containing the heights of students in a class: https://docs.google.com/spreadsheets/d/1SbhCo8ZjEfFmBGwE7TLdsq-mxvMQa3hOmL5DMWF2ZTc/edit?usp=sharing
 .. _this thread goes into some detail on the practical differences: https://www.quora.com/What-is-the-difference-between-sample-standard-deviation-and-population-standard-deviation
 .. _this thread goes into the mathematical theory behind the difference: https://math.stackexchange.com/questions/15098/sample-standard-deviation-vs-population-standard-deviation
 .. _probability distributions: https://en.wikipedia.org/wiki/Probability_distribution

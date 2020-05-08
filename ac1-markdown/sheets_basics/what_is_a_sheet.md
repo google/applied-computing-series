@@ -3,8 +3,8 @@
   International License. To view a copy of this license, visit
   http://creativecommons.org/licenses/by-sa/4.0/. -->
 
-'What Is A Sheet?'
-==================
+What is a Sheet?
+================
 
 Fundamentally, a spreadsheet (also known as a sheet) is a table, or a
 matrix. It is a 2-dimensional way of viewing **data** (any form of
@@ -40,7 +40,8 @@ Example: Painters
 
 The definitions above might be a bit abstract. Sheets makes a lot more
 sense when there is data, so here is an example. In [this
-dataset](https://docs.google.com/spreadsheets/d/1Yb_HCT2Dvdo5J_dbQdEifb3ymXMyrWSnPKKmERRnIB8/edit#gid=30572353),
+dataset](https://docs.google.com/spreadsheets/d/1Cvn9rGbliYR0pN0OzO9h7eDvyV96LEPkrlw-DMTlONw/edit?usp=sharing)
+from [Kaggle](https://www.kaggle.com/ikarus777/best-artworks-of-all-time),
 there is information about 50 of the most prolific painters of all time.
 
 In general:

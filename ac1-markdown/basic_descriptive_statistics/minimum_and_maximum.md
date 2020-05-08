@@ -136,8 +136,8 @@ The `MATCH` function has three inputs and looks like this:
 To practice using `MATCH`, suppose a company called CandyData handed you
 the [Halloween
 Candy](https://github.com/fivethirtyeight/data/tree/master/candy-power-ranking)
-dataset with information about various Halloween candies. Suppose they
-ask you to find out which of the candies is most expensive. You know
+dataset from FiveThirtyEight with information about various Halloween candies.
+Suppose they ask you to find out which of the candies is most expensive. You know
 that you need to find the row with the highest value in the Price
 Percent column, so you can use the `MATCH` function!
 

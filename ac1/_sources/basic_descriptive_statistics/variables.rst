@@ -90,10 +90,10 @@ Example: Student Data
 ---------------------
 
 To illustrate the difference between quantitative and categorical variable,
-consider the following example concerning data of students in a class.
+consider the following example concerning data of `students in a class`_.
 
 
-.. image:: figures/student_data.png
+.. image:: figures/sheet_example.png
 
 
 The dataset contains, for a 20 student class, the name, height, hair color, and
@@ -111,10 +111,6 @@ Example: Weather
 
 In this and all following examples using this dataset, the temperature is
 reported in degrees Fahrenheit.
-
-
-.. https://docs.google.com/spreadsheets/d/17bkoB97dUdR0MBuaBXsWLR0VjkEYhJydXJUYV0tcWjw/edit#gid=419330429
-
 
 The dataset contains, for several US cities, the average (mean), minimum, and
 maximum temperatures for each day from July 1, 2014 to June 30, 2015. It should
@@ -217,7 +213,7 @@ variables`_. However, this is well beyond the scope of this course.
 
    Think of a different example of an ordered categorical variable.
 
-
+.. _students in a class: https://docs.google.com/spreadsheets/d/1SbhCo8ZjEfFmBGwE7TLdsq-mxvMQa3hOmL5DMWF2ZTc/edit?usp=sharing
 .. _range of values: https://en.wikipedia.org/wiki/Support_(mathematics)
 .. _define the probability distribution random variable: https://en.wikipedia.org/wiki/Random_variable#Examples
 .. _ordinal variables: https://en.wikipedia.org/wiki/Ordinal_data

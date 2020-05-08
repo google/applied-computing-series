@@ -23,7 +23,9 @@ the same yearly salary of \$50,000. In "Wonkytown" exactly half the
 people have a yearly salary of \$100,000, and the other half are
 unemployed.
 
-![A visual for the salaries of those in Wonkytown and Consistentville.](figures/consistentville_and_wonkytown.png)
+![A visual of Wonkytown and Consistentville names.](figures/consistentville_and_wonkytown.png)
+
+![A table for the salaries of those in Wonkytown and Consistentville.](figures/city_income.png)
 
 ### Fill in the blank
 
@@ -58,7 +60,6 @@ That's where measures of spread come in. A measure of spread statistic
 doesn't refine a measure of center, but it can tell you how useful that
 measure of center is. The most common measure of spread is called the
 standard deviation.
-
 
 #### Standard Deviation Definition
 
@@ -227,8 +228,8 @@ as Sheets.
 Example: Student Heights
 ------------------------
 
-Suppose you have this dataset containing the heights of students in a
-class.
+Suppose you have this
+[dataset containing the heights of students in a class](https://docs.google.com/spreadsheets/d/1SbhCo8ZjEfFmBGwE7TLdsq-mxvMQa3hOmL5DMWF2ZTc/edit?usp=sharing).
 
 ![A Sheets screenshot of a dataset of student heights.](figures/student_heights_outlier.png)
 
