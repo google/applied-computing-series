@@ -164,4 +164,4 @@ scatterplots will come in handy.
 
 .. _following dataset: https://docs.google.com/spreadsheets/d/1ZmEmZwed-kGdDUDhxCxCzXtYLa4hRKZVoeRVQ5Cqo-M/edit?usp=sharing
 .. _latitude, longitude: https://en.wikipedia.org/wiki/Geographic_coordinate_system
-.. _See here for a map of the USA with latitude and longitude lines.: https://pasarelapr.com/images/map-of-usa-with-lines-of-latitude-and-longitude/map-of-usa-with-lines-of-latitude-and-longitude-2.jpg
+.. _See here for a map of the USA with latitude and longitude lines.: https://www.worldatlas.com/webimage/countrys/usalats.htm
