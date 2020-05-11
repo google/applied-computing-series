@@ -16,7 +16,7 @@ How to make a scatter plot
 --------------------------
 
 First, copy over the city, state, latitude and July mean temperature columns 
-from the weather data `here<https://docs.google.com/spreadsheets/d/1ZmEmZwed-kGdDUDhxCxCzXtYLa4hRKZVoeRVQ5Cqo-M/edit?usp=sharing>`__ into a new sheet.
+from the weather data here_ into a new sheet.
 
 .. image:: figures/create_a_scatter_copy_data.png
    :alt: A screenshot of a Sheet with the weather data's city, state, latitude, and July.
@@ -114,3 +114,5 @@ the scatter plot, answer the questions below.
 
    - :Miami-Hialeah: Correct
      :x: Incorrect
+     
+.. _here: https://docs.google.com/spreadsheets/d/1ZmEmZwed-kGdDUDhxCxCzXtYLa4hRKZVoeRVQ5Cqo-M/edit?usp=sharing

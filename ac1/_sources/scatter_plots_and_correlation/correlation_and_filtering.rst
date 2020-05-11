@@ -14,7 +14,7 @@ differences between groups and describe the relationships between variables.
 Recall that a filter is a way of selecting a subset of rows based on a set of
 column conditions. For example, if you have population data over the past ten
 years for each state, you could use a filter to analyze data only for Florida or
-only for the year 2017." Often, you can only see important differences or trends
+only for the year 2017. Often, you can only see important differences or trends
 by filtering. This is even the case when finding the correlation coefficient
 that best reflects the data. This is best explained through an example.
 

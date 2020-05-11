@@ -8,7 +8,7 @@ Describing Scatter Plots
 
 In this section you will learn how to identify the relationship between
 variables in a scatterplot. These variables are the **explanatory** and the
-**explained** variable that were by defined earlier in the 
+**explained** variable that were defined earlier in the 
 :ref:`scatterplots section<scatter_plots>`. The following activities ask you
 to examine the scatterplots pictured and then match them with their description.
 
