@@ -31,7 +31,8 @@ fit.
 You can practice this through an example. Below is a scatter plot with
 median SAT Math score as the explanatory variable, and median earnings
 after graduation as the explained variable. A line of best fit has
-already been added to the graph.
+already been added to the graph. You can follow along with this example 
+by using the [SAT data spreadsheet](https://docs.google.com/spreadsheets/d/1FCvsdw0wvtaD7G5tvOtMcHRMfoC0n-UFyjtidIW-wQE/edit?usp=sharing) which contains data from [College Scorecard.](https://collegescorecard.ed.gov/data/)
 
 ![Scatter plot of SAT math median plotted against median earnings after 10 years.](figures/SAT_Math_and_Earnings.png)
 
@@ -69,7 +70,7 @@ relationship looks like the following:
 
 ![Annotated scatterplot showing the change in y is 11895 while the change in x is 100.](figures/median_sat_earnings_annotated.png)
 
-You can use incorporate this change into the equation for slope:
+You can incorporate this change into the equation for slope:
 
 $$\frac{\text{change in median earnings}}{\text{change in median SAT math
 score}} = \frac{118.95}{1} = \frac{11895}{100}$$
@@ -125,7 +126,7 @@ The equation of the line of best fit is:
 $$Predicted Completion Rate = -0.371 \times
 \text{Percentage with Federal Loans} + 0.775$$
 
-You can interpret the slope and you have done before by breaking it into
+You can interpret the slope as you have done before by breaking it into
 the change in y over the change in x.
 
 $$slope = \frac{\text{change in y}}{\text{change in x}} = \frac{\text{change in

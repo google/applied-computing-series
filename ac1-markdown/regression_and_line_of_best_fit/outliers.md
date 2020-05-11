@@ -18,7 +18,7 @@ looked like:
 ![A scatterplot of mean january temperatures.](figures/mean_jan_temp.png)
 
 First you should note the slope of this graph before an outlier is
-added. The slope of this line is $-2.1*x + 116$. You can practice
+added. The slope of this line is $-2.1x + 116$. You can practice
 interpreting what slope means by answering the following question:
 
 ### Multiple choice 
@@ -50,10 +50,10 @@ Looking at the scatter plot above, it's easy to identify the outlier
 because it's visually far removed from all of the other data points.
 Outlier identification makes scatter plots a good place to start when
 analyzing quantitative data. If you find a data point that looks far
-others like the one for Juneau, it's a good idea to investigate. It's
-reasonable to guess that there wouldn't be cities that are so unusual
-and so very far outside the line of best fit. Now imagine you find the
-line of best fit and create the following graph:
+from others like the one for Juneau, it's a good idea to investigate. 
+It's reasonable to guess that there wouldn't be cities that are so 
+unusual and so far outside the line of best fit. Now imagine you find 
+the line of best fit and create the following graph:
 
 ![A scatterplot including an outlier and line of best fit.](figures/outlier_jan_temp_line.png)
 

@@ -34,10 +34,10 @@ score of 1200, you will replace that portion of the regression line
 equation with the number 1200.
 
 $\text{Predicted Completion Rate} = 0.0011 \times (1200) - 0.7116 =
-0.6386 (\text{or} 63.86%)$
+0.6386 \text{ (or } 63.86 \%)$
 
 So, University X has a predicted completion rate of 63.86%. The point
-(1200, .6386) is illustrated on the scatter plot below.
+(1200, 0.6386) is illustrated on the scatter plot below.
 
 ![The same scatter plot as before, with a marked data point at a 1200 SAT score and 0.6386 completion rate.](figures/sat_completion_rate_annotated.png)
 
@@ -50,7 +50,7 @@ You can use the same method to estimate the completion rate for a school
 with an average SAT score of 600.
 
 $\text{Predicted Completion Rate} = 0.0011 \times (600) - 0.7116 =
--0.0365 (\text{or} -3.65%)$
+-0.0365 \text{ (or } -3.65 \%)$
 
 But a negative completion rate doesn't make sense! A school can't have a
 graduation rate lower than 0%. The reason this doesn't make sense is
@@ -60,11 +60,3 @@ one school with an average SAT score that low, using this regression
 line is not going to give a reliable (or even reasonable) prediction.
 Finding regression lines and making predictions can be difficult with
 such outliers.
-
-What if, instead, you try to predict completion rate based on the
-percentage of students receiving federal loans? As the correlation
-between the percentage of students receiving federal loans and
-completion rate is much smaller than the correlation between average SAT
-score and completion rate, any predictions made using the correlation
-between these variables will be less accurate. This is reflected in the
-scatter plot as well, where the data points are much more spread out.
